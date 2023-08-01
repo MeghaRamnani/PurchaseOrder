@@ -1,0 +1,27 @@
+{
+  "4320845a-f039-4291-8e4c-6e4835b22bed": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://xebiagroup.sharepoint.com/sites/Site1": {
+        "dataSources": {
+          "dep-dB1": {
+            "tableName": "f6c3d6db-7248-45ad-bc10-d59d3dd9d894"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "dep-dB1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4320845a-f039-4291-8e4c-6e4835b22bed"
+  }
+}

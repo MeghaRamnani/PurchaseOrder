@@ -1,0 +1,17 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Text"
+        Width: =560
+        ZIndex: =1
+
+    Dropdown1 As dropdown:
+        Height: =70
+        Items: =DropDownSample
+        Size: =21
+        Width: =575
+        Y: =93
+        ZIndex: =2
+
