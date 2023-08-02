@@ -15,17 +15,22 @@
     "Label10": 40,
     "Label10_1": 42,
     "Label10_2": 45,
+    "Label10_3": 75,
+    "Label10_4": 77,
+    "Label11": 49,
+    "Label11_1": 50,
     "Label2": 9,
     "Label2_1": 12,
     "Label4": 17,
     "Rectangle1": 16,
-    "Rectangle5": 38,
     "Screen1": 4,
-    "Screen2": 13
+    "Screen2": 13,
+    "TextInput1": 74,
+    "TextInput1_1": 76
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/02/2023 05:27:46",
+  "HeaderLastSavedDateTimeUTC": "08/02/2023 05:52:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\"",
@@ -58,7 +63,8 @@
     "icon": 3,
     "image": 0,
     "label": 1,
-    "rectangle": 2
+    "rectangle": 2,
+    "text": 5
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -74,37 +80,47 @@
     "Label10": {},
     "Label10_1": {},
     "Label10_2": {},
+    "Label10_3": {},
+    "Label10_4": {},
+    "Label11": {},
+    "Label11_1": {},
     "Label2": {},
     "Label2_1": {},
     "Label4": {},
     "Rectangle1": {},
-    "Rectangle5": {},
     "Screen1": {},
-    "Screen2": {}
+    "Screen2": {},
+    "TextInput1": {},
+    "TextInput1_1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
     "Dropdown1": 11,
-    "Dropdown1_3": 11,
-    "Dropdown1_4": 11,
+    "Dropdown1_3": 16,
+    "Dropdown1_4": 13,
     "Host": 0,
     "Icon1": 8,
     "Image1": 0,
     "Image2": 5,
     "Label1": 2,
     "Label1_1": 1,
-    "Label10": 9,
+    "Label10": 10,
     "Label10_1": 12,
-    "Label10_2": 14,
+    "Label10_2": 15,
+    "Label10_3": 18,
+    "Label10_4": 20,
+    "Label11": 14,
+    "Label11_1": 17,
     "Label2": 4,
     "Label2_1": 3,
     "Label4": 7,
     "Rectangle1": 6,
-    "Rectangle5": 10,
     "Screen1": 0,
-    "Screen2": 0
+    "Screen2": 0,
+    "TextInput1": 19,
+    "TextInput1_1": 21
   },
   "ResourcesJsonIndices": {
     "Image-image": 2,
@@ -118,8 +134,9 @@
     "ControlCount": {
       "dropdown": 5,
       "image": 1,
-      "label": 8,
-      "screen": 1
+      "label": 11,
+      "screen": 1,
+      "text": 1
     },
     "DeserializationLoadTime": 0.5808196
   },

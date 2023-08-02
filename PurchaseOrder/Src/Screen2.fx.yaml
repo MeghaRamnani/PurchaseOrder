@@ -26,22 +26,12 @@ Screen2 As screen:
         ZIndex: =4
 
     Icon1 As icon.ChevronLeft:
-        BorderThickness: =4
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ChevronLeft
         Width: =39
         X: =16
         Y: =29
         ZIndex: =5
-
-    Rectangle5 As rectangle:
-        BorderColor: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(244, 244, 244, 1)
-        Height: =881
-        Width: =599
-        X: =16
-        Y: =138
-        ZIndex: =6
 
     Label10 As label:
         FontWeight: =FontWeight.Semibold
@@ -50,7 +40,7 @@ Screen2 As screen:
         Text: ="Enter Department"
         Width: =560
         X: =27
-        Y: =122
+        Y: =129
         ZIndex: =7
 
     Dropdown1 As dropdown:
@@ -86,7 +76,7 @@ Screen2 As screen:
         Text: ="Enter Unit / Entity"
         Width: =560
         X: =27
-        Y: =358
+        Y: =412
         ZIndex: =11
 
     Dropdown1_3 As dropdown:
@@ -102,7 +92,7 @@ Screen2 As screen:
         Tooltip: =
         Width: =490
         X: =27
-        Y: =401
+        Y: =455
         ZIndex: =13
 
     Dropdown1_4 As dropdown:
@@ -120,4 +110,68 @@ Screen2 As screen:
         X: =27
         Y: =288
         ZIndex: =14
+
+    Label11 As label:
+        Height: =48
+        Size: =21
+        Text: ="Cost Distribution"
+        Width: =560
+        X: =27
+        Y: =339
+        ZIndex: =15
+
+    Label11_1 As label:
+        Height: =48
+        Size: =21
+        Text: ="Cost Distribution"
+        Width: =560
+        X: =27
+        Y: =505
+        ZIndex: =16
+
+    TextInput1 As text:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        Clear: =true
+        Default: =""
+        EnableSpellCheck: =true
+        Height: =70
+        MaxLength: =50
+        Size: =21
+        Width: =560
+        X: =27
+        Y: =606
+        ZIndex: =19
+
+    Label10_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Add Notes(10 words)"
+        Width: =560
+        X: =27
+        Y: =563
+        ZIndex: =20
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        Clear: =true
+        Default: =""
+        EnableSpellCheck: =true
+        Height: =163
+        MaxLength: =50
+        Size: =21
+        Width: =560
+        X: =27
+        Y: =742
+        ZIndex: =21
+
+    Label10_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =59
+        Size: =21
+        Text: ="Enter Service & Business Case (100 words)"
+        Width: =588
+        X: =27
+        Y: =683
+        ZIndex: =22
 
