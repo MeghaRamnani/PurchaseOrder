@@ -183,7 +183,7 @@ Screen2 As screen:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
         OnSelect: |
-            =Patch('Dep-db1',Defaults('Dep-db1'),{Title:Dropdown1})
+            =Patch('Dep-db1',Defaults('Dep-db1'),{Title:Dropdown1.SelectedText})
         Size: =24
         Text: ="ORDER"
         Width: =280
