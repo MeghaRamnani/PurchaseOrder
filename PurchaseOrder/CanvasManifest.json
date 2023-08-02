@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 6,
+    "BindingErrorCount": 7,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -114,7 +114,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Purchase Order",
     "OriginatingVersion": "1.334",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 5,
     "ShowStatusBar": false
   },
   "PublishInfo": {
