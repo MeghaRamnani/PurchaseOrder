@@ -1,19 +1,30 @@
-Screen2 As screen:
+"Screen3 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
-    Image2 As image:
-        Height: =1136
-        Image: =image
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        ZIndex: =2
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
+        ZIndex: =3
 
-    Rectangle1 As rectangle:
+        DataCard2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+    Rectangle1_1 As rectangle:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =116
         Width: =640
-        ZIndex: =3
+        ZIndex: =5
 
-    Label4 As label:
+    Label4_1 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
@@ -23,17 +34,17 @@ Screen2 As screen:
         Width: =560
         X: =55
         Y: =23
-        ZIndex: =4
+        ZIndex: =6
 
-    Icon1 As icon.ChevronLeft:
+    Icon1_1 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ChevronLeft
         Width: =39
         X: =16
         Y: =29
-        ZIndex: =5
+        ZIndex: =7
 
-    Label10 As label:
+    Label10_7 As label:
         FontWeight: =FontWeight.Semibold
         Height: =43
         Size: =21
@@ -41,9 +52,9 @@ Screen2 As screen:
         Width: =560
         X: =27
         Y: =129
-        ZIndex: =7
+        ZIndex: =8
 
-    Dropdown1 As dropdown:
+    Dropdown1_1 As dropdown:
         BorderColor: =RGBA(202, 202, 202, 1)
         ChevronBackground: =RGBA(108, 29, 95, 1)
         ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
@@ -57,9 +68,9 @@ Screen2 As screen:
         Width: =490
         X: =27
         Y: =172
-        ZIndex: =8
+        ZIndex: =9
 
-    Label10_1 As label:
+    Label10_8 As label:
         FontWeight: =FontWeight.Semibold
         Height: =43
         Size: =21
@@ -67,9 +78,9 @@ Screen2 As screen:
         Width: =560
         X: =27
         Y: =245
-        ZIndex: =9
+        ZIndex: =10
 
-    Label10_2 As label:
+    Label10_9 As label:
         FontWeight: =FontWeight.Semibold
         Height: =43
         Size: =21
@@ -79,7 +90,7 @@ Screen2 As screen:
         Y: =412
         ZIndex: =11
 
-    Dropdown1_3 As dropdown:
+    Dropdown1_5 As dropdown:
         BorderColor: =RGBA(202, 202, 202, 1)
         ChevronBackground: =RGBA(108, 29, 95, 1)
         ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
@@ -93,9 +104,9 @@ Screen2 As screen:
         Width: =490
         X: =27
         Y: =455
-        ZIndex: =13
+        ZIndex: =12
 
-    Dropdown1_4 As dropdown:
+    Dropdown1_6 As dropdown:
         BorderColor: =RGBA(202, 202, 202, 1)
         ChevronBackground: =RGBA(108, 29, 95, 1)
         ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
@@ -109,27 +120,27 @@ Screen2 As screen:
         Width: =490
         X: =27
         Y: =288
-        ZIndex: =14
+        ZIndex: =13
 
-    Label11 As label:
+    Label11_2 As label:
         Height: =48
         Size: =21
         Text: ="Cost Distribution"
         Width: =560
         X: =27
         Y: =339
-        ZIndex: =15
+        ZIndex: =14
 
-    Label11_1 As label:
+    Label11_3 As label:
         Height: =48
         Size: =21
         Text: ="Cost Distribution"
         Width: =560
         X: =27
         Y: =505
-        ZIndex: =16
+        ZIndex: =15
 
-    TextInput1 As text:
+    TextInput1_2 As text:
         BorderColor: =RGBA(202, 202, 202, 1)
         Clear: =true
         Default: =""
@@ -144,9 +155,9 @@ Screen2 As screen:
         Width: =560
         X: =27
         Y: =606
-        ZIndex: =19
+        ZIndex: =16
 
-    Label10_3 As label:
+    Label10_10 As label:
         FontWeight: =FontWeight.Semibold
         Height: =43
         Size: =21
@@ -154,9 +165,9 @@ Screen2 As screen:
         Width: =560
         X: =27
         Y: =563
-        ZIndex: =20
+        ZIndex: =17
 
-    TextInput1_1 As text:
+    TextInput1_3 As text:
         BorderColor: =RGBA(202, 202, 202, 1)
         Clear: =true
         Default: =""
@@ -167,9 +178,9 @@ Screen2 As screen:
         Width: =560
         X: =27
         Y: =742
-        ZIndex: =21
+        ZIndex: =18
 
-    Label10_4 As label:
+    Label10_11 As label:
         FontWeight: =FontWeight.Semibold
         Height: =47
         Size: =21
@@ -177,16 +188,35 @@ Screen2 As screen:
         Width: =588
         X: =26
         Y: =695
-        ZIndex: =22
+        ZIndex: =19
 
-    Button1 As button:
-        Fill: =RGBA(108, 29, 95, 1)
-        Height: =70
-        OnSelect: =Patch()
-        Size: =24
-        Text: ="ORDER"
-        Width: =280
-        X: =167
-        Y: =942
+    Label10_12 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Units Needed"
+        Width: =560
+        X: =27
+        Y: =927
+        ZIndex: =20
+
+    Label10_13 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Units Needed"
+        Width: =560
+        X: =27
+        Y: =927
         ZIndex: =23
+
+    TextInput2_3 As text:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        Default: =""
+        Height: =57
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =970
+        ZIndex: =24
 
