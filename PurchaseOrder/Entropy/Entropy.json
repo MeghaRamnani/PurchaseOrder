@@ -4,30 +4,38 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
+    "Icon1": 18,
     "Image1": 10,
+    "Image2": 15,
     "Label1": 8,
     "Label1_1": 11,
     "Label2": 9,
     "Label2_1": 12,
-    "Screen1": 4
+    "Label4": 17,
+    "Rectangle1": 16,
+    "Screen1": 4,
+    "Screen2": 13
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/02/2023 04:29:33",
+  "HeaderLastSavedDateTimeUTC": "08/02/2023 04:57:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
+    "image": "02c4f4d8-369f-49e0-b1b3-d22aa55a3da7.jpg",
     "XEBIA2": "85d822ec-ee56-408a-8954-0ee5dcd458cd.jpg"
   },
   "LocalResourceRootPaths": {
+    "image": "https://docserverpwaprodneu.blob.core.windows.net/2c8abf01-2401-4bb8-bbcc-2d9812c20017-1/resource/62fb2892-17dd-4b00-97a0-22ca2163ac8c.jpg?sv=2018-03-28&sr=b&sig=ch7JULnNNgBSLTZ%2F8OgAPQgn77GzfJVE0kROiG%2F%2FM20%3D&spr=https&se=2023-08-03T04%3A58%3A52Z&sp=r",
     "XEBIA2": "https://docserverpwaprodneu.blob.core.windows.net/2c8abf01-2401-4bb8-bbcc-2d9812c20017-1/resource/114c10a9-2e01-457a-a776-4805c4d0a8a8.jpg?sv=2018-03-28&sr=b&sig=8E5NSw8e9Pi7sRGdb8iBU3NYnmO6%2FhCEeJezhlQy3YI%3D&spr=https&se=2023-08-03T04%3A43%3A34Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
+    "CustomGallerySample": 2,
     "dep-dB1": 0,
     "DropDownSample": 1
   },
@@ -35,32 +43,45 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "icon": 3,
     "image": 0,
-    "label": 1
+    "label": 1,
+    "rectangle": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "Host": {},
+    "Icon1": {},
     "Image1": {},
+    "Image2": {},
     "Label1": {},
     "Label1_1": {},
     "Label2": {},
     "Label2_1": {},
-    "Screen1": {}
+    "Label4": {},
+    "Rectangle1": {},
+    "Screen1": {},
+    "Screen2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
     "Host": 0,
+    "Icon1": 8,
     "Image1": 0,
-    "Label1": 96,
-    "Label1_1": 96,
-    "Label2": 97,
-    "Label2_1": 97,
-    "Screen1": 0
+    "Image2": 5,
+    "Label1": 2,
+    "Label1_1": 1,
+    "Label2": 4,
+    "Label2_1": 3,
+    "Label4": 7,
+    "Rectangle1": 6,
+    "Screen1": 0,
+    "Screen2": 0
   },
   "ResourcesJsonIndices": {
+    "Image-image": 2,
     "Image-SampleImage": 0,
     "Image-XEBIA2": 1
   },
