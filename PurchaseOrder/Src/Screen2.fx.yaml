@@ -18,7 +18,7 @@ Screen2 As screen:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =30
+        Size: =26
         Text: ="Purchase Requisition"
         Width: =560
         X: =55
@@ -183,7 +183,7 @@ Screen2 As screen:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
         OnSelect: |+
-            =Patch('Dep-db1',Defaults('Dep-db1'),{Title: "megha"});
+            =Patch(PO,Defaults(PO),{Summary:TextInput1.Text});
             
         Size: =24
         Text: ="ORDER"

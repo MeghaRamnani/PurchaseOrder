@@ -16,6 +16,9 @@
           },
           "Ent-dB1": {
             "tableName": "ca983d94-feed-48b4-848e-494f08c84bee"
+          },
+          "PO": {
+            "tableName": "7112fc6a-b45a-407e-9b3a-1fe9ff0c09a4"
           }
         }
       },
@@ -30,7 +33,8 @@
     "dataSources": [
       "dep-dB1",
       "Dep-db1",
-      "Ent-dB1"
+      "Ent-dB1",
+      "PO"
     ],
     "dependencies": {},
     "dependents": [],
