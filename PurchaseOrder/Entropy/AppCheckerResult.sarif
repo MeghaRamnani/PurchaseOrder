@@ -589,10 +589,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 67,
+                  "charLength": 63,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Patch('Dep-db1',Defaults('Dep-db1'),{Title:Dropdown1.SelectedText})"
+                    "text": "Patch('Dep-db1',Defaults('Dep-db1'),{Title:Dropdown1.Selected})"
                   }
                 }
               },
@@ -629,10 +629,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 30,
+                  "charLength": 26,
                   "charOffset": 36,
                   "snippet": {
-                    "text": "{Title:Dropdown1.SelectedText}"
+                    "text": "{Title:Dropdown1.Selected}"
                   }
                 }
               },
