@@ -182,8 +182,9 @@ Screen2 As screen:
     Button1 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
-        OnSelect: |
-            =Patch('Dep-db1',Defaults('Dep-db1'),{Title:Dropdown1.Selected})
+        OnSelect: |+
+            =Patch('Dep-db1',Defaults('Dep-db1'),{Title: "megha"});
+            
         Size: =24
         Text: ="ORDER"
         Width: =280
