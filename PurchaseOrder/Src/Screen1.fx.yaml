@@ -1,17 +1,57 @@
 Screen1 As screen:
 
     Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =21
-        Text: ="Text"
+        Size: =32
+        Text: ="Welcome !" 
         Width: =560
-        ZIndex: =1
-
-    Dropdown1 As dropdown:
-        Height: =70
-        Items: =DropDownSample
-        Size: =21
-        Width: =575
-        Y: =93
+        X: =80
+        Y: =761
         ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =28
+        Text: =User().FullName
+        Width: =560
+        X: =80
+        Y: =815
+        ZIndex: =3
+
+    Image1 As image:
+        Height: =1136
+        Image: =XEBIA2
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =4
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =32
+        Text: ="Welcome !" 
+        Width: =560
+        X: =40
+        Y: =734
+        ZIndex: =5
+
+    Label2_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =28
+        Text: =User().FullName
+        Width: =560
+        X: =40
+        Y: =788
+        ZIndex: =6
 

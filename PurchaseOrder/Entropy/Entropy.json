@@ -3,21 +3,28 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Dropdown1": 6,
     "Host": 3,
-    "Label1": 5,
+    "Image1": 10,
+    "Label1": 8,
+    "Label1_1": 11,
+    "Label2": 9,
+    "Label2_1": 12,
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/01/2023 11:59:07",
+  "HeaderLastSavedDateTimeUTC": "08/02/2023 04:29:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "XEBIA2": "85d822ec-ee56-408a-8954-0ee5dcd458cd.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "XEBIA2": "https://docserverpwaprodneu.blob.core.windows.net/2c8abf01-2401-4bb8-bbcc-2d9812c20017-1/resource/114c10a9-2e01-457a-a776-4805c4d0a8a8.jpg?sv=2018-03-28&sr=b&sig=8E5NSw8e9Pi7sRGdb8iBU3NYnmO6%2FhCEeJezhlQy3YI%3D&spr=https&se=2023-08-03T04%3A43%3A34Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
@@ -28,36 +35,46 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "dropdown": 1,
-    "label": 0
+    "image": 0,
+    "label": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Dropdown1": {},
     "Host": {},
+    "Image1": {},
     "Label1": {},
+    "Label1_1": {},
+    "Label2": {},
+    "Label2_1": {},
     "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Dropdown1": 1,
     "Host": 0,
-    "Label1": 0,
+    "Image1": 0,
+    "Label1": 96,
+    "Label1_1": 96,
+    "Label2": 97,
+    "Label2_1": 97,
     "Screen1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0,
+    "Image-XEBIA2": 1
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0578809,
+    "AnalysisLoadTime": 0.0548388,
     "ControlCount": {
       "dropdown": 1,
-      "label": 1,
+      "image": 1,
+      "label": 5,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.4669059
+    "DeserializationLoadTime": 0.5808196
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
