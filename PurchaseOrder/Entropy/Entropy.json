@@ -3,25 +3,33 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Dropdown1": 41,
+    "Dropdown1_3": 47,
+    "Dropdown1_4": 48,
     "Host": 3,
     "Icon1": 18,
     "Image1": 10,
     "Image2": 15,
     "Label1": 8,
     "Label1_1": 11,
+    "Label10": 40,
+    "Label10_1": 42,
+    "Label10_2": 45,
     "Label2": 9,
     "Label2_1": 12,
     "Label4": 17,
     "Rectangle1": 16,
+    "Rectangle5": 38,
     "Screen1": 4,
     "Screen2": 13
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/02/2023 04:57:19",
+  "HeaderLastSavedDateTimeUTC": "08/02/2023 05:27:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\""
+    "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\"",
+    "c0fb478d-c635-43f7-ba3e-a1629d3b4519": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/edccdf749cd44b019383b07615193c03\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -37,12 +45,16 @@
   "OrderDataSource": {
     "CustomGallerySample": 2,
     "dep-dB1": 0,
-    "DropDownSample": 1
+    "Dep-db1": 3,
+    "DropDownSample": 1,
+    "Ent-dB1": 5,
+    "Reg-db1": 4
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "dropdown": 4,
     "icon": 3,
     "image": 0,
     "label": 1,
@@ -50,16 +62,23 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Dropdown1": {},
+    "Dropdown1_3": {},
+    "Dropdown1_4": {},
     "Host": {},
     "Icon1": {},
     "Image1": {},
     "Image2": {},
     "Label1": {},
     "Label1_1": {},
+    "Label10": {},
+    "Label10_1": {},
+    "Label10_2": {},
     "Label2": {},
     "Label2_1": {},
     "Label4": {},
     "Rectangle1": {},
+    "Rectangle5": {},
     "Screen1": {},
     "Screen2": {}
   },
@@ -67,16 +86,23 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Dropdown1": 11,
+    "Dropdown1_3": 11,
+    "Dropdown1_4": 11,
     "Host": 0,
     "Icon1": 8,
     "Image1": 0,
     "Image2": 5,
     "Label1": 2,
     "Label1_1": 1,
+    "Label10": 9,
+    "Label10_1": 12,
+    "Label10_2": 14,
     "Label2": 4,
     "Label2_1": 3,
     "Label4": 7,
     "Rectangle1": 6,
+    "Rectangle5": 10,
     "Screen1": 0,
     "Screen2": 0
   },
@@ -90,9 +116,9 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0548388,
     "ControlCount": {
-      "dropdown": 1,
+      "dropdown": 5,
       "image": 1,
-      "label": 5,
+      "label": 8,
       "screen": 1
     },
     "DeserializationLoadTime": 0.5808196

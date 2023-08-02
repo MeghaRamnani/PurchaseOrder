@@ -34,3 +34,90 @@ Screen2 As screen:
         Y: =29
         ZIndex: =5
 
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(244, 244, 244, 1)
+        Height: =881
+        Width: =599
+        X: =16
+        Y: =138
+        ZIndex: =6
+
+    Label10 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Enter Department"
+        Width: =560
+        X: =27
+        Y: =122
+        ZIndex: =7
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        ChevronBackground: =RGBA(108, 29, 95, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+        Default: ="0"
+        Height: =50
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Items: ='Dep-db1'
+        SelectionFill: =RGBA(108, 29, 95, 1)
+        Size: =21
+        Tooltip: =
+        Width: =490
+        X: =27
+        Y: =172
+        ZIndex: =8
+
+    Label10_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Enter Region"
+        Width: =560
+        X: =27
+        Y: =245
+        ZIndex: =9
+
+    Label10_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Enter Unit / Entity"
+        Width: =560
+        X: =27
+        Y: =358
+        ZIndex: =11
+
+    Dropdown1_3 As dropdown:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        ChevronBackground: =RGBA(108, 29, 95, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+        Default: ="0"
+        Height: =50
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Items: ='Ent-dB1'
+        SelectionFill: =RGBA(108, 29, 95, 1)
+        Size: =21
+        Tooltip: =
+        Width: =490
+        X: =27
+        Y: =401
+        ZIndex: =13
+
+    Dropdown1_4 As dropdown:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        ChevronBackground: =RGBA(108, 29, 95, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+        Default: ="0"
+        Height: =50
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Items: ='Reg-db1'
+        SelectionFill: =RGBA(108, 29, 95, 1)
+        Size: =21
+        Tooltip: =
+        Width: =490
+        X: =27
+        Y: =288
+        ZIndex: =14
+
