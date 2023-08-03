@@ -60,7 +60,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/03/2023 09:19:27",
+  "HeaderLastSavedDateTimeUTC": "08/03/2023 09:33:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/82f8e0c934414f14a70558341e0c8077\"",
@@ -103,10 +103,14 @@
     "Dep-db1_3": 6,
     "Dep-db1_4": 7,
     "Dep-db1_5": 8,
+    "Dep-db1_6": 16,
     "DropDownSample": 9,
     "Ent-dB1": 10,
     "PO": 11,
-    "Reg-db1": 12
+    "Reg-db1": 12,
+    "Reg-db1_1": 13,
+    "Reg-db1_2": 14,
+    "Reg-db1_3": 15
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
