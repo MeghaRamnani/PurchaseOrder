@@ -16,16 +16,6 @@ Screen4 As screen:
         Y: =108
         ZIndex: =2
 
-    Label3 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =26
-        Text: ="Thank You! "
-        Width: =640
-        Y: =869
-        ZIndex: =3
-
     Canvas1 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: =Parent.Height - Self.Y
@@ -254,14 +244,15 @@ Screen4 As screen:
                 Y: =942
                 ZIndex: =18
 
-    Label4 As label:
+    Label3 As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =22
-        Text: ="You have successfully registered."
+        Size: =26
+        Text: ="Thank You! "
         Width: =640
-        Y: =912
-        ZIndex: =4
+        Y: =869
+        ZIndex: =3
 
     Label10_16 As label:
         FontWeight: =FontWeight.Semibold
