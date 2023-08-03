@@ -72,6 +72,7 @@ registration As screen:
                 Height: =70
                 HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Dep-db1_8'
+                PressedFill: =RGBA(251, 239, 249, 1)
                 SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
                 Tooltip: =Parent.DisplayName
