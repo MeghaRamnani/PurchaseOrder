@@ -1,0 +1,89 @@
+"'Main Screen' As screen":
+
+    Image3 As image:
+        Height: =1136
+        Image: =image_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =5
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =220
+        Width: =254
+        X: =24
+        Y: =204
+        ZIndex: =6
+
+    Rectangle3_1 As rectangle:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =220
+        Width: =254
+        X: =352
+        Y: =204
+        ZIndex: =7
+
+    Rectangle3_2 As rectangle:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =220
+        Width: =254
+        X: =24
+        Y: =635
+        ZIndex: =8
+
+    Rectangle3_3 As rectangle:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =220
+        Width: =254
+        X: =352
+        Y: =635
+        ZIndex: =9
+
+    Label3 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: ="Purchase Order"
+        Width: =254
+        X: =24
+        Y: =279
+        ZIndex: =10
+
+    Label3_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: ="Vendor"
+        Width: =254
+        X: =352
+        Y: =279
+        ZIndex: =11
+
+    Label3_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: ="Register"
+        Width: =254
+        X: =24
+        Y: =710
+        ZIndex: =12
+
+    Label3_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: ="New"
+        Width: =254
+        X: =352
+        Y: =710
+        ZIndex: =13
+
