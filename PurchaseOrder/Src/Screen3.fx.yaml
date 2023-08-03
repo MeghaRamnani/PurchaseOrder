@@ -205,7 +205,7 @@
     Button2 As button:
         Height: =70
         OnSelect: |-
-            =Patch('PO', Defaults('PO'), {Summary: Summary.Text})
+            =Patch(PO, Defaults(PO), {Summary: Summary.Text})
         Size: =24
         Text: ="Verify"
         Width: =280
