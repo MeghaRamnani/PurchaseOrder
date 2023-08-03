@@ -47,7 +47,7 @@ registration As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =177
             Required: =true
-            Update: =DataCardValue9_2.Selected.Value
+            Update: =DataCardValue9_2.Selected.Name
             Width: =640
             X: =0
             Y: =0
