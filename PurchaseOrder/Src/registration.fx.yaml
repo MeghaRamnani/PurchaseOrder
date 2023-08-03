@@ -460,6 +460,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Fill: =RGBA(251, 239, 249, 1)
+                Format: =DateTimeFormat.LongDate
                 Height: =70
                 IconBackground: =RGBA(108, 29, 95, 1)
                 IconFill: =RGBA(251, 239, 249, 1)
@@ -534,6 +535,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Fill: =RGBA(251, 239, 249, 1)
+                Format: =DateTimeFormat.LongDate
                 Height: =70
                 IconBackground: =RGBA(108, 29, 95, 1)
                 IsEditable: =true
