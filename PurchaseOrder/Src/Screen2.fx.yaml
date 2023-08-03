@@ -185,7 +185,7 @@ Screen2 As screen:
         Height: =70
         OnSelect: |-
             =Patch(PO,Defaults(PO),{Summary:Summary.Text});
-            Patch(PO,Defaults(PO),{Summary:TextInput1_1.Text});
+            Patch(PO,Defaults(PO),{'Service and Bussiness Case':TextInput1_1.Text});
         Size: =24
         Text: ="ORDER"
         Width: =280
