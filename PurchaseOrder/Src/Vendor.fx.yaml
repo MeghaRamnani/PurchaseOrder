@@ -149,7 +149,7 @@ Vendor As screen:
         Height: =70
         OnSelect: =Navigate(VendorCondirmation,ScreenTransition.Cover)
         Size: =24
-        Text: ="VERIFY"
+        Text: ="CREATE"
         Width: =560
         X: =43
         Y: =1038
@@ -161,7 +161,7 @@ Vendor As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create New Vendor"
+        Text: ="Create Vendor"
         Width: =560
         X: =44
         Y: =24
