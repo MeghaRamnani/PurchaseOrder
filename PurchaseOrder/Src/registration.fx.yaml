@@ -29,10 +29,10 @@ registration As screen:
         Y: =24
         ZIndex: =15
 
-    Form1_2 As form:
+    registrationForm As form:
         DataSource: =PO
         DefaultMode: =FormMode.New
-        Height: =949
+        Height: =900
         Width: =640
         Y: =131
         ZIndex: =16
@@ -702,4 +702,17 @@ registration As screen:
                 Wrap: =false
                 Y: =DataCardKey5_2.Y
                 ZIndex: =4
+
+    Button1 As button:
+        Height: =70
+        OnSelect: |-
+            =SubmitForm(registrationForm);
+            NewForm(registrationForm);
+            Navigate(registrationConfirmation,ScreenTransition.Cover);
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        X: =184
+        Y: =1054
+        ZIndex: =17
 
