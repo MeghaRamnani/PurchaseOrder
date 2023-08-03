@@ -1,0 +1,31 @@
+Purchase_requisitionScreen As screen:
+
+    Rectangle2_2 As rectangle:
+        BorderColor: =RGBA(108, 29, 95, 1)
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =131
+        Width: =640
+        ZIndex: =5
+
+    Icon1_2 As icon.ChevronLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =57
+        Icon: =Icon.ChevronLeft
+        OnSelect: =
+        Width: =32
+        X: =20
+        Y: =37
+        ZIndex: =6
+
+    Label9_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =20
+        Text: ="Create New Vendor"
+        Width: =560
+        X: =44
+        Y: =24
+        ZIndex: =15
+

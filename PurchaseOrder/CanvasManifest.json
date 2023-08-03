@@ -141,6 +141,7 @@
     "Replicate_ConfirmationScreen",
     "Replicate_NoVendorFound",
     "Replicate_splashScreen",
-    "Replicate_Vendor"
+    "Replicate_Vendor",
+    "Purchase_requisitionScreen"
   ]
 }
