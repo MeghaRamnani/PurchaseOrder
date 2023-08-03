@@ -21,10 +21,10 @@ vendor As screen:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
-        OnSelect: |-
+        OnSelect: |
             =SubmitForm(vendorForm);
-            Navigate(vendorConfirmation,ScreenTransition.Cover);
             NewForm(vendorForm);
+            Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
         Text: ="CREATE"
         Width: =560
