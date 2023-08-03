@@ -43,7 +43,14 @@ registration As screen:
             DataField: ="Title"
             Default: =ThisItem.Department
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Title")
+            DisplayName: |
+                =Patch(
+                    PO,  
+                    Defaults(PO), 
+                    {
+                        Department: DataCardValue9_2.Selected.'Department Name'
+                    }
+                )
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
