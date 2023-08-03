@@ -137,6 +137,7 @@
     "PR",
     "Replicate_SplashScreen",
     "Replicate_HomeSCreen",
-    "Replicate_PR"
+    "Replicate_PR",
+    "Replicate_ConfirmationScreen"
   ]
 }
