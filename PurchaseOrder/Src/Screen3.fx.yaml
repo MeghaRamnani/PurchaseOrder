@@ -136,6 +136,8 @@ Screen3 As screen:
         Default: =""
         EnableSpellCheck: =true
         Height: =70
+        HoverBorderColor: =RGBA(240, 213, 247, 1)
+        HoverFill: =RGBA(245, 228, 247, 1)
         MaxLength: =50
         RadiusBottomLeft: =8
         RadiusBottomRight: =8
@@ -164,6 +166,8 @@ Screen3 As screen:
             =Patch('Dep-db1',Defaults('Dep-db1'),{Title:TextInput1_2.Text})
         EnableSpellCheck: =true
         Height: =163
+        HoverBorderColor: =RGBA(243, 198, 247, 1)
+        HoverFill: =RGBA(244, 225, 247, 1)
         MaxLength: =100
         Size: =21
         Width: =575

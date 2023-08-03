@@ -61,16 +61,16 @@ Screen1 As screen:
         Height: =23
         OnSelect: =Navigate(Screen1,ScreenTransition.CoverRight)
         Width: =23
-        X: =269
+        X: =297
         Y: =1061
         ZIndex: =8
 
     Circle1_2 As circle:
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(202, 202, 202, 1)
         Height: =23
         OnSelect: =Navigate(Screen3,ScreenTransition.CoverRight)
         Width: =23
-        X: =308
+        X: =348
         Y: =1061
         ZIndex: =9
 
