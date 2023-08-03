@@ -129,10 +129,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Adding Fields",
-    "ConfirmationScreen",
     "homePage",
+    "slashScreen",
     "purchaseRequstion",
-    "slashScreen"
+    "ConfirmationScreen"
   ]
 }

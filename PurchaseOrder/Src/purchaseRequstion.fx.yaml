@@ -14,6 +14,7 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =5000
             Width: =640
+            WidthFit: =true
             X: =0
             Y: =1
             ZIndex: =2
