@@ -28,7 +28,7 @@ Screen1 As screen:
         Height: =1136
         Image: =XEBIA2
         ImagePosition: =ImagePosition.Fill
-        OnSelect: =Navigate(Screen3,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(purchaseRequstion,ScreenTransition.CoverRight)
         Width: =640
         ZIndex: =4
 
@@ -68,7 +68,7 @@ Screen1 As screen:
     Circle1_2 As circle:
         Fill: =RGBA(202, 202, 202, 1)
         Height: =23
-        OnSelect: =Navigate(Screen3,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(purchaseRequstion,ScreenTransition.CoverRight)
         Width: =23
         X: =348
         Y: =1061

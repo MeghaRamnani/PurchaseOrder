@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 14,
+    "BindingErrorCount": 9,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -131,8 +131,7 @@
   "ScreenOrder": [
     "Screen1",
     "Screen2",
-    "Screen3",
-    "Screen4",
+    "purchaseRequstion",
     "Adding Fields",
     "Screen5"
   ]
