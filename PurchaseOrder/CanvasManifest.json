@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 12,
+    "BindingErrorCount": 14,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -136,6 +136,7 @@
     "Vendor",
     "PR",
     "Replicate_SplashScreen",
-    "Replicate_HomeSCreen"
+    "Replicate_HomeSCreen",
+    "Replicate_PR"
   ]
 }
