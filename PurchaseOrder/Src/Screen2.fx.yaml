@@ -54,7 +54,7 @@ Screen2 As screen:
         SelectionFill: =RGBA(108, 29, 95, 1)
         Size: =21
         Tooltip: =
-        Width: =490
+        Width: =575
         X: =27
         Y: =172
         ZIndex: =8
@@ -90,7 +90,7 @@ Screen2 As screen:
         SelectionFill: =RGBA(108, 29, 95, 1)
         Size: =21
         Tooltip: =
-        Width: =490
+        Width: =575
         X: =27
         Y: =455
         ZIndex: =13
@@ -106,7 +106,7 @@ Screen2 As screen:
         SelectionFill: =RGBA(108, 29, 95, 1)
         Size: =21
         Tooltip: =
-        Width: =490
+        Width: =575
         X: =27
         Y: =288
         ZIndex: =14
@@ -141,7 +141,7 @@ Screen2 As screen:
         RadiusTopLeft: =8
         RadiusTopRight: =8
         Size: =21
-        Width: =560
+        Width: =575
         X: =27
         Y: =606
         ZIndex: =19
@@ -165,7 +165,7 @@ Screen2 As screen:
         Height: =163
         MaxLength: =100
         Size: =21
-        Width: =560
+        Width: =575
         X: =27
         Y: =742
         ZIndex: =21
