@@ -47,9 +47,7 @@
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
       "Start_Date": "Start_Date",
-      "Title": "Department",
-      "Vendor_ID": "Vendor_ID",
-      "Vendor_ID#Id": "Vendor_ID Id"
+      "Title": "Department"
     },
     "DatasetName": "https://xebiagroup.sharepoint.com/sites/PurchaseOrder",
     "EncodeDataset": true,
