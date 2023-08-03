@@ -26,18 +26,10 @@ NoVendorFound As screen:
         Y: =822
         ZIndex: =4
 
-    Button2 As button:
-        Height: =70
-        Size: =24
-        Text: ="Button"
-        Width: =280
-        X: =60
-        Y: =60
-        ZIndex: =5
-
     Button3 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
+        OnSelect: =
         Size: =24
         Text: ="Add Vendor"
         Width: =280
