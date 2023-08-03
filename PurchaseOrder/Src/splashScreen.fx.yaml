@@ -4,7 +4,7 @@ splashScreen As screen:
         Height: =1136
         Image: =XEBIA2
         ImagePosition: =ImagePosition.Fill
-        OnSelect: =Navigate(homePage,ScreenTransition.Cover)
+        OnSelect: =
         Width: =640
         ZIndex: =1
 
@@ -31,4 +31,15 @@ splashScreen As screen:
         X: =40
         Y: =725
         ZIndex: =4
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =5000
+        Height: =70
+        OnTimerEnd: =Navigate(homePage,ScreenTransition.Fade)
+        Width: =280
+        X: =266
+        Y: =128
+        ZIndex: =5
 
