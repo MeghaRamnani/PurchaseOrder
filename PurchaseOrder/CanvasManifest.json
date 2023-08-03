@@ -138,6 +138,7 @@
     "Replicate_SplashScreen",
     "Replicate_HomeSCreen",
     "Replicate_PR",
-    "Replicate_ConfirmationScreen"
+    "Replicate_ConfirmationScreen",
+    "Replicate_Vendor"
   ]
 }
