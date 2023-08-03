@@ -1,4 +1,4 @@
-Screen1 As screen:
+slashScreen As screen:
 
     Label1 As label:
         Align: =Align.Center
@@ -59,7 +59,7 @@ Screen1 As screen:
     Circle1_1 As circle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =23
-        OnSelect: =Navigate(Screen1,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(slashScreen,ScreenTransition.CoverRight)
         Width: =23
         X: =297
         Y: =1061
