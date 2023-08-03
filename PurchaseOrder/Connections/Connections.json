@@ -42,8 +42,7 @@
       "Ent-dB1",
       "PO",
       "Dep-db1_8",
-      "vendor-db",
-      "Reg-db1"
+      "vendor-db"
     ],
     "dependencies": {},
     "dependents": [],
