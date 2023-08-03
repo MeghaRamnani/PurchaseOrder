@@ -3,6 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Button1": 185,
     "Button3": 47,
     "Button3_1": 19,
     "Button3_3": 25,
@@ -111,7 +112,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/03/2023 10:52:36",
+  "HeaderLastSavedDateTimeUTC": "08/03/2023 10:53:36",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\"",
@@ -193,6 +194,7 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Button1": {},
     "Button3": {},
     "Button3_1": {},
     "Button3_3": {},
@@ -303,6 +305,7 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Button1": 0,
     "Button3": 76,
     "Button3_1": 91,
     "Button3_3": 96,

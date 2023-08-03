@@ -11,7 +11,7 @@ Purchase_requisitionScreen As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.ChevronLeft
-        OnSelect: =
+        OnSelect: =Navigate(homePage,ScreenTransition.Cover)
         Width: =32
         X: =20
         Y: =37
@@ -689,4 +689,13 @@ Purchase_requisitionScreen As screen:
                 Wrap: =false
                 Y: =DataCardKey5_2.Y
                 ZIndex: =4
+
+            Button1 As button:
+                Height: =70
+                Size: =24
+                Text: ="Button"
+                Width: =280
+                X: =159
+                Y: =133
+                ZIndex: =5
 
