@@ -130,7 +130,7 @@
   },
   "ScreenOrder": [
     "homePage",
-    "slashScreen",
+    "splashScreen",
     "purchaseRequstion",
     "ConfirmationScreen"
   ]

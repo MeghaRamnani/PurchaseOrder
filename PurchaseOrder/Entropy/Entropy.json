@@ -3,26 +3,26 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Canvas1_1": 15,
-    "ConfirmationScreen": 12,
-    "DataCard2": 16,
-    "DatePicker2": 17,
-    "DatePicker2_1": 18,
-    "homePage": 13,
+    "Canvas1_1": 7,
+    "ConfirmationScreen": 4,
+    "DataCard2": 8,
+    "DatePicker2": 9,
+    "DatePicker2_1": 10,
+    "homePage": 5,
     "Host": 3,
-    "Label10_24": 19,
-    "Label10_25": 20,
-    "Label10_26": 21,
-    "Label10_27": 22,
-    "Label10_28": 23,
-    "purchaseRequstion": 14,
-    "slashScreen": 26,
-    "TextInput1_10": 24,
-    "TextInput1_11": 25
+    "Label10_24": 11,
+    "Label10_25": 12,
+    "Label10_26": 13,
+    "Label10_27": 14,
+    "Label10_28": 15,
+    "purchaseRequstion": 6,
+    "splashScreen": 18,
+    "TextInput1_10": 16,
+    "TextInput1_11": 17
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/03/2023 08:48:50",
+  "HeaderLastSavedDateTimeUTC": "08/03/2023 08:51:20",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/82f8e0c934414f14a70558341e0c8077\"",
@@ -42,16 +42,16 @@
     "XebiaBg": "0010.jpeg"
   },
   "LocalResourceRootPaths": {
-    "Confirmed-cuate": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=SahwCCO6B6mDbmDWTfeOUTKLQfYW80pcKmaUKlKy2bg%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "icons8-login-64": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00002.png?sv=2018-03-28&sr=b&sig=KrTebiK%2BJqDowEEvpqpT8oz4IhbQ%2BbxVxYbXGOA%2BWZs%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "icons8-purchase-order-50": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00003.png?sv=2018-03-28&sr=b&sig=9oqac9%2BK9c9DhKJjvMH9nuE6%2BVXTgWevUGY6FdTWw2o%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "icons8-purchase-order-50_1": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00004.png?sv=2018-03-28&sr=b&sig=lEJQT4jnZJ0Jo2s8u0CCBfMgExT7glHtCF3CuEcawOs%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "icons8-user-64": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00005.png?sv=2018-03-28&sr=b&sig=TDo%2BYce3NrQJhzQineVil7dYqMPwHM%2FZHex1OY%2Fq1nI%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "icons8-vendor-100": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00006.png?sv=2018-03-28&sr=b&sig=yqbf62H0Lv9moyJ%2FAJ6GTl%2FDcFBUB%2FcF2DXW5wUfwZE%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "image": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00007.jpg?sv=2018-03-28&sr=b&sig=5aQGba2iqdUP47KUm0o63CIWwDa3VSdtg5mg3YdZNqA%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "image_1": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00008.jpg?sv=2018-03-28&sr=b&sig=hOBhZzpo957EXJZhhpZiI1gdd379vytzcQJ4SGYOpls%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "XEBIA2": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00009.jpg?sv=2018-03-28&sr=b&sig=j9eBe0rZxwjFqjIeIbee1DU5S23dvn60DfOpEozrX%2FQ%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r",
-    "XebiaBg": "https://docserverpwaprodneu.blob.core.windows.net/da8b52ae-8c22-46fe-b62f-867175d70380-1/resource/Assets0Images00010.jpeg?sv=2018-03-28&sr=b&sig=I01M248EWxVn4J9cUMVGF%2Bpz1zjudqcO5ipLP7dA6jA%3D&spr=https&se=2023-08-04T08%3A52%3A30Z&sp=r"
+    "Confirmed-cuate": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=MycHxkal3YbXVTDYtOT1wOVxU1udQGNwD%2BZEtSICRlc%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "icons8-login-64": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00002.png?sv=2018-03-28&sr=b&sig=HIP%2BeFTcVVt9Vlt5ehfLYL5VTbxQbLRAkItFUVECXKE%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "icons8-purchase-order-50": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00003.png?sv=2018-03-28&sr=b&sig=DM%2F%2BRyociHIjHGRI30cUyAN2Q%2FyZR2wYbA554kAtoQc%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "icons8-purchase-order-50_1": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00004.png?sv=2018-03-28&sr=b&sig=rCStb%2F5KKwGiQU9zKzxQMkviNn8WaaqkHUTNNfqVG8c%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "icons8-user-64": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00005.png?sv=2018-03-28&sr=b&sig=eh6e04LsTz3TOt1CYwa5sMAQeigJciEJB7zPVdEgiOI%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "icons8-vendor-100": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00006.png?sv=2018-03-28&sr=b&sig=0E9bXJzyW6wRdocP0xVEUXkDzE%2B%2Bt9G3XVYND7w4Y%2F8%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "image": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00007.jpg?sv=2018-03-28&sr=b&sig=KYLCEFL3vDzxG4IhHTzfOSXIYjK2ythKkf1PqRRn1lI%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "image_1": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00008.jpg?sv=2018-03-28&sr=b&sig=p%2FjKF6aa2VxJkDeTM3xNFQfcCzXn9hpGzYDIaZfSIVE%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "XEBIA2": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00009.jpg?sv=2018-03-28&sr=b&sig=6bPIGrGa8cyMaraFM6H1p1sy8q43wIdBb2iQvMAtedw%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r",
+    "XebiaBg": "https://docserverpwaprodneu.blob.core.windows.net/768adf8f-7823-41dc-a960-9e0161d0f22b-1/resource/Assets0Images00010.jpeg?sv=2018-03-28&sr=b&sig=rVtiaGHmVBVXhPjigmrv3%2FYeINCeZMxXL8X3vQl2%2FUw%3D&spr=https&se=2023-08-04T09%3A05%3A38Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -94,7 +94,7 @@
     "Label10_27": {},
     "Label10_28": {},
     "purchaseRequstion": {},
-    "slashScreen": {},
+    "splashScreen": {},
     "TextInput1_10": {},
     "TextInput1_11": {}
   },
@@ -115,7 +115,7 @@
     "Label10_27": 21,
     "Label10_28": 22,
     "purchaseRequstion": 13,
-    "slashScreen": 25,
+    "splashScreen": 25,
     "TextInput1_10": 23,
     "TextInput1_11": 24
   },
@@ -135,17 +135,16 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1683959,
+    "AnalysisLoadTime": 0.0907374,
     "ControlCount": {
       "dataCard": 1,
       "datepicker": 2,
-      "dropdown": 1,
       "fluidGrid": 1,
-      "label": 9,
-      "screen": 5,
-      "text": 4
+      "label": 5,
+      "screen": 4,
+      "text": 2
     },
-    "DeserializationLoadTime": 1.166787
+    "DeserializationLoadTime": 1.6141927
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
