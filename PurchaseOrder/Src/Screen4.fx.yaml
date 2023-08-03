@@ -1,0 +1,37 @@
+Screen4 As screen:
+
+    Image3 As image:
+        Height: =1136
+        Image: =image_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    Image4 As image:
+        Height: =603
+        Image: ='Confirmed-cuate'
+        ImagePosition: =ImagePosition.Fill
+        Width: =569
+        X: =36
+        Y: =108
+        ZIndex: =2
+
+    Label3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =26
+        Text: ="Thank You! "
+        Width: =640
+        Y: =869
+        ZIndex: =3
+
+    Label4 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =22
+        Text: ="You have successfully registered."
+        Width: =640
+        Y: =912
+        ZIndex: =4
+
