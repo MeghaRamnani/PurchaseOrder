@@ -10,6 +10,7 @@ Vendor As screen:
     TextInput1 As text:
         Default: =""
         Height: =70
+        HoverFill: =RGBA(251, 239, 249, 1)
         Size: =21
         Width: =560
         Y: =81
@@ -26,6 +27,7 @@ Vendor As screen:
     TextInput1_1 As text:
         Default: =""
         Height: =70
+        HoverFill: =RGBA(251, 239, 249, 1)
         Size: =21
         Width: =560
         Y: =250
