@@ -28,6 +28,7 @@ Screen3 As screen:
     Icon1_1 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(Screen2,ScreenTransition.CoverRight)
         Width: =39
         X: =16
         Y: =29

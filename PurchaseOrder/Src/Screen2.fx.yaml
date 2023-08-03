@@ -38,18 +38,6 @@ Screen2 As screen:
         Y: =484
         ZIndex: =4
 
-    Label3_10 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =0
-        Size: =21
-        Text: ="Purchase Order"
-        Width: =254
-        X: =84
-        Y: =408
-        ZIndex: =5
-
     Rectangle3_11 As rectangle:
         BorderColor: =RGBA(232, 196, 245, 1)
         BorderThickness: =5
