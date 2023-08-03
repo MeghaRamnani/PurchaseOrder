@@ -87,6 +87,7 @@ Screen2 As screen:
         BorderThickness: =5
         Fill: =RGBA(108, 29, 95, 1)
         Height: =220
+        OnSelect: =Navigate(Screen3,ScreenTransition.CoverRight)
         Width: =254
         X: =334
         Y: =451
@@ -97,6 +98,7 @@ Screen2 As screen:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =70
+        OnSelect: =Navigate(Screen3,ScreenTransition.CoverRight)
         Size: =18
         Text: ="REGISTER"
         Width: =254
@@ -122,7 +124,7 @@ Screen2 As screen:
 
     Image7_1 As image:
         Height: =158
-        Image: ='icons8-purchase-order-50'
+        Image: ='icons8-purchase-order-50_1'
         Width: =161
         X: =84
         Y: =218
@@ -135,5 +137,13 @@ Screen2 As screen:
         Width: =39
         X: =16
         Y: =29
+        ZIndex: =15
+
+    Image2 As image:
+        Height: =178
+        Image: ='icons8-vendor-100'
+        Width: =175
+        X: =84
+        Y: =445
         ZIndex: =15
 
