@@ -70,7 +70,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: ='Dep-db1_7'
+                Items: ='Dep-db1_8'
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
