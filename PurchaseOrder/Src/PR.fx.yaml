@@ -1,13 +1,13 @@
-purchaseRequstion As screen:
+PR As screen:
 
-    Form1 As form:
+    Form1_1 As form:
         DataSource: =PO
         Height: =1000
         Width: =640
         Y: =40
-        ZIndex: =4
+        ZIndex: =1
 
-        Department_DataCard2 As typedDataCard.allowedValuesStringEditCard:
+        Department_DataCard2_1 As typedDataCard.allowedValuesStringEditCard:
             AllowedValues: =DataSourceInfo([@PO], DataSourceInfo.AllowedValues, "Title")
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
@@ -17,13 +17,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue9.Selected.Value
+            Update: =DataCardValue9_1.Selected.Value
             Width: =640
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey9 As label:
+            DataCardKey9_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -34,7 +34,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue9 As dropdown:
+            DataCardValue9_1 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -44,10 +44,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                Y: =DataCardKey9_1.Y + DataCardKey9_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage9 As label:
+            ErrorMessage9_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -60,21 +60,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue9.Y + DataCardValue9.Height
+                Y: =DataCardValue9_1.Y + DataCardValue9_1.Height
                 ZIndex: =3
 
-            StarVisible9 As label:
+            StarVisible9_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey9.Height
+                Height: =DataCardKey9_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey9.Y
+                Y: =DataCardKey9_1.Y
                 ZIndex: =4
 
-        Region_DataCard2 As typedDataCard.allowedValuesStringEditCard:
+        Region_DataCard2_1 As typedDataCard.allowedValuesStringEditCard:
             AllowedValues: =DataSourceInfo([@PO], DataSourceInfo.AllowedValues, "field_1")
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
@@ -84,13 +84,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue10.Selected.Value
+            Update: =DataCardValue10_1.Selected.Value
             Width: =640
             X: =0
             Y: =1
             ZIndex: =1
 
-            DataCardKey10 As label:
+            DataCardKey10_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -101,7 +101,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue10 As dropdown:
+            DataCardValue10_1 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -111,10 +111,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =DataCardKey10_1.Y + DataCardKey10_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage10 As label:
+            ErrorMessage10_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -127,21 +127,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
+                Y: =DataCardValue10_1.Y + DataCardValue10_1.Height
                 ZIndex: =3
 
-            StarVisible10 As label:
+            StarVisible10_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey10.Height
+                Height: =DataCardKey10_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey10.Y
+                Y: =DataCardKey10_1.Y
                 ZIndex: =4
 
-        UnitEntity_DataCard2 As typedDataCard.allowedValuesNumberEditCard:
+        UnitEntity_DataCard2_1 As typedDataCard.allowedValuesNumberEditCard:
             AllowedValues: =DataSourceInfo([@PO], DataSourceInfo.AllowedValues, "field_3")
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
@@ -151,13 +151,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue11.Selected.Value
+            Update: =DataCardValue11_1.Selected.Value
             Width: =640
             X: =0
             Y: =2
             ZIndex: =1
 
-            DataCardKey11 As label:
+            DataCardKey11_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -168,7 +168,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue11 As dropdown:
+            DataCardValue11_1 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -178,10 +178,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                Y: =DataCardKey11_1.Y + DataCardKey11_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage11 As label:
+            ErrorMessage11_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -194,21 +194,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
+                Y: =DataCardValue11_1.Y + DataCardValue11_1.Height
                 ZIndex: =3
 
-            StarVisible11 As label:
+            StarVisible11_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey11.Height
+                Height: =DataCardKey11_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey11.Y
+                Y: =DataCardKey11_1.Y
                 ZIndex: =4
 
-        Summary_DataCard2 As typedDataCard.textualMultiLineEditCard:
+        Summary_DataCard2_1 As typedDataCard.textualMultiLineEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
             Default: =ThisItem.Summary
@@ -217,13 +217,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue12.Text
+            Update: =DataCardValue12_1.Text
             Width: =640
             X: =0
             Y: =3
             ZIndex: =1
 
-            DataCardKey12 As label:
+            DataCardKey12_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -234,7 +234,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue12 As text:
+            DataCardValue12_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -250,10 +250,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                Y: =DataCardKey12_1.Y + DataCardKey12_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage12 As label:
+            ErrorMessage12_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -266,21 +266,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue12.Y + DataCardValue12.Height
+                Y: =DataCardValue12_1.Y + DataCardValue12_1.Height
                 ZIndex: =3
 
-            StarVisible12 As label:
+            StarVisible12_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey12.Height
+                Height: =DataCardKey12_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey12.Y
+                Y: =DataCardKey12_1.Y
                 ZIndex: =4
 
-        "'Service and Bussiness Case_DataCard3' As typedDataCard.richTextEditorEditCard":
+        "'Service and Bussiness Case_DataCard3_1' As typedDataCard.richTextEditorEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
             Default: =ThisItem.'Service and Bussiness Case'
@@ -289,13 +289,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Update: =DataCardValue14.HtmlText
+            Update: =DataCardValue14_1.HtmlText
             Width: =640
             X: =0
             Y: =4
             ZIndex: =1
 
-            DataCardKey14 As label:
+            DataCardKey14_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -306,16 +306,16 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue14 As richTextEditor:
+            DataCardValue14_1 As richTextEditor:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =222
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                Y: =DataCardKey14_1.Y + DataCardKey14_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage13 As label:
+            ErrorMessage13_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -328,21 +328,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue14.Y + DataCardValue14.Height
+                Y: =DataCardValue14_1.Y + DataCardValue14_1.Height
                 ZIndex: =3
 
-            StarVisible13 As label:
+            StarVisible13_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey14.Height
+                Height: =DataCardKey14_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey14.Y
+                Y: =DataCardKey14_1.Y
                 ZIndex: =4
 
-        "'Units Needed_DataCard2' As typedDataCard.textualViewCard":
+        "'Units Needed_DataCard2_1' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
             Default: =ThisItem.'Units Needed'
@@ -356,7 +356,7 @@ purchaseRequstion As screen:
             Y: =5
             ZIndex: =1
 
-            DataCardKey15 As label:
+            DataCardKey15_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -367,7 +367,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue15 As label:
+            DataCardValue15_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -377,10 +377,10 @@ purchaseRequstion As screen:
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                Y: =DataCardKey15_1.Y + DataCardKey15_1.Height + 5
                 ZIndex: =2
 
-        Start_Date_DataCard1 As typedDataCard.dateEditCard:
+        Start_Date_DataCard1_1 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Start_Date"
             Default: =ThisItem.Start_Date
@@ -389,13 +389,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue1.SelectedDate
+            Update: =DataCardValue1_1.SelectedDate
             Width: =640
             X: =0
             Y: =6
             ZIndex: =1
 
-            DataCardKey1 As label:
+            DataCardKey1_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -406,7 +406,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As datepicker:
+            DataCardValue1_1 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -420,10 +420,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey1_1.Y + DataCardKey1_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage1 As label:
+            ErrorMessage1_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -436,21 +436,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue1_1.Y + DataCardValue1_1.Height
                 ZIndex: =3
 
-            StarVisible1 As label:
+            StarVisible1_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey1_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey1_1.Y
                 ZIndex: =4
 
-        End_Date_DataCard1 As typedDataCard.dateEditCard:
+        End_Date_DataCard1_1 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="End_Date"
             Default: =ThisItem.End_Date
@@ -459,13 +459,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue2.SelectedDate
+            Update: =DataCardValue2_1.SelectedDate
             Width: =640
             X: =0
             Y: =7
             ZIndex: =1
 
-            DataCardKey2 As label:
+            DataCardKey2_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -476,7 +476,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As datepicker:
+            DataCardValue2_1 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -490,10 +490,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey2_1.Y + DataCardKey2_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ErrorMessage2_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -506,21 +506,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue2_1.Y + DataCardValue2_1.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            StarVisible2_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey2_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
+                Y: =DataCardKey2_1.Y
                 ZIndex: =4
 
-        Service_Provider_Known_DataCard1 As typedDataCard.toggleEditCard:
+        Service_Provider_Known_DataCard1_1 As typedDataCard.toggleEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_11"
             Default: =ThisItem.Service_Provider_Known
@@ -529,13 +529,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue3.Value
+            Update: =DataCardValue3_1.Value
             Width: =640
             X: =0
             Y: =8
             ZIndex: =1
 
-            DataCardKey3 As label:
+            DataCardKey3_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -546,7 +546,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As toggleSwitch:
+            DataCardValue3_1 As toggleSwitch:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -555,10 +555,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =154
                 X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Y: =DataCardKey3_1.Y + DataCardKey3_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage3 As label:
+            ErrorMessage3_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -571,21 +571,21 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
+                Y: =DataCardValue3_1.Y + DataCardValue3_1.Height
                 ZIndex: =3
 
-            StarVisible3 As label:
+            StarVisible3_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey3.Height
+                Height: =DataCardKey3_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey3.Y
+                Y: =DataCardKey3_1.Y
                 ZIndex: =4
 
-        Vendor_DataCard2 As typedDataCard.allowedValuesStringEditCard:
+        Vendor_DataCard2_1 As typedDataCard.allowedValuesStringEditCard:
             AllowedValues: =DataSourceInfo([@PO], DataSourceInfo.AllowedValues, "field_12")
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_12"
@@ -595,13 +595,13 @@ purchaseRequstion As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue5.Selected.Value
+            Update: =DataCardValue5_1.Selected.Value
             Width: =640
             X: =0
             Y: =9
             ZIndex: =1
 
-            DataCardKey5 As label:
+            DataCardKey5_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -612,7 +612,7 @@ purchaseRequstion As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As dropdown:
+            DataCardValue5_1 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -622,10 +622,10 @@ purchaseRequstion As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Y: =DataCardKey5_1.Y + DataCardKey5_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage5 As label:
+            ErrorMessage5_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -638,17 +638,17 @@ purchaseRequstion As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
+                Y: =DataCardValue5_1.Y + DataCardValue5_1.Height
                 ZIndex: =3
 
-            StarVisible5 As label:
+            StarVisible5_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey5.Height
+                Height: =DataCardKey5_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey5.Y
+                Y: =DataCardKey5_1.Y
                 ZIndex: =4
 
