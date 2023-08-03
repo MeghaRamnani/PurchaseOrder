@@ -7,17 +7,6 @@ splashScreen As screen:
         Width: =640
         ZIndex: =1
 
-    Label1 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =30
-        Text: ="Welcome"
-        Width: =640
-        Y: =741
-        ZIndex: =2
-
     Label2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)

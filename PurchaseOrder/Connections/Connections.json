@@ -14,17 +14,11 @@
           "Dep-db1": {
             "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
           },
-          "Dep-db1_7": {
-            "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
-          },
           "Ent-dB1": {
             "tableName": "ca983d94-feed-48b4-848e-494f08c84bee"
           },
           "PO": {
             "tableName": "7112fc6a-b45a-407e-9b3a-1fe9ff0c09a4"
-          },
-          "Reg-db1_4": {
-            "tableName": "0d4d7a19-deda-4092-82b1-de0177c00267"
           }
         }
       },
@@ -40,9 +34,7 @@
       "dep-dB1",
       "Dep-db1",
       "Ent-dB1",
-      "PO",
-      "Dep-db1_7",
-      "Reg-db1_4"
+      "PO"
     ],
     "dependencies": {},
     "dependents": [],

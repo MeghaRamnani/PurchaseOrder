@@ -1,0 +1,33 @@
+Vendor As screen:
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Vendor Name"
+        Width: =560
+        ZIndex: =1
+
+    TextInput1 As text:
+        Default: =""
+        Height: =70
+        Size: =21
+        Width: =560
+        Y: =81
+        ZIndex: =2
+
+    Label1_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Registration number"
+        Width: =560
+        Y: =180
+        ZIndex: =3
+
+    TextInput1_1 As text:
+        Default: =""
+        Height: =70
+        Size: =21
+        Width: =560
+        Y: =250
+        ZIndex: =4
+
