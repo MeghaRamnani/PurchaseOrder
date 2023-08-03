@@ -78,3 +78,47 @@ Screen4 As screen:
         Y: =514
         ZIndex: =9
 
+    Dropdown1_7 As dropdown:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        ChevronBackground: =RGBA(108, 29, 95, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+        Default: ="0"
+        Height: =50
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Items: ='Reg-db1'
+        SelectionFill: =RGBA(108, 29, 95, 1)
+        Size: =21
+        Tooltip: =
+        Width: =575
+        X: =2
+        Y: =663
+        ZIndex: =10
+
+    Label10_14 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Select the vendor"
+        Width: =560
+        Y: =609
+        ZIndex: =11
+
+    Label10_15 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Budget for service duration"
+        Width: =560
+        Y: =759
+        ZIndex: =12
+
+    Dropdown1 As dropdown:
+        Default: ="INR"
+        Height: =53
+        Items: =DropDownSample
+        Size: =21
+        Width: =588
+        X: =4
+        Y: =828
+        ZIndex: =13
+
