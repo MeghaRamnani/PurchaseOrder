@@ -1,4 +1,4 @@
-NoVendorFound As screen:
+noVendorFound As screen:
 
     Image3_2 As image:
         Height: =1136
@@ -29,7 +29,8 @@ NoVendorFound As screen:
     Button3 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
-        OnSelect: =Navigate(Vendor,ScreenTransition.Cover)
+        HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
+        OnSelect: =Navigate(vendor,ScreenTransition.Cover)
         Size: =24
         Text: ="CLICK HERE TO ADD NEW VENDOR"
         Width: =560

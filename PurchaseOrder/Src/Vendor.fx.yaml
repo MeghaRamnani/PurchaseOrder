@@ -1,4 +1,4 @@
-Vendor As screen:
+vendor As screen:
 
     Label1 As label:
         Height: =60
@@ -147,7 +147,8 @@ Vendor As screen:
     Button3_1 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
-        OnSelect: =Navigate(VendorCondirmation,ScreenTransition.Cover)
+        HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
+        OnSelect: =Navigate(vendorConfirmation,ScreenTransition.Cover)
         Size: =24
         Text: ="CREATE"
         Width: =560

@@ -1,4 +1,4 @@
-Purchase_requisitionScreen As screen:
+registration As screen:
 
     Rectangle2_2 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
