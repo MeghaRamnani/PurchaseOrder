@@ -129,17 +129,15 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "splashScreen",
-    "homePage",
-    "purchaseRequstion",
     "ConfirmationScreen",
+    "homePage",
     "NoVendorFound",
-    "Vendor",
     "PR",
-    "Replicate_SplashScreen",
-    "Replicate_HomeSCreen",
-    "Replicate_PR",
-    "Replicate_ConfirmationScreen",
-    "Replicate_Vendor"
+    "purchaseRequstion",
+    "splashScreen",
+    "Replicate_splashScreen",
+    "Vendor",
+    "Replicate_Vendor",
+    "Replicate_ConfirmationScreen"
   ]
 }
