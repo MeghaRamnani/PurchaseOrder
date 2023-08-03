@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Image1": {
+    "Image1_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -56,7 +56,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image1",
+      "Name": "Image1_1",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -209,7 +209,7 @@
       "StyleName": "defaultImageStyle",
       "Type": "ControlInfo"
     },
-    "Label2": {
+    "Label2_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -297,7 +297,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label2",
+      "Name": "Label2_1",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -505,7 +505,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "splashScreen": {
+    "Replicate_SplashScreen": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -525,7 +525,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "splashScreen",
+      "Name": "Replicate_SplashScreen",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -574,5 +574,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "splashScreen"
+  "TopParentName": "Replicate_SplashScreen"
 }
