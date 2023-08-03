@@ -73,8 +73,6 @@ registration As screen:
                 Height: =70
                 HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Dep-db1_8'
-                OnChange: =LookUp('Dep-db1', Name=DataCardValue9_2.Selected.'Department Name').Name
-                OnSelect: =LookUp('Dep-db1', Name=DataCardValue9_2.Selected.'Department Name').Name
                 PressedFill: =RGBA(251, 239, 249, 1)
                 SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
