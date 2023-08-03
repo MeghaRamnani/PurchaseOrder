@@ -71,7 +71,104 @@ Vendor As screen:
         Size: =21
         Text: ="Create New Vendor"
         Width: =560
-        X: =52
+        X: =36
         Y: =30
         ZIndex: =12
+
+    Button2 As button:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =70
+        Size: =24
+        Text: ="VERIFY"
+        Width: =560
+        X: =36
+        Y: =1035
+        ZIndex: =13
+
+    TextInput2 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =26
+        Y: =559
+        ZIndex: =14
+
+    Label8 As label:
+        Height: =52
+        Size: =21
+        Text: ="Verify OTP"
+        Width: =560
+        X: =20
+        Y: =498
+        ZIndex: =19
+
+    TextInput2_1 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =124
+        Y: =559
+        ZIndex: =20
+
+    TextInput2_2 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =222
+        Y: =559
+        ZIndex: =21
+
+    TextInput2_3 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =323
+        Y: =559
+        ZIndex: =22
+
+    TextInput2_4 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =423
+        Y: =559
+        ZIndex: =23
+
+    TextInput2_5 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Default: =""
+        DisabledFill: =RGBA(245, 245, 245, 1)
+        Height: =80
+        HoverFill: =RGBA(240, 204, 239, 1)
+        Size: =21
+        Width: =85
+        X: =519
+        Y: =559
+        ZIndex: =24
 
