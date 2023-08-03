@@ -431,7 +431,7 @@ registration As screen:
         Start_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Start Date"
-            Default: =ThisItem.Start_Date
+            Default: =Today()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Start_Date")
             Fill: =RGBA(0, 0, 0, 0)
@@ -504,7 +504,7 @@ registration As screen:
         End_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="End Date"
-            Default: =ThisItem.End_Date
+            Default: =
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"End_Date")
             Fill: =RGBA(0, 0, 0, 0)
