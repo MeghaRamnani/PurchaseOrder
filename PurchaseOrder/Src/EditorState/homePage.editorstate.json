@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "ConfirmationScreen": {
+    "homePage": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -20,7 +20,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "ConfirmationScreen",
+      "Name": "homePage",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -69,5 +69,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "ConfirmationScreen"
+  "TopParentName": "homePage"
 }
