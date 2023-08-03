@@ -43,16 +43,9 @@ registration As screen:
             DataField: ="Title"
             Default: =ThisItem.Department
             DisplayMode: =Parent.DisplayMode
-            DisplayName: |
-                =Patch(
-                    PO,  
-                    Defaults(PO), 
-                    {
-                        Department: DataCardValue9_2.Selected.'Department Name'
-                    }
-                )
+            DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =
+            Height: =177
             Required: =true
             Update: =DataCardValue9_2.Selected.Value
             Width: =640
@@ -88,7 +81,7 @@ registration As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey9_2.Y + DataCardKey9_2.Height + 5
+                Y: =78
                 ZIndex: =2
 
             ErrorMessage9_2 As label:
@@ -720,80 +713,6 @@ registration As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey5_2.Y
-                ZIndex: =4
-
-        Vendor_ID_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Vendor_ID"
-            Default: =ThisItem.Vendor_ID
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Vendor_ID")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue3.Selected
-            Width: =640
-            X: =0
-            Y: =10
-            ZIndex: =1
-
-            DataCardKey3 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
-                DisplayMode: =Parent.DisplayMode
-                Height: =70
-                IsSearchable: =false
-                Items: ='vendor-db'
-                OnChange: =DataCardValue3.SelectedItems
-                OnSelect: =DataCardValue3.SelectedItems
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["{Name}"]
-                SearchItems: =[]
-                SelectMultiple: =false
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
-                ZIndex: =2
-
-            ErrorMessage3 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
-                ZIndex: =3
-
-            StarVisible3 As label:
-                Align: =Align.Center
-                Height: =DataCardKey3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey3.Y
                 ZIndex: =4
 
     Button1 As button:
