@@ -147,6 +147,7 @@ Vendor As screen:
     Button3_1 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
+        OnSelect: =Navigate(VendorCondirmation,ScreenTransition.Cover)
         Size: =24
         Text: ="VERIFY"
         Width: =560
