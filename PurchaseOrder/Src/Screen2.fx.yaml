@@ -163,7 +163,7 @@ Screen2 As screen:
             =Patch('Dep-db1',Defaults('Dep-db1'),{Title:TextInput1.Text})
         EnableSpellCheck: =true
         Height: =163
-        MaxLength: =50
+        MaxLength: =100
         Size: =21
         Width: =560
         X: =27
@@ -185,6 +185,8 @@ Screen2 As screen:
         Height: =70
         OnSelect: |
             =Patch(PO,Defaults(PO),{
+               // Title: Dropdown1.Selected.Value, //
+               // Region: Dropdown1_4.Selected, //
                 Summary:Summary.Text,
                 'Service and Bussiness Case':TextInput1_1.Text
                 });
