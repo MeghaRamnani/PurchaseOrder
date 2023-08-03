@@ -32,7 +32,7 @@ noVendorFound As screen:
 
         Image6 As image:
             Height: =72
-            Image: ='83890830'
+            Image: ='icons8-user-100 (1)'
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
