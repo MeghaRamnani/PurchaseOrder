@@ -436,7 +436,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Start_Date")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue1_2.SelectedDate
             Width: =640
             X: =0
@@ -509,7 +509,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"End_Date")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue2_2.SelectedDate
             Width: =640
             X: =0
@@ -651,7 +651,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"field_12")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =If(DataCardValue3_2.Value=true,true,false)
             Update: =DataCardValue5_2.Selected.Name
             Visible: =If(DataCardValue3_2.Value=true,true,false)
             Width: =640
