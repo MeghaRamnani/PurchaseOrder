@@ -6,23 +6,14 @@
     "Canvas1_1": 8,
     "ConfirmationScreen": 5,
     "DataCard2": 9,
-    "DatePicker2": 10,
-    "DatePicker2_1": 11,
     "homePage": 6,
     "Host": 3,
-    "Label10_24": 12,
-    "Label10_25": 13,
-    "Label10_26": 14,
-    "Label10_27": 15,
-    "Label10_28": 16,
     "purchaseRequstion": 7,
-    "splashScreen": 4,
-    "TextInput1_10": 17,
-    "TextInput1_11": 18
+    "splashScreen": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/03/2023 08:53:17",
+  "HeaderLastSavedDateTimeUTC": "08/03/2023 08:55:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/82f8e0c934414f14a70558341e0c8077\"",
@@ -74,29 +65,17 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "datepicker": 1,
-    "fluidGrid": 0,
-    "label": 2,
-    "text": 3
+    "fluidGrid": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "Canvas1_1": {},
     "ConfirmationScreen": {},
     "DataCard2": {},
-    "DatePicker2": {},
-    "DatePicker2_1": {},
     "homePage": {},
     "Host": {},
-    "Label10_24": {},
-    "Label10_25": {},
-    "Label10_26": {},
-    "Label10_27": {},
-    "Label10_28": {},
     "purchaseRequstion": {},
-    "splashScreen": {},
-    "TextInput1_10": {},
-    "TextInput1_11": {}
+    "splashScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -105,19 +84,10 @@
     "Canvas1_1": 14,
     "ConfirmationScreen": 11,
     "DataCard2": 15,
-    "DatePicker2": 16,
-    "DatePicker2_1": 17,
     "homePage": 12,
     "Host": 0,
-    "Label10_24": 18,
-    "Label10_25": 19,
-    "Label10_26": 20,
-    "Label10_27": 21,
-    "Label10_28": 22,
     "purchaseRequstion": 13,
-    "splashScreen": 25,
-    "TextInput1_10": 23,
-    "TextInput1_11": 24
+    "splashScreen": 25
   },
   "ResourcesJsonIndices": {
     "Image-Confirmed-cuate": 1,
