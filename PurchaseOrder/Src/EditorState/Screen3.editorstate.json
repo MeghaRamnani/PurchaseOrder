@@ -4559,7 +4559,14 @@
     "Dropdown2": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Items",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "'Dep-db1_2'",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "SelectionColor",
         "ChevronFill",
         "ChevronHoverFill",

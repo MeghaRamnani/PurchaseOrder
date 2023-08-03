@@ -88,12 +88,12 @@
                 ZIndex: =4
 
             Dropdown2 As dropdown:
-                Height: =54
-                Items: ='Dep-db1_1'
+                Height: =70
+                Items: ='Dep-db1'
                 Size: =21
-                Width: =580
+                Width: =575
                 X: =30
-                Y: =58
+                Y: =50
                 ZIndex: =5
 
         Region_DataCard2 As typedDataCard.numberEditCard:
