@@ -70,7 +70,9 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Dep-db1_8'
+                SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -138,6 +140,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Reg-db1'
                 Size: =21
                 Tooltip: =Parent.DisplayName
@@ -206,6 +209,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Ent-dB1'
                 Size: =21
                 Tooltip: =Parent.DisplayName
@@ -657,6 +661,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='vendor-db'
                 Size: =21
                 Tooltip: =Parent.DisplayName
