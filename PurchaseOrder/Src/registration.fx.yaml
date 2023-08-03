@@ -23,7 +23,7 @@ registration As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create Vendor"
+        Text: ="Create Registration"
         Width: =560
         X: =44
         Y: =24
