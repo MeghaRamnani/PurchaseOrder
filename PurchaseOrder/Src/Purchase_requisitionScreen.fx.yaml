@@ -23,7 +23,7 @@ Purchase_requisitionScreen As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create New Vendor"
+        Text: ="Create Vendor"
         Width: =560
         X: =44
         Y: =24
@@ -445,6 +445,7 @@ Purchase_requisitionScreen As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Height: =70
+                IconBackground: =RGBA(108, 29, 95, 1)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -452,7 +453,7 @@ Purchase_requisitionScreen As screen:
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =30
+                X: =21
                 Y: =DataCardKey1_2.Y + DataCardKey1_2.Height + 5
                 ZIndex: =2
 
@@ -515,6 +516,7 @@ Purchase_requisitionScreen As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Height: =70
+                IconBackground: =RGBA(108, 29, 95, 1)
                 IsEditable: =true
                 PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -587,6 +589,7 @@ Purchase_requisitionScreen As screen:
                 Height: =49
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                TrueFill: =RGBA(108, 29, 95, 1)
                 Width: =154
                 X: =30
                 Y: =DataCardKey3_2.Y + DataCardKey3_2.Height + 5
