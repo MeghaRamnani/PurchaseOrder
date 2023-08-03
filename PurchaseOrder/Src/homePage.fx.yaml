@@ -45,6 +45,7 @@ homePage As screen:
         BorderThickness: =5
         Fill: =RGBA(108, 29, 95, 1)
         Height: =259
+        OnSelect: =Navigate(NoVendorFound,ScreenTransition.Cover)
         Width: =274
         X: =330
         Y: =254
@@ -53,6 +54,7 @@ homePage As screen:
     Image5_2 As image:
         Height: =191
         Image: ='icons8-vendor-100'
+        OnSelect: =Navigate(NoVendorFound,ScreenTransition.Cover)
         Width: =196
         X: =377
         Y: =265
@@ -63,6 +65,7 @@ homePage As screen:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
+        OnSelect: =Navigate(NoVendorFound,ScreenTransition.Cover)
         Size: =18
         Text: ="VENDOR"
         Width: =248

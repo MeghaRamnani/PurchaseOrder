@@ -133,9 +133,8 @@
     "homePage",
     "purchaseRequstion",
     "ConfirmationScreen",
-    "Vendor",
-    "PR",
     "NoVendorFound",
-    "ListOfVendor"
+    "PR",
+    "Vendor"
   ]
 }
