@@ -28,6 +28,7 @@ Screen1 As screen:
         Height: =1136
         Image: =XEBIA2
         ImagePosition: =ImagePosition.Fill
+        OnSelect: =Navigate(Screen5,ScreenTransition.CoverRight)
         Width: =640
         ZIndex: =4
 
