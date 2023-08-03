@@ -704,15 +704,17 @@ registration As screen:
                 ZIndex: =4
 
     Button1 As button:
+        Fill: =RGBA(108, 29, 95, 1)
         Height: =70
+        HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |-
             =SubmitForm(registrationForm);
             NewForm(registrationForm);
             Navigate(registrationConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: ="Button"
-        Width: =280
-        X: =184
+        Text: ="REGISTER"
+        Width: =560
+        X: =44
         Y: =1054
         ZIndex: =17
 
