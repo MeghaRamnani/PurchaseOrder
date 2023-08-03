@@ -135,7 +135,7 @@
     "ConfirmationScreen",
     "Vendor",
     "PR",
-    "ListOfVendor",
-    "NoVendorFound"
+    "NoVendorFound",
+    "ListOfVendor"
   ]
 }

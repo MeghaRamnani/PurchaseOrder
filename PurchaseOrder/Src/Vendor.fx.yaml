@@ -144,3 +144,25 @@ Vendor As screen:
         Y: =559
         ZIndex: =24
 
+    Button3_1 As button:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =70
+        Size: =24
+        Text: ="VERIFY"
+        Width: =560
+        X: =43
+        Y: =1038
+        ZIndex: =25
+
+    Label9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =20
+        Text: ="Create New Vendor"
+        Width: =560
+        X: =44
+        Y: =24
+        ZIndex: =26
+
