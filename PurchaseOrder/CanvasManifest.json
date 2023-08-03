@@ -131,7 +131,9 @@
   "ScreenOrder": [
     "ConfirmationScreen",
     "homePage",
+    "Duplicate_homePage",
     "NoVendorFound",
+    "Replicate_NoVendorFound",
     "PR",
     "purchaseRequstion",
     "splashScreen",
