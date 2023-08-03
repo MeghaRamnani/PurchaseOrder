@@ -137,11 +137,6 @@
     "PR",
     "Vendor",
     "VendorCondirmation",
-    "Duplicate_homePage",
-    "Replicate_ConfirmationScreen",
-    "Replicate_NoVendorFound",
-    "Replicate_splashScreen",
-    "Replicate_Vendor",
     "Purchase_requisitionScreen"
   ]
 }
