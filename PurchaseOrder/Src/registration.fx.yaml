@@ -190,6 +190,80 @@ registration As screen:
                 Y: =DataCardKey10_2.Y
                 ZIndex: =4
 
+        Vendor_ID_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Vendor_ID"
+            Default: =ThisItem.Vendor_ID
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Vendor_ID")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue3.Selected
+            Width: =640
+            X: =0
+            Y: =10
+            ZIndex: =1
+
+            DataCardKey3 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue3 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["{Name}"]
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                IsSearchable: =false
+                Items: ='vendor-db'
+                OnChange: =DataCardValue3.SelectedItems
+                OnSelect: =DataCardValue3.SelectedItems
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["{Name}"]
+                SearchItems: =[]
+                SelectMultiple: =false
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                ZIndex: =2
+
+            ErrorMessage3 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue3.Y + DataCardValue3.Height
+                ZIndex: =3
+
+            StarVisible3 As label:
+                Align: =Align.Center
+                Height: =DataCardKey3.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey3.Y
+                ZIndex: =4
+
         UnitEntity_DataCard2_2 As typedDataCard.allowedValuesNumberEditCard:
             AllowedValues: =DataSourceInfo([@PO], DataSourceInfo.AllowedValues, "field_3")
             BorderStyle: =BorderStyle.Solid
@@ -722,87 +796,12 @@ registration As screen:
                 Y: =DataCardKey5_2.Y
                 ZIndex: =4
 
-        Vendor_ID_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Vendor_ID"
-            Default: =ThisItem.Vendor_ID
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Vendor_ID")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue3.Selected
-            Width: =640
-            X: =0
-            Y: =10
-            ZIndex: =1
-
-            DataCardKey3 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
-                DisplayMode: =Parent.DisplayMode
-                Height: =70
-                IsSearchable: =false
-                Items: ='vendor-db'
-                OnChange: =DataCardValue3.SelectedItems
-                OnSelect: =DataCardValue3.SelectedItems
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["{Name}"]
-                SearchItems: =[]
-                SelectMultiple: =false
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
-                ZIndex: =2
-
-            ErrorMessage3 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
-                ZIndex: =3
-
-            StarVisible3 As label:
-                Align: =Align.Center
-                Height: =DataCardKey3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey3.Y
-                ZIndex: =4
-
     Button1 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |-
-            =Patch(PO,Defaults(PO),{Department:"megha"});
-            SubmitForm(registrationForm);
+            =SubmitForm(registrationForm);
             NewForm(registrationForm);
             Navigate(registrationConfirmation,ScreenTransition.Cover);
         Size: =24
