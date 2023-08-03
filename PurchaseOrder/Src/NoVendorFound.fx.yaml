@@ -31,9 +31,9 @@ NoVendorFound As screen:
         Height: =70
         OnSelect: =
         Size: =24
-        Text: ="Add Vendor"
-        Width: =280
-        X: =183
-        Y: =903
+        Text: ="CLICK HERE TO ADD NEW VENDOR"
+        Width: =560
+        X: =43
+        Y: =1038
         ZIndex: =6
 
