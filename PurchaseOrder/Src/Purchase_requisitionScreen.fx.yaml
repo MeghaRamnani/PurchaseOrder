@@ -582,6 +582,7 @@ Purchase_requisitionScreen As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
+                FalseFill: =RGBA(108, 29, 95, 1)
                 Height: =49
                 Size: =21
                 Tooltip: =Parent.DisplayName
@@ -646,6 +647,7 @@ Purchase_requisitionScreen As screen:
 
             DataCardValue5_2 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(108, 29, 95, 1)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
