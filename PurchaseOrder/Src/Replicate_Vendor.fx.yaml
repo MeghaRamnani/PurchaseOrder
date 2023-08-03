@@ -1,0 +1,35 @@
+Replicate_Vendor As screen:
+
+    Label1_2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Vendor Name"
+        Width: =560
+        ZIndex: =1
+
+    TextInput1_2 As text:
+        Default: =""
+        Height: =70
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Size: =21
+        Width: =560
+        Y: =81
+        ZIndex: =2
+
+    Label1_3 As label:
+        Height: =70
+        Size: =21
+        Text: ="Registration number"
+        Width: =560
+        Y: =180
+        ZIndex: =3
+
+    TextInput1_3 As text:
+        Default: =""
+        Height: =70
+        HoverFill: =RGBA(251, 239, 249, 1)
+        Size: =21
+        Width: =560
+        Y: =250
+        ZIndex: =4
+
