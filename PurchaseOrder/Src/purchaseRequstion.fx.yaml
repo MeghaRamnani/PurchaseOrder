@@ -360,12 +360,15 @@ purchaseRequstion As screen:
                 ZIndex: =4
 
     Button1 As button:
+        Fill: =RGBA(108, 29, 95, 1)
         Height: =70
-        OnSelect: =SubmitForm(purchaseOrderForm)
+        OnSelect: |-
+            =SubmitForm(purchaseOrderForm),
+            Navigate(ConfirmationScreen,ScreenTransition.Cover)
         Size: =24
         Text: ="Submit"
-        Width: =280
-        X: =180
-        Y: =1054
+        Width: =535
+        X: =52
+        Y: =1052
         ZIndex: =5
 

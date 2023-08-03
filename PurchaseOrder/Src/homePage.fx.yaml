@@ -12,6 +12,7 @@ homePage As screen:
         BorderThickness: =5
         Fill: =RGBA(108, 29, 95, 1)
         Height: =259
+        OnSelect: =Navigate(purchaseRequstion,ScreenTransition.Cover)
         Width: =274
         X: =39
         Y: =252
@@ -82,6 +83,7 @@ homePage As screen:
     Image5_3 As image:
         Height: =178
         Image: ='icons8-user-100'
+        OnSelect: =Navigate(purchaseRequstion,ScreenTransition.Cover)
         Width: =176
         X: =90
         Y: =278
@@ -92,6 +94,7 @@ homePage As screen:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
+        OnSelect: =Navigate(purchaseRequstion,ScreenTransition.Cover)
         Size: =18
         Text: ="REGISTRATION"
         Width: =248
