@@ -24,6 +24,7 @@ vendor As screen:
         OnSelect: |-
             =SubmitForm(vendorForm);
             Navigate(vendorConfirmation,ScreenTransition.Cover);
+            NewForm(vendorForm);
         Size: =24
         Text: ="CREATE"
         Width: =560
