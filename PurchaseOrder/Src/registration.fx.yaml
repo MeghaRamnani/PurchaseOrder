@@ -67,6 +67,7 @@ registration As screen:
             DataCardValue9_2 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(212,94,192,90),-20%)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -138,6 +139,7 @@ registration As screen:
             DataCardValue10_2 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(212,94,192,90),-20%)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -207,6 +209,7 @@ registration As screen:
             DataCardValue11_2 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(212,94,192,90),-20%)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -659,6 +662,7 @@ registration As screen:
             DataCardValue5_2 As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(212,94,192,90),-20%)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
