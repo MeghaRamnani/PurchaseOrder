@@ -135,6 +135,11 @@
     "ConfirmationScreen",
     "NoVendorFound",
     "PR",
-    "Vendor"
+    "Vendor",
+    "Duplicate_homePage",
+    "Replicate_ConfirmationScreen",
+    "Replicate_NoVendorFound",
+    "Replicate_splashScreen",
+    "Replicate_Vendor"
   ]
 }
