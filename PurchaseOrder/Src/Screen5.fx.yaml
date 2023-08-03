@@ -131,3 +131,11 @@ Screen5 As screen:
         Y: =218
         ZIndex: =19
 
+    Image7 As image:
+        Height: =158
+        Image: ='icons8-purchase-order-50'
+        Width: =161
+        X: =84
+        Y: =218
+        ZIndex: =20
+
