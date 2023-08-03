@@ -129,8 +129,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "homePage",
     "splashScreen",
+    "homePage",
     "purchaseRequstion",
     "ConfirmationScreen"
   ]
