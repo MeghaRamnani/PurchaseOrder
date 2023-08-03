@@ -1,7 +1,6 @@
 purchaseRequstion As screen:
 
-    Form1 As form:
-        DataSource: =PO
+    purchaseOrderForm As form:
         Height: =1000
         Width: =640
         Y: =40
@@ -651,4 +650,14 @@ purchaseRequstion As screen:
                 X: =30
                 Y: =DataCardKey15.Y + DataCardKey15.Height + 5
                 ZIndex: =2
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =SubmitForm(purchaseOrderForm)
+        Size: =24
+        Text: ="Submit"
+        Width: =280
+        X: =180
+        Y: =1054
+        ZIndex: =5
 
