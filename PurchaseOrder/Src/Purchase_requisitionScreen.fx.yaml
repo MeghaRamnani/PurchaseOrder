@@ -193,7 +193,7 @@ Purchase_requisitionScreen As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Unit Entity"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -415,7 +415,7 @@ Purchase_requisitionScreen As screen:
 
         Start_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Start_Date"
+            DataField: ="Start Date"
             Default: =ThisItem.Start_Date
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"Start_Date")
@@ -432,7 +432,7 @@ Purchase_requisitionScreen As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Start Date"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -453,8 +453,8 @@ Purchase_requisitionScreen As screen:
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =21
-                Y: =DataCardKey1_2.Y + DataCardKey1_2.Height + 5
+                X: =33
+                Y: =60
                 ZIndex: =2
 
             ErrorMessage1_2 As label:
@@ -486,7 +486,7 @@ Purchase_requisitionScreen As screen:
 
         End_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="End_Date"
+            DataField: ="End Date"
             Default: =ThisItem.End_Date
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"End_Date")
@@ -503,7 +503,7 @@ Purchase_requisitionScreen As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="End Date"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -574,7 +574,7 @@ Purchase_requisitionScreen As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Service provide Known"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
