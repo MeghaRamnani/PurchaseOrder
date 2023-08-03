@@ -585,7 +585,7 @@ registration As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
-                FalseFill: =RGBA(108, 29, 95, 1)
+                FalseFill: =RGBA(219, 219, 219, 1)
                 Height: =49
                 OnChange: =
                 Size: =21
