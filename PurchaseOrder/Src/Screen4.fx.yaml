@@ -26,6 +26,234 @@ Screen4 As screen:
         Y: =869
         ZIndex: =3
 
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Image2_2 As image:
+                Height: =1136
+                Image: =image
+                ImagePosition: =ImagePosition.Fill
+                Width: =640
+                ZIndex: =1
+
+            Image2_3 As image:
+                Height: =1136
+                Image: =image
+                ImagePosition: =ImagePosition.Fill
+                Width: =640
+                ZIndex: =2
+
+            Rectangle1_2 As rectangle:
+                Fill: =RGBA(108, 29, 95, 1)
+                Height: =116
+                Width: =640
+                ZIndex: =3
+
+            Label4_2 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =70
+                Size: =26
+                Text: ="Purchase Requisition"
+                Width: =560
+                X: =55
+                Y: =23
+                ZIndex: =4
+
+            Icon1_3 As icon.ChevronLeft:
+                Color: =RGBA(255, 255, 255, 1)
+                Icon: =Icon.ChevronLeft
+                OnSelect: =Navigate(Screen2,ScreenTransition.CoverRight)
+                Width: =39
+                X: =16
+                Y: =29
+                ZIndex: =5
+
+            Label10_10 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =21
+                Text: ="Enter Department"
+                Width: =560
+                X: =27
+                Y: =129
+                ZIndex: =6
+
+            Dropdown1_2 As dropdown:
+                BorderColor: =RGBA(202, 202, 202, 1)
+                ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+                Default: ="0"
+                Height: =50
+                HoverFill: =RGBA(251, 239, 249, 1)
+                Items: ='Dep-db1'
+                SelectionFill: =RGBA(108, 29, 95, 1)
+                Size: =21
+                Tooltip: =
+                Width: =575
+                X: =27
+                Y: =172
+                ZIndex: =7
+
+            Label10_11 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =21
+                Text: ="Enter Region"
+                Width: =560
+                X: =27
+                Y: =245
+                ZIndex: =8
+
+            Label10_12 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =21
+                Text: ="Enter Unit / Entity"
+                Width: =560
+                X: =27
+                Y: =412
+                ZIndex: =9
+
+            Dropdown1_7 As dropdown:
+                BorderColor: =RGBA(202, 202, 202, 1)
+                ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+                Default: ="0"
+                Height: =50
+                HoverFill: =RGBA(251, 239, 249, 1)
+                Items: ='Ent-dB1'
+                SelectionFill: =RGBA(108, 29, 95, 1)
+                Size: =21
+                Tooltip: =
+                Width: =575
+                X: =27
+                Y: =455
+                ZIndex: =10
+
+            Dropdown1_8 As dropdown:
+                BorderColor: =RGBA(202, 202, 202, 1)
+                ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 100), -20%)
+                Default: ="0"
+                Height: =50
+                HoverFill: =RGBA(251, 239, 249, 1)
+                Items: ='Reg-db1'
+                SelectionFill: =RGBA(108, 29, 95, 1)
+                Size: =21
+                Tooltip: =
+                Width: =575
+                X: =27
+                Y: =288
+                ZIndex: =11
+
+            Label11_4 As label:
+                Height: =48
+                Size: =21
+                Text: ="Cost Distribution"
+                Width: =560
+                X: =27
+                Y: =339
+                ZIndex: =12
+
+            Label11_5 As label:
+                Height: =48
+                Size: =21
+                Text: ="Cost Distribution"
+                Width: =560
+                X: =27
+                Y: =505
+                ZIndex: =13
+
+            TextInput1_4 As text:
+                BorderColor: =RGBA(202, 202, 202, 1)
+                Clear: =true
+                Default: =""
+                EnableSpellCheck: =true
+                Height: =70
+                HoverBorderColor: =RGBA(240, 213, 247, 1)
+                HoverFill: =RGBA(245, 228, 247, 1)
+                MaxLength: =50
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                Size: =21
+                Width: =575
+                X: =27
+                Y: =606
+                ZIndex: =14
+
+            Label10_13 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =43
+                Size: =21
+                Text: ="Add Notes(10 words)"
+                Width: =560
+                X: =27
+                Y: =563
+                ZIndex: =15
+
+            TextInput1_5 As text:
+                BorderColor: =RGBA(202, 202, 202, 1)
+                Clear: =true
+                Default: |-
+                    =Patch('Dep-db1',Defaults('Dep-db1'),{Title:TextInput1_4.Text})
+                EnableSpellCheck: =true
+                Height: =163
+                HoverBorderColor: =RGBA(243, 198, 247, 1)
+                HoverFill: =RGBA(244, 225, 247, 1)
+                MaxLength: =100
+                Size: =21
+                Width: =575
+                X: =33
+                Y: =699
+                ZIndex: =16
+
+            Label10_14 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =47
+                Size: =21
+                Text: ="Enter Service & Business Case (100 words)"
+                Width: =588
+                X: =26
+                Y: =695
+                ZIndex: =17
+
+            Button1_2 As button:
+                Fill: =RGBA(108, 29, 95, 1)
+                Height: =70
+                OnSelect: |
+                    =Patch(PO,Defaults(PO),{
+                       // Title: Dropdown1.Selected.Value, //
+                       // Region: Dropdown1_4.Selected, //
+                        Summary:Summary.Text,
+                        'Service and Bussiness Case':TextInput1_5.Text
+                        });
+                Size: =24
+                Text: ="ORDER"
+                Width: =280
+                X: =167
+                Y: =942
+                ZIndex: =18
+
     Label4 As label:
         Align: =Align.Center
         Height: =70
@@ -34,4 +262,22 @@ Screen4 As screen:
         Width: =640
         Y: =912
         ZIndex: =4
+
+    Label10_16 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Currency"
+        Width: =560
+        Y: =819
+        ZIndex: =14
+
+    Label10_17 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =21
+        Text: ="Currency"
+        Width: =560
+        Y: =959
+        ZIndex: =15
 
