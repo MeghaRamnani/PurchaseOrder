@@ -1,2 +1,39 @@
 ConfirmationScreen As screen:
 
+    Image3 As image:
+        Height: =1136
+        Image: =image_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    Image4 As image:
+        Height: =554
+        Image: ='Confirmed-cuate'
+        ImagePosition: =ImagePosition.Fill
+        Width: =509
+        X: =69
+        Y: =222
+        ZIndex: =2
+
+    Label3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="Thank You !"
+        Width: =560
+        X: =43
+        Y: =776
+        ZIndex: =3
+
+    Label4 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =20
+        Text: ="You have successfully registered"
+        Width: =560
+        X: =40
+        Y: =822
+        ZIndex: =4
+
