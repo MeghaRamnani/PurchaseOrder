@@ -690,12 +690,3 @@ Purchase_requisitionScreen As screen:
                 Y: =DataCardKey5_2.Y
                 ZIndex: =4
 
-            Button1 As button:
-                Height: =70
-                Size: =24
-                Text: ="Button"
-                Width: =280
-                X: =159
-                Y: =133
-                ZIndex: =5
-
