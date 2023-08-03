@@ -14,7 +14,7 @@ homePage As screen:
         Height: =259
         Width: =274
         X: =39
-        Y: =153
+        Y: =252
         ZIndex: =2
 
     Rectangle1_1 As rectangle:
@@ -24,7 +24,7 @@ homePage As screen:
         Height: =259
         Width: =274
         X: =41
-        Y: =434
+        Y: =533
         ZIndex: =5
 
     Label5_1 As label:
@@ -36,7 +36,7 @@ homePage As screen:
         Text: ="REPORTS"
         Width: =248
         X: =54
-        Y: =623
+        Y: =722
         ZIndex: =7
 
     Rectangle1_2 As rectangle:
@@ -46,7 +46,7 @@ homePage As screen:
         Height: =259
         Width: =274
         X: =330
-        Y: =155
+        Y: =254
         ZIndex: =8
 
     Image5_2 As image:
@@ -54,7 +54,7 @@ homePage As screen:
         Image: ='icons8-vendor-100'
         Width: =196
         X: =377
-        Y: =166
+        Y: =265
         ZIndex: =9
 
     Label5_2 As label:
@@ -66,7 +66,7 @@ homePage As screen:
         Text: ="VENDOR"
         Width: =248
         X: =351
-        Y: =344
+        Y: =443
         ZIndex: =10
 
     Rectangle1_3 As rectangle:
@@ -76,15 +76,15 @@ homePage As screen:
         Height: =259
         Width: =274
         X: =329
-        Y: =434
+        Y: =533
         ZIndex: =11
 
     Image5_3 As image:
         Height: =178
-        Image: ='icons8-user-64'
+        Image: ='icons8-user-100'
         Width: =176
         X: =90
-        Y: =179
+        Y: =278
         ZIndex: =12
 
     Label5_3 As label:
@@ -96,7 +96,7 @@ homePage As screen:
         Text: ="REGISTRATION"
         Width: =248
         X: =67
-        Y: =342
+        Y: =441
         ZIndex: =13
 
     Label5 As label:
@@ -108,14 +108,22 @@ homePage As screen:
         Text: ="PURCHASE ORDER"
         Width: =248
         X: =343
-        Y: =623
+        Y: =722
         ZIndex: =14
 
     Image5_1 As image:
         Height: =191
-        Image: ='icons8-purchase-order-50'
+        Image: ='icons8-order-100'
         Width: =196
         X: =368
-        Y: =453
+        Y: =552
         ZIndex: =15
+
+    Image5 As image:
+        Height: =176
+        Image: ='icons8-business-report-100'
+        Width: =193
+        X: =73
+        Y: =567
+        ZIndex: =16
 
