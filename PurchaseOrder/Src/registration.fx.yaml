@@ -281,6 +281,7 @@ registration As screen:
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =140
+                HoverFill: =RGBA(251, 239, 249, 1)
                 Mode: =TextMode.MultiLine
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
