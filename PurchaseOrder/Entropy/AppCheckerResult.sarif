@@ -738,6 +738,114 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 11
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -902,49 +1010,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9.Default"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 62,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Patch('Dep-db1',Defaults('Dep-db1'),{Title:TextInput1_6.Text})"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBehaviorPropertyExpected",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -958,7 +1029,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4"
               }
             }
           ],
@@ -979,12 +1050,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -998,7 +1069,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4"
               }
             }
           ],
@@ -1016,12 +1087,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1035,7 +1106,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4"
               }
             }
           ],
@@ -1049,19 +1120,19 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4.OnSelect",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1075,7 +1146,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Button1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Button1_4"
               }
             }
           ],
@@ -1091,97 +1162,44 @@
             "level": "High"
           },
           "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 62,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Patch('Dep-db1',Defaults('Dep-db1'),{Title:TextInput1_6.Text})"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBehaviorPropertyExpected",
           "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Adding Fields'.Dropdown1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Adding Fields'.Dropdown1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Adding Fields",
-                "type": "'Adding Fields'.Dropdown1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Adding Fields'.TextInput1_7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Adding Fields'.TextInput1_7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Adding Fields",
-                "type": "'Adding Fields'.TextInput1_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Adding Fields'.TextInput1_8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Adding Fields'.TextInput1_8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Adding Fields",
-                "type": "'Adding Fields'.TextInput1_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1210,7 +1228,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1240,7 +1258,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1300,7 +1318,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1360,7 +1378,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1419,7 +1437,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1449,7 +1467,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1509,7 +1527,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1569,7 +1587,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1666,19 +1684,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_9.AccessibleLabel"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_9.AccessibleLabel",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_9"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2"
               }
             }
           ],
@@ -1689,26 +1707,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_3.AccessibleLabel"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_3.AccessibleLabel",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_3"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_11"
               }
             }
           ],
@@ -1719,26 +1737,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4.AccessibleLabel"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4.AccessibleLabel",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_10"
               }
             }
           ],
@@ -1749,26 +1767,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4.TabIndex"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4.TabIndex",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "AccessibleLabel",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Icon1_4"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_6"
               }
             }
           ],
@@ -1778,8 +1796,218 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.TextInput1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Dropdown1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Adding Fields'.Dropdown1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Adding Fields'.Dropdown1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Adding Fields",
+                "type": "'Adding Fields'.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Adding Fields'.TextInput1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Adding Fields'.TextInput1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Adding Fields",
+                "type": "'Adding Fields'.TextInput1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Adding Fields'.TextInput1_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Adding Fields'.TextInput1_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Adding Fields",
+                "type": "'Adding Fields'.TextInput1_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1808,6 +2036,36 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "purchaseRequstion",
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 6
         },
         {
@@ -1815,19 +2073,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_10.AccessibleLabel"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_10.AccessibleLabel",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "TabIndex",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.Dropdown1_10"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.Icon1_4"
               }
             }
           ],
@@ -1837,27 +2095,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_6.AccessibleLabel"
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_6.AccessibleLabel",
+                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_6"
+                "type": "purchaseRequstion.Canvas1_1.DataCard2.DatePicker2_1"
               }
             }
           ],
@@ -1868,37 +2126,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "purchaseRequstion",
-                "type": "purchaseRequstion.Canvas1_1.DataCard1_1.TextInput1_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2118,23 +2346,6 @@
               }
             },
             {
-              "id": "app-ErrBehaviorPropertyExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Behavior function in a non-behavior property. You can't use this property to change values elsewhere in the app."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Move the behavior function to a behavior-based property."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
@@ -2163,20 +2374,20 @@
               }
             },
             {
-              "id": "acc-AccessibleLabelNeeded",
+              "id": "app-ErrBehaviorPropertyExpected",
               "messageStrings": {
                 "issue": {
-                  "text": "Missing accessible label"
+                  "text": "Behavior function in a non-behavior property. You can't use this property to change values elsewhere in the app."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Edit the accessible label property to describe the item."
+                  "Move the behavior function to a behavior-based property."
                 ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
               }
             },
             {
@@ -2194,6 +2405,23 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {
