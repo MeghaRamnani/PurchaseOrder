@@ -1724,46 +1724,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.registrationForm.Region_DataCard2_2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "registration.registrationForm.Region_DataCard2_2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 26,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "registration",
-                "type": "registration.registrationForm.Region_DataCard2_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "registration.registrationForm.UnitEntity_DataCard2_2.Update"
                 }
               ],
@@ -1784,46 +1744,6 @@
                 "member": "Update",
                 "module": "registration",
                 "type": "registration.registrationForm.UnitEntity_DataCard2_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Value"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "registration.registrationForm.Vendor_DataCard2_2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "registration.registrationForm.Vendor_DataCard2_2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 25,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "registration",
-                "type": "registration.registrationForm.Vendor_DataCard2_2"
               }
             }
           ],

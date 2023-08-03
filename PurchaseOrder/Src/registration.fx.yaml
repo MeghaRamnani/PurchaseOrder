@@ -121,7 +121,7 @@ registration As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
-            Update: =DataCardValue10_2.Selected.Value
+            Update: =DataCardValue10_2.Selected.Name
             Width: =640
             X: =0
             Y: =1
@@ -652,7 +652,7 @@ registration As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue5_2.Selected.Value
+            Update: =DataCardValue5_2.Selected.Name
             Visible: =If(DataCardValue3_2.Value=true,true,false)
             Width: =640
             X: =0
