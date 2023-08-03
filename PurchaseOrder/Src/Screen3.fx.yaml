@@ -1,23 +1,5 @@
 "Screen3 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
-    Canvas1 As fluidGrid.fluidGridWithBlankCard:
-        BorderThickness: =0
-        Height: =Parent.Height - Self.Y
-        Width: =Parent.Width
-        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
-        ZIndex: =3
-
-        DataCard2 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            Width: =640
-            X: =0
-            Y: =1
-            ZIndex: =2
-
     Rectangle1_1 As rectangle:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =116
@@ -50,8 +32,8 @@
         Size: =21
         Text: ="Enter Department"
         Width: =560
-        X: =27
-        Y: =129
+        X: =26
+        Y: =122
         ZIndex: =8
 
     Dropdown1_1 As dropdown:
@@ -140,7 +122,7 @@
         Y: =505
         ZIndex: =15
 
-    TextInput1_2 As text:
+    Summary As text:
         BorderColor: =RGBA(202, 202, 202, 1)
         Clear: =true
         Default: =""
@@ -219,4 +201,15 @@
         X: =40
         Y: =970
         ZIndex: =24
+
+    Button2 As button:
+        Height: =70
+        OnSelect: |-
+            =Patch('PO', Defaults('PO'), {Summary: Summary.Text})
+        Size: =24
+        Text: ="Verify"
+        Width: =280
+        X: =147
+        Y: =1044
+        ZIndex: =25
 
