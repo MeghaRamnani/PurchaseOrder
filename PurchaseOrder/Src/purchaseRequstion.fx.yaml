@@ -363,8 +363,8 @@ purchaseRequstion As screen:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
         OnSelect: |-
-            =SubmitForm(purchaseOrderForm),
-            Navigate(ConfirmationScreen,ScreenTransition.Cover)
+            ={SubmitForm(purchaseOrderForm),
+            Navigate(ConfirmationScreen,ScreenTransition.Cover)}
         Size: =24
         Text: ="Submit"
         Width: =535
