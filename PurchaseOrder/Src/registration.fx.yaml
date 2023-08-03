@@ -657,7 +657,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Parent.AllowedValues
+                Items: ='vendor-db'
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60

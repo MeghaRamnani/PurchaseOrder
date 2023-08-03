@@ -5049,7 +5049,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Value\":\"Value\"}",
+          "NameMap": "{\"Value\":\"{Name}\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },

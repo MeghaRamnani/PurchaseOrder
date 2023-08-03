@@ -22,6 +22,9 @@
           },
           "PO": {
             "tableName": "7112fc6a-b45a-407e-9b3a-1fe9ff0c09a4"
+          },
+          "vendor-db": {
+            "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
           }
         }
       },
@@ -38,7 +41,8 @@
       "Dep-db1",
       "Ent-dB1",
       "PO",
-      "Dep-db1_8"
+      "Dep-db1_8",
+      "vendor-db"
     ],
     "dependencies": {},
     "dependents": [],

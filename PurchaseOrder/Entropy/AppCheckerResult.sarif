@@ -1288,6 +1288,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "registration.Form1_2.Vendor_DataCard2_2.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "registration.Form1_2.Vendor_DataCard2_2.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 25,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "registration",
+                "type": "registration.Form1_2.Vendor_DataCard2_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "registration.Icon1_2.AccessibleLabel"
                 }
               ],
@@ -2349,6 +2389,36 @@
               },
               "properties": {
                 "member": "Dep-db1_8",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-NotOfflineConnectors",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.vendor-db"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.vendor-db",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "vendor-db",
                 "module": "App",
                 "type": "App"
               }
