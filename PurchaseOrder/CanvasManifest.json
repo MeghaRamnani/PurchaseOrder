@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 9,
+    "BindingErrorCount": 4,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -129,12 +129,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2",
-    "purchaseRequstion",
     "Adding Fields",
     "ConfirmationScreen",
     "homePage",
+    "purchaseRequstion",
     "slashScreen"
   ]
 }
