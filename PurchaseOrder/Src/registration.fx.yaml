@@ -73,7 +73,14 @@ registration As screen:
                 Height: =70
                 HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='Dep-db1_8'
-                OnSelect: =DataCardValue9_2.Selected.'Compliance Asset Id'
+                OnSelect: |
+                    =Patch(
+                        PO,  
+                        Defaults(PO), 
+                        {
+                            Department: DataCardValue9_2.Selected.'Department Name'
+                        }
+                    )
                 PressedFill: =RGBA(251, 239, 249, 1)
                 SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
