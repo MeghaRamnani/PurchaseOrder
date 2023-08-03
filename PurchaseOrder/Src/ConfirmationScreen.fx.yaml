@@ -1,4 +1,4 @@
-Screen5 As screen:
+ConfirmationScreen As screen:
 
     Image5 As image:
         Height: =1136
