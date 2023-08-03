@@ -138,7 +138,7 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: ='Reg-db1_4'
+                Items: ='Reg-db1'
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60

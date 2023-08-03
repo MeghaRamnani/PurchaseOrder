@@ -2598,17 +2598,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Reg-db1_4"
+                  "fullyQualifiedName": "App.Reg-db1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.Reg-db1_4",
+                  "fullyQualifiedName": "App.Reg-db1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Reg-db1_4",
+                "member": "Reg-db1",
                 "module": "App",
                 "type": "App"
               }
