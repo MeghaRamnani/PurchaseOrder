@@ -31,6 +31,7 @@ Purchase_requisitionScreen As screen:
 
     Form1_2 As form:
         DataSource: =PO
+        DefaultMode: =FormMode.New
         Height: =949
         Width: =640
         Y: =131
