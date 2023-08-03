@@ -133,12 +133,14 @@
     "homePage",
     "purchaseRequstion",
     "ConfirmationScreen",
+    "NoVendorFound",
     "Vendor",
     "PR",
     "Replicate_SplashScreen",
     "Replicate_HomeSCreen",
     "Replicate_PR",
     "Replicate_ConfirmationScreen",
-    "Replicate_Vendor"
+    "Replicate_Vendor",
+    "ListOfVendor"
   ]
 }

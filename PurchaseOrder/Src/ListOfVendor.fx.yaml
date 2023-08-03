@@ -1,0 +1,20 @@
+ListOfVendor As screen:
+
+    Image6 As image:
+        Height: =431
+        Image: ='Questions-pana-removebg-preview'
+        ImagePosition: =ImagePosition.Fill
+        Width: =386
+        X: =124
+        Y: =372
+        ZIndex: =1
+
+    Label7 As label:
+        Height: =70
+        Size: =21
+        Text: ="Text"
+        Width: =560
+        X: =80
+        Y: =884
+        ZIndex: =2
+
