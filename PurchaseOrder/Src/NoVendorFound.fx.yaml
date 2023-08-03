@@ -29,7 +29,7 @@ NoVendorFound As screen:
     Button3 As button:
         Fill: =RGBA(108, 29, 95, 1)
         Height: =70
-        OnSelect: =
+        OnSelect: =Navigate(Vendor,ScreenTransition.Cover)
         Size: =24
         Text: ="CLICK HERE TO ADD NEW VENDOR"
         Width: =560
