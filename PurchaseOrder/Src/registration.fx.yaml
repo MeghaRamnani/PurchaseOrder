@@ -674,6 +674,8 @@ registration As screen:
                 Height: =70
                 HoverFill: =RGBA(251, 239, 249, 1)
                 Items: ='vendor-db'
+                PressedFill: =RGBA(251, 239, 249, 1)
+                SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
