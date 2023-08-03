@@ -460,6 +460,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Fill: =RGBA(251, 239, 249, 1)
+                Format: =DateTimeFormat.LongDate
                 Height: =70
                 IconBackground: =RGBA(108, 29, 95, 1)
                 IconFill: =RGBA(251, 239, 249, 1)
@@ -504,7 +505,7 @@ registration As screen:
         End_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="End Date"
-            Default: =Today()
+            Default: =
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"End_Date")
             Fill: =RGBA(0, 0, 0, 0)
@@ -534,6 +535,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
                 Fill: =RGBA(251, 239, 249, 1)
+                Format: =DateTimeFormat.LongDate
                 Height: =70
                 IconBackground: =RGBA(108, 29, 95, 1)
                 IsEditable: =true
