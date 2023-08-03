@@ -45,6 +45,7 @@ vendor As screen:
 
     vendorForm As form:
         DataSource: ='vendor-db'
+        DefaultMode: =FormMode.New
         Height: =385
         Width: =640
         Y: =155
