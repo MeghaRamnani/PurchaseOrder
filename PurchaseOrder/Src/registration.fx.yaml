@@ -504,7 +504,7 @@ registration As screen:
         End_Date_DataCard1_2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="End Date"
-            Default: =
+            Default: =Today()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"End_Date")
             Fill: =RGBA(0, 0, 0, 0)
