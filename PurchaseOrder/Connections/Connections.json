@@ -1,1 +1,64 @@
-{}
+{
+  "4320845a-f039-4291-8e4c-6e4835b22bed": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://xebiagroup.sharepoint.com/sites/PO?market=en-US": {
+        "dataSources": {
+          "department": {
+            "tableName": "44ca4582-4703-440f-bad3-615373291d91"
+          },
+          "Documents": {
+            "tableName": "85832540-c6c7-4651-9999-94d4a84a0d1a"
+          },
+          "entity": {
+            "tableName": "5d48068a-dc52-4fd0-beac-a00de5bd3e0c"
+          },
+          "region": {
+            "tableName": "4931bdda-0134-4b96-a312-85c7d59bfb3e"
+          },
+          "registration_1": {
+            "tableName": "65e2c375-76a5-474e-af8f-d3897e458c72"
+          }
+        }
+      },
+      "https://xebiagroup.sharepoint.com/sites/PurchaseOrder": {
+        "dataSources": {
+          "Dep-db1": {
+            "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
+          },
+          "Ent-dB1": {
+            "tableName": "ca983d94-feed-48b4-848e-494f08c84bee"
+          },
+          "PO": {
+            "tableName": "7112fc6a-b45a-407e-9b3a-1fe9ff0c09a4"
+          },
+          "vendor-db": {
+            "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Dep-db1",
+      "Ent-dB1",
+      "PO",
+      "vendor-db",
+      "Reg-db1",
+      "department",
+      "Documents",
+      "entity",
+      "region",
+      "registration_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4320845a-f039-4291-8e4c-6e4835b22bed"
+  }
+}
