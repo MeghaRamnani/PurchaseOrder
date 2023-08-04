@@ -19,20 +19,49 @@ noVendorFound As screen:
         Y: =1038
         ZIndex: =6
 
+    Rectangle2_3 As rectangle:
+        BorderColor: =RGBA(108, 29, 95, 1)
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =131
+        Width: =640
+        ZIndex: =8
+
+    Icon1_3 As icon.ChevronLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =57
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(homePage,ScreenTransition.Cover)
+        Width: =32
+        X: =20
+        Y: =48
+        ZIndex: =9
+
+    Label9_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =20
+        Text: ="Vendors"
+        Width: =560
+        X: =44
+        Y: =35
+        ZIndex: =10
+
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =851
-        Items: ='vendor-db'
+        Height: =867
+        Items: =vendor_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =104
-        Y: =158
-        ZIndex: =7
+        Y: =131
+        ZIndex: =11
 
-        Image6 As image:
+        Image5 As image:
             Height: =72
-            Image: ='image (3)'
+            Image: ='Group 58'
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
@@ -51,7 +80,7 @@ noVendorFound As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Vendor Name'
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
             X: =103
@@ -66,7 +95,7 @@ noVendorFound As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Registration Number'
+            Text: =ThisItem.ID
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =Title1.X
@@ -96,39 +125,10 @@ noVendorFound As screen:
             Y: =Parent.TemplateHeight - Self.Height
             ZIndex: =5
 
-        Rectangle3 As rectangle:
+        Rectangle1 As rectangle:
             Height: =Parent.TemplateHeight - Separator1.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =6
-
-    Rectangle2_3 As rectangle:
-        BorderColor: =RGBA(108, 29, 95, 1)
-        Fill: =RGBA(108, 29, 95, 1)
-        Height: =131
-        Width: =640
-        ZIndex: =8
-
-    Icon1_3 As icon.ChevronLeft:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =57
-        Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(homePage,ScreenTransition.Cover)
-        Width: =32
-        X: =20
-        Y: =48
-        ZIndex: =9
-
-    Label9_2 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =20
-        Text: ="Vendors"
-        Width: =560
-        X: =44
-        Y: =35
-        ZIndex: =10
 
