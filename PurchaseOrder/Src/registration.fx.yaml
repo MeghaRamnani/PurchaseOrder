@@ -605,11 +605,13 @@ registration As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 FalseFill: =RGBA(219, 219, 219, 1)
+                FalseText: ="No"
                 Height: =49
                 OnChange: =
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 TrueFill: =RGBA(108, 29, 95, 1)
+                TrueText: ="Yes"
                 Width: =154
                 X: =30
                 Y: =DataCardKey3_2.Y + DataCardKey3_2.Height + 5
