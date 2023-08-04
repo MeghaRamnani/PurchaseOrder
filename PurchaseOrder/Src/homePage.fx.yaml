@@ -51,7 +51,7 @@ homePage As screen:
 
     Image5_3 As image:
         Image: ='Group 57'
-        OnSelect: =Navigate(registration,ScreenTransition.Cover)
+        OnSelect: =Navigate(RegistrationListView,ScreenTransition.Cover)
         X: =122
         Y: =324
         ZIndex: =18
@@ -61,7 +61,7 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(registration,ScreenTransition.Cover)
+        OnSelect: =Navigate(RegistrationListView,ScreenTransition.Cover)
         Size: =20
         Text: ="REGISTRATION"
         Width: =248
