@@ -12925,8 +12925,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "DataCardValue11_2.Selected.Name",
           "InvariantPropertyName": "Update",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
