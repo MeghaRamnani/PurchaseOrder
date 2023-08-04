@@ -23,7 +23,7 @@ approval As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create Registration"
+        Text: ="Approval"
         Width: =560
         X: =44
         Y: =24
@@ -151,7 +151,7 @@ approval As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10_3.Y + DataCardKey10_3.Height + 5
+                Y: =73
                 ZIndex: =2
 
             ErrorMessage10_3 As label:
@@ -201,7 +201,7 @@ approval As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: ="Unit Entity"
+                Text: ="Paying Entity"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
