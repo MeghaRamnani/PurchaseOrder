@@ -25,6 +25,9 @@
           },
           "vendor-db": {
             "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
+          },
+          "vendor-db_1": {
+            "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
           }
         }
       },
@@ -43,7 +46,8 @@
       "PO",
       "Dep-db1_8",
       "vendor-db",
-      "Reg-db1"
+      "Reg-db1",
+      "vendor-db_1"
     ],
     "dependencies": {},
     "dependents": [],
