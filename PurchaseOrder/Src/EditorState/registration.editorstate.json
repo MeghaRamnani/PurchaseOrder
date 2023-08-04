@@ -5572,8 +5572,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "false",
+          "AutoRuleBindingEnabled": true,
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "SelectMultiple",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
