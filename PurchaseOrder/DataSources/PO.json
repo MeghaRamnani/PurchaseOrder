@@ -46,10 +46,14 @@
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
+      "RegionHead": "Region Head",
+      "RegionHead#Claims": "Region Head Claims",
       "Start_Date": "Start_Date",
+      "Status": "Status",
       "Title": "Department",
       "verdorId": "verdorId",
-      "verdorId#Id": "verdorId Id"
+      "verdorId#Id": "verdorId Id",
+      "verdorId@odata.type": "verdorId (verdorId@odata.type)"
     },
     "DatasetName": "https://xebiagroup.sharepoint.com/sites/PurchaseOrder",
     "EncodeDataset": true,

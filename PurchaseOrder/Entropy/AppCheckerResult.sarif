@@ -4128,19 +4128,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard3.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard4.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard3.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard4.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "registration",
-                "type": "registration.registrationForm.verdorId_DataCard3.DataCardValue9"
+                "type": "registration.registrationForm.verdorId_DataCard4.DataCardValue10"
               }
             }
           ],
