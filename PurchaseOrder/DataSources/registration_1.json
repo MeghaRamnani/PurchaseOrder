@@ -41,7 +41,6 @@
       "ServiceProvider": "ServiceProvider",
       "StartDate": "StartDate",
       "Status": "Status",
-      "Summary": "Summary",
       "Title": "Title",
       "UnitEntity": "UnitEntity",
       "UnitEntity#Id": "UnitEntity Id",
