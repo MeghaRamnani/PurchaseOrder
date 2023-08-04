@@ -343,9 +343,11 @@ registration As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
+                FalseText: ="No"
                 Height: =49
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                TrueText: ="Yes"
                 Width: =154
                 X: =30
                 Y: =DataCardKey12.Y + DataCardKey12.Height + 5
