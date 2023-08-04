@@ -69,10 +69,11 @@ registration As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                IsSearchable: =false
                 Items: =Choices([@PO].verdorId)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(PO.verdorId,DataCardValue10.SearchText)
+                SearchItems: =[]
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
