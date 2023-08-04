@@ -134,6 +134,7 @@
     "registration",
     "registrationConfirmation",
     "noVendorFound",
+    "RegistrationListView",
     "vendor",
     "vendorConfirmation",
     "Screen1"
