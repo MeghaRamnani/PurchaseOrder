@@ -9,13 +9,6 @@
       "parameterHintsV2": {}
     },
     "datasets": {
-      "https://xebiagroup.sharepoint.com/sites/PO": {
-        "dataSources": {
-          "vendor_1": {
-            "tableName": "5af0839e-b30c-4099-a1a3-347a7f862f88"
-          }
-        }
-      },
       "https://xebiagroup.sharepoint.com/sites/PO?market=en-US": {
         "dataSources": {
           "department": {
@@ -62,8 +55,7 @@
       "Documents",
       "entity",
       "region",
-      "registration_1",
-      "vendor_1"
+      "registration_1"
     ],
     "dependencies": {},
     "dependents": [],

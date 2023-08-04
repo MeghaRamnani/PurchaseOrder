@@ -131,13 +131,12 @@
   "ScreenOrder": [
     "splashScreen",
     "homePage",
+    "RegistrationListView",
     "registration",
     "approval",
     "registrationConfirmation",
     "noVendorFound",
-    "RegistrationListView",
     "vendor",
-    "vendorConfirmation",
-    "Screen1"
+    "vendorConfirmation"
   ]
 }
