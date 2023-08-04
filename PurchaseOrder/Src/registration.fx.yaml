@@ -742,9 +742,9 @@ registration As screen:
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |-
-            =If(registrationForm.Valid,SubmitForm(registrationForm);
-            NewForm(registrationForm);
-            Navigate(registrationConfirmation,ScreenTransition.Cover);)
+            =If(registrationForm.Valid,SubmitForm(registrationForm),
+            NewForm(registrationForm),
+            Navigate(registrationConfirmation,ScreenTransition.Cover))
         Size: =24
         Text: ="REGISTER"
         Width: =560
