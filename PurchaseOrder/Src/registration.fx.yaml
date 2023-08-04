@@ -390,6 +390,7 @@ registration As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue10.Selected
+            Visible: =If(DataCardValue12.Value,true,false)
             Width: =640
             X: =0
             Y: =9
