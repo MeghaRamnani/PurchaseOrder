@@ -3717,7 +3717,14 @@
         "EndYear",
         "StartOfWeek",
         "IconFill",
-        "IconBackground",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(56, 96, 178, 1)",
+          "InvariantPropertyName": "IconBackground",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "SelectedDateFill",
         "HoverDateFill",
         "CurrentDateFill",
@@ -5484,7 +5491,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Department_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8901,7 +8908,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Region_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9224,7 +9231,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ServiceAndBusinessCase_DataCard2",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12194,7 +12201,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Title_DataCard3",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12341,7 +12348,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "UnitEntity_DataCard1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12488,7 +12495,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "UnitNeeded_DataCard1",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
