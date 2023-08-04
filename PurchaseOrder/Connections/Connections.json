@@ -9,54 +9,20 @@
       "parameterHintsV2": {}
     },
     "datasets": {
-      "https://xebiagroup.sharepoint.com/sites/PurchaseOrder": {
+      "https://xebiagroup.sharepoint.com/sites/PO?market=en-US": {
         "dataSources": {
-          "Dep-db1": {
-            "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
-          },
-          "Ent-dB1": {
-            "tableName": "ca983d94-feed-48b4-848e-494f08c84bee"
-          },
-          "PO": {
-            "tableName": "7112fc6a-b45a-407e-9b3a-1fe9ff0c09a4"
-          },
-          "vendor-db": {
-            "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
+          "vendor_1": {
+            "tableName": "5af0839e-b30c-4099-a1a3-347a7f862f88"
           }
         }
       }
     },
     "dataSources": [
-      "Dep-db1",
-      "Ent-dB1",
-      "PO",
-      "vendor-db",
-      "Reg-db1"
+      "Reg-db1",
+      "vendor_1"
     ],
     "dependencies": {},
     "dependents": [],
     "id": "4320845a-f039-4291-8e4c-6e4835b22bed"
-  },
-  "c0fb478d-c635-43f7-ba3e-a1629d3b4519": {
-    "connectionRef": {
-      "displayName": "SharePoint",
-      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
-    },
-    "datasets": {
-      "https://xebiagroup.sharepoint.com/sites/PurchaseOrder": {
-        "dataSources": {
-          "Reg-db1": {
-            "tableName": "0d4d7a19-deda-4092-82b1-de0177c00267"
-          }
-        }
-      }
-    },
-    "dataSources": [
-      "Reg-db1"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "c0fb478d-c635-43f7-ba3e-a1629d3b4519"
   }
 }

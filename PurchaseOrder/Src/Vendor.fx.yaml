@@ -45,47 +45,46 @@ vendor As screen:
         ZIndex: =26
 
     vendorForm As form:
-        DataSource: ='vendor-db'
+        DataSource: =vendor_1
         DefaultMode: =FormMode.New
         Height: =385
         Width: =640
         Y: =155
         ZIndex: =27
 
-        "'Vendor Name_DataCard1' As typedDataCard.textualEditCard":
+        Title_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.'Vendor Name'
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'vendor-db'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@vendor_1],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'vendor-db'], DataSourceInfo.MaxLength, "Title")
-            Required: =false
-            Update: =DataCardValue1.Text
+            MaxLength: =DataSourceInfo([@vendor_1], DataSourceInfo.MaxLength, "Title")
+            Required: =true
+            Update: =DataCardValue14.Text
             Width: =640
             X: =0
             Y: =0
             ZIndex: =28
 
-            DataCardKey1 As label:
+            DataCardKey14 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Name"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As text:
+            DataCardValue14 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                HoverFill: =RGBA(251, 239, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -96,10 +95,10 @@ vendor As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
                 ZIndex: =2
 
-            ErrorMessage1 As label:
+            ErrorMessage14 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -112,36 +111,36 @@ vendor As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue14.Y + DataCardValue14.Height
                 ZIndex: =3
 
-            StarVisible1 As label:
+            StarVisible14 As label:
                 Align: =Align.Center
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey14.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey14.Y
                 ZIndex: =4
 
-        "'Registration Number_DataCard1' As typedDataCard.numberEditCard":
+        "'RegistrationNo._DataCard2' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="field_1"
-            Default: =ThisItem.'Registration Number'
+            DataField: ="RegistrationNo_x002e_"
+            Default: =ThisItem.'RegistrationNo.'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'vendor-db'],DataSourceInfo.DisplayName,"field_1")
+            DisplayName: =DataSourceInfo([@vendor_1],DataSourceInfo.DisplayName,"RegistrationNo_x002e_")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
-            Update: =Value(DataCardValue2.Text)
+            Required: =true
+            Update: =Value(DataCardValue15.Text)
             Width: =640
             X: =0
             Y: =1
             ZIndex: =28
 
-            DataCardKey2 As label:
+            DataCardKey15 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -152,14 +151,13 @@ vendor As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As text:
+            DataCardValue15 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
                 Height: =70
-                HoverFill: =RGBA(251, 239, 249, 1)
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -169,10 +167,10 @@ vendor As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ErrorMessage15 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -185,17 +183,17 @@ vendor As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue15.Y + DataCardValue15.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            StarVisible15 As label:
                 Align: =Align.Center
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey15.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
+                Y: =DataCardKey15.Y
                 ZIndex: =4
 

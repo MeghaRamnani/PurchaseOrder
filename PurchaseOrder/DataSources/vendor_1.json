@@ -29,22 +29,17 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
-      "field_1": "Legal Entity Name",
-      "field_2": "Legal Address",
-      "field_3": "PAN#",
-      "field_4": "GST #",
-      "field_5": "VAT #",
-      "field_6": "Signing Authority",
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "Title": "Entity Name"
+      "RegistrationNo_x002e_": "RegistrationNo.",
+      "Title": "Title"
     },
-    "DatasetName": "https://xebiagroup.sharepoint.com/sites/PurchaseOrder",
+    "DatasetName": "https://xebiagroup.sharepoint.com/sites/PO?market=en-US",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Ent-dB1",
+    "Name": "vendor_1",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
