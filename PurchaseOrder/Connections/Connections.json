@@ -1,1 +1,24 @@
-{}
+{
+  "f312df8c-ce44-4cc2-a340-fab4d3e66cd3": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://xebiagroup.sharepoint.com/sites/PO?market=en-US": {
+        "dataSources": {
+          "registration_1": {
+            "tableName": "65e2c375-76a5-474e-af8f-d3897e458c72"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "registration_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f312df8c-ce44-4cc2-a340-fab4d3e66cd3"
+  }
+}
