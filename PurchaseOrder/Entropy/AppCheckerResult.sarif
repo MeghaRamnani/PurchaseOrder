@@ -2548,39 +2548,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard1.DataCardValue4.SearchItems"
+                  "fullyQualifiedName": "approval.registrationForm_1.Department_DataCard2_3.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard1.DataCardValue4.SearchItems",
+                  "fullyQualifiedName": "approval.registrationForm_1.Department_DataCard2_3.Update",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
-                  "charOffset": 45,
+                  "charLength": 5,
+                  "charOffset": 25,
                   "snippet": {
-                    "text": "\"{Name}\""
+                    "text": ".Name"
                   }
                 }
               },
               "properties": {
-                "member": "SearchItems",
-                "module": "registration",
-                "type": "registration.registrationForm.verdorId_DataCard1.DataCardValue4"
+                "member": "Update",
+                "module": "approval",
+                "type": "approval.registrationForm_1.Department_DataCard2_3"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Search"
+              "Name"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "approval.registrationForm_1.Department_DataCard2_3.DataCardValue9_3.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "approval.registrationForm_1.Department_DataCard2_3.DataCardValue9_3.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "'Dep-db1_8'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "approval",
+                "type": "approval.registrationForm_1.Department_DataCard2_3.DataCardValue9_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Dep-db1_8"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -4088,19 +4128,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard1.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard3.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard1.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "registration.registrationForm.verdorId_DataCard3.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "registration",
-                "type": "registration.registrationForm.verdorId_DataCard1.DataCardValue4"
+                "type": "registration.registrationForm.verdorId_DataCard3.DataCardValue9"
               }
             }
           ],
@@ -4897,17 +4937,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Dep-db1_8"
+                  "fullyQualifiedName": "App.Dep-db1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.Dep-db1_8",
+                  "fullyQualifiedName": "App.Dep-db1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Dep-db1_8",
+                "member": "Dep-db1",
                 "module": "App",
                 "type": "App"
               }
@@ -5049,20 +5089,18 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-SuggestRemoteExecutionHint",
+              "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
-                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
-                  "Try simplifying the formula.",
-                  "Try moving your data to a different data source."
+                  "Remove or correct the reference to the name that isn't valid."
                 ],
-                "level": "Medium",
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }

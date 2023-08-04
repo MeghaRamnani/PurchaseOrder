@@ -14,9 +14,6 @@
           "Dep-db1": {
             "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
           },
-          "Dep-db1_8": {
-            "tableName": "d476b663-51a5-43a3-a88f-b4205384534d"
-          },
           "Ent-dB1": {
             "tableName": "ca983d94-feed-48b4-848e-494f08c84bee"
           },
@@ -27,21 +24,12 @@
             "tableName": "f9f29b6f-f6d4-4955-ad42-565c128938c6"
           }
         }
-      },
-      "https://xebiagroup.sharepoint.com/sites/Site1": {
-        "dataSources": {
-          "dep-dB1": {
-            "tableName": "f6c3d6db-7248-45ad-bc10-d59d3dd9d894"
-          }
-        }
       }
     },
     "dataSources": [
-      "dep-dB1",
       "Dep-db1",
       "Ent-dB1",
       "PO",
-      "Dep-db1_8",
       "vendor-db",
       "Reg-db1"
     ],

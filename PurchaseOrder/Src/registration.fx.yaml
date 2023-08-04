@@ -72,7 +72,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HoverFill: =RGBA(251, 239, 249, 1)
-                Items: ='Dep-db1_8'
+                Items: ='Dep-db1'
                 PressedFill: =RGBA(251, 239, 249, 1)
                 SelectionFill: =RGBA(251, 239, 249, 1)
                 Size: =21
@@ -717,22 +717,22 @@ registration As screen:
                 Y: =DataCardKey5_2.Y
                 ZIndex: =4
 
-        verdorId_DataCard1 As typedDataCard.comboBoxEditCard:
+        verdorId_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="verdorId"
             Default: =ThisItem.verdorId
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"verdorId")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =DataCardValue4.Selected.ID
+            Height: =50
             Required: =false
-            Update: =DataCardValue4.Selected
+            Update: =DataCardValue9.Selected
             Width: =640
             X: =0
             Y: =10
             ZIndex: =1
 
-            DataCardKey4 As label:
+            DataCardKey9 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -743,25 +743,24 @@ registration As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As combobox:
+            DataCardValue9 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: ='vendor-db'
+                Items: =Choices([@PO].verdorId)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["{Name}"]
-                SearchItems: =Search('vendor-db',DataCardValue4.SearchText,"{Name}")
-                SelectMultiple: =false
+                SearchFields: =["Value"]
+                SearchItems: =Choices(PO.verdorId,DataCardValue9.SearchText)
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
                 ZIndex: =2
 
-            ErrorMessage4 As label:
+            ErrorMessage9 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -774,18 +773,18 @@ registration As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =DataCardValue9.Y + DataCardValue9.Height
                 ZIndex: =3
 
-            StarVisible4 As label:
+            StarVisible9 As label:
                 Align: =Align.Center
-                Height: =DataCardKey4.Height
+                Height: =DataCardKey9.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey4.Y
+                Y: =DataCardKey9.Y
                 ZIndex: =4
 
     Button1 As button:
