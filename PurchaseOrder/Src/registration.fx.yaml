@@ -40,12 +40,12 @@ registration As screen:
         EndDate_DataCard2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="EndDate"
-            Default: =ThisItem.EndDate
+            Default: =Today()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue9.SelectedDate
             Width: =640
             X: =0
@@ -68,6 +68,7 @@ registration As screen:
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
+                Format: =DateTimeFormat.LongDate
                 Height: =70
                 IsEditable: =true
                 PaddingBottom: =0
