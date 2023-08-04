@@ -35,11 +35,11 @@
       "RegistrationNo_x002e_": "RegistrationNo.",
       "Title": "Title"
     },
-    "DatasetName": "https://xebiagroup.sharepoint.com/sites/PO?market=en-US",
+    "DatasetName": "https://xebiagroup.sharepoint.com/sites/PO",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "vendor_1",
+    "Name": "vendor_2",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
