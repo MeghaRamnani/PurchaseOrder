@@ -132,6 +132,7 @@
     "splashScreen",
     "homePage",
     "registration",
+    "approval",
     "registrationConfirmation",
     "noVendorFound",
     "RegistrationListView",
