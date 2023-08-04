@@ -47,7 +47,9 @@
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
       "Start_Date": "Start_Date",
-      "Title": "Department"
+      "Title": "Department",
+      "verdorId": "verdorId",
+      "verdorId#Id": "verdorId Id"
     },
     "DatasetName": "https://xebiagroup.sharepoint.com/sites/PurchaseOrder",
     "EncodeDataset": true,
