@@ -724,7 +724,7 @@ registration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@PO],DataSourceInfo.DisplayName,"verdorId")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =DataCardValue4.Selected.ID
             Required: =false
             Update: =DataCardValue4.Selected
             Width: =640
