@@ -36,7 +36,7 @@ splashScreen As screen:
         AutoPause: =false
         AutoStart: =true
         Duration: =3000
-        Height: =70
+        Height: =88
         OnTimerEnd: =Navigate(homePage,ScreenTransition.Fade)
         Visible: =false
         Width: =280
