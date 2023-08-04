@@ -124,7 +124,7 @@ registration As screen:
             Update: =DataCardValue6.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -434,7 +434,7 @@ registration As screen:
             Update: =DataCardValue4.Selected
             Width: =640
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =17
 
             DataCardKey4 As label:
