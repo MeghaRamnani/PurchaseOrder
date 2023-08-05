@@ -37,22 +37,22 @@ registration As screen:
         Y: =131
         ZIndex: =16
 
-        Region_DataCard1 As typedDataCard.comboBoxEditCard:
+        UnitEntity_DataCard1 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Region"
-            Default: =ThisItem.Region
+            DataField: ="UnitEntity"
+            Default: =ThisItem.UnitEntity
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Region")
+            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"UnitEntity")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =true
-            Update: =DataCardValue1.Selected
+            Required: =false
+            Update: =DataCardValue13.Selected
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
-            DataCardKey1 As label:
+            DataCardKey13 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -63,29 +63,25 @@ registration As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As combobox:
+            DataCardValue13 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(108, 29, 95, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(108,29,95, 90), -20%)
                 DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                HoverFill: =RGBA(245, 191, 236, 1)
-                Items: =region
+                Items: =Choices([@registration_1].UnitEntity)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["{Name}"]
-                SearchItems: =Search(region,DataCardValue1.SearchText,"{Name}")
-                SelectionFill: =RGBA(108, 29, 95, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(registration_1.UnitEntity,DataCardValue13.SearchText)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
                 ZIndex: =2
 
-            ErrorMessage1 As label:
+            ErrorMessage13 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -98,18 +94,89 @@ registration As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue13.Y + DataCardValue13.Height
                 ZIndex: =3
 
-            StarVisible1 As label:
+            StarVisible13 As label:
                 Align: =Align.Center
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey13.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey13.Y
+                ZIndex: =4
+
+        Region_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Region"
+            Default: =ThisItem.Region
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Region")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue11.Selected
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey11 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue11 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                Items: =Choices([@registration_1].Region)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(registration_1.Region,DataCardValue11.SearchText)
+                SelectMultiple: =false
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                ZIndex: =2
+
+            ErrorMessage11 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue11.Y + DataCardValue11.Height
+                ZIndex: =3
+
+            StarVisible11 As label:
+                Align: =Align.Center
+                Height: =DataCardKey11.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey11.Y
                 ZIndex: =4
 
         Title_DataCard3 As typedDataCard.textualMultiLineEditCard:
@@ -461,7 +528,7 @@ registration As screen:
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        Department_DataCard1 As typedDataCard.comboBoxEditCard:
+        Department_DataCard2 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Department"
             Default: =ThisItem.Department
@@ -469,14 +536,14 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Department")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =true
-            Update: =DataCardValue2.Selected
+            Required: =false
+            Update: =DataCardValue10.Selected
             Width: =640
             X: =0
             Y: =0
-            ZIndex: =17
+            ZIndex: =1
 
-            DataCardKey2 As label:
+            DataCardKey10 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -487,31 +554,25 @@ registration As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As combobox:
+            DataCardValue10 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(108, 29, 95, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(108,29,95, 90), -20%)
                 DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                HoverColor: =RGBA(108, 29, 95, 1)
-                HoverFill: =RGBA(245, 191, 236, 1)
-                Items: =department
+                Items: =Choices([@registration_1].Department)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedFill: =RGBA(108, 29, 95, 1)
-                SearchFields: =["{Name}"]
-                SearchItems: =Search(department,DataCardValue2.SearchText,"{Name}")
-                SelectionFill: =RGBA(108, 29, 95, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(registration_1.Department,DataCardValue10.SearchText)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ErrorMessage10 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -524,93 +585,18 @@ registration As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue10.Y + DataCardValue10.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            StarVisible10 As label:
                 Align: =Align.Center
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey10.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
-                ZIndex: =4
-
-        UnitEntity_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="UnitEntity"
-            Default: =ThisItem.UnitEntity
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"UnitEntity")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue4.Selected
-            Width: =640
-            X: =0
-            Y: =2
-            ZIndex: =17
-
-            DataCardKey4 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue4 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(108, 29, 95, 1)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["{Name}"]
-                DisplayMode: =Parent.DisplayMode
-                Height: =70
-                HoverFill: =RGBA(245, 191, 236, 1)
-                Items: =entity
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedFill: =RGBA(108, 29, 95, 1)
-                SearchFields: =["{Name}"]
-                SearchItems: =Search(entity,DataCardValue4.SearchText,"{Name}")
-                SelectionFill: =RGBA(108, 29, 95, 1)
-                SelectMultiple: =false
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
-                ZIndex: =2
-
-            ErrorMessage4 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
-                ZIndex: =3
-
-            StarVisible4 As label:
-                Align: =Align.Center
-                Height: =DataCardKey4.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey4.Y
+                Y: =DataCardKey10.Y
                 ZIndex: =4
 
         UnitNeeded_DataCard1 As typedDataCard.numberEditCard:
