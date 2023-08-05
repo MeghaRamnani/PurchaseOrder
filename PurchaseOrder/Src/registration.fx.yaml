@@ -567,14 +567,18 @@ registration As screen:
 
             DataCardValue9 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 Items: =Choices([@registration_1].Vendor)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(registration_1.Vendor,DataCardValue9.SearchText)
+                SelectionFill: =RGBA(108, 29, 95, 1)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
