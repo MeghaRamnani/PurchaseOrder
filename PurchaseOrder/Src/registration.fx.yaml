@@ -72,6 +72,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+                InputTextPlaceholder: ="Please select department"
                 Items: =Choices([@registration_1].Department)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
@@ -146,6 +147,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+                InputTextPlaceholder: ="Please select region"
                 Items: =Choices([@registration_1].Region)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
@@ -221,6 +223,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+                InputTextPlaceholder: ="Please select unit entity"
                 Items: =Choices([@registration_1].UnitEntity)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
@@ -575,6 +578,7 @@ registration As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+                InputTextPlaceholder: ="Please select vendor"
                 Items: =Choices([@registration_1].Vendor)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
