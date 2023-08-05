@@ -45,7 +45,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Department")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue10.Selected
             Width: =640
             X: =0
@@ -120,7 +120,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Region")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue11.Selected
             Width: =640
             X: =0
@@ -205,7 +205,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Unit Entity"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -353,7 +353,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Service And Business Case"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -404,7 +404,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue3.SelectedDate
             Width: =640
             X: =0
@@ -415,7 +415,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="End Date"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -479,7 +479,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ServiceProvider")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =DataCardValue12.Value
             Width: =640
             X: =0
@@ -490,7 +490,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Service Provider"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -549,6 +549,7 @@ registration As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue9.Selected
+            Visible: =If(DataCardValue12.Value,true,false)
             Width: =640
             X: =0
             Y: =9
@@ -622,7 +623,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"UnitNeeded")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =true
             Update: =Value(DataCardValue7.Text)
             Width: =640
             X: =0
@@ -633,7 +634,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Unit Needed"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -706,7 +707,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Start Date"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
