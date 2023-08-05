@@ -547,7 +547,7 @@ registration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Vendor")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
+            Required: =If(DataCardValue12.Value,true,false)
             Update: =DataCardValue9.Selected
             Visible: =If(DataCardValue12.Value,true,false)
             Width: =640
