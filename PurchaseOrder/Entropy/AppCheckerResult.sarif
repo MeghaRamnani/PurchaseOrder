@@ -3295,6 +3295,47 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Title1_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Title1_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Department"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "RegistrationListView",
+                "type": "RegistrationListView.Gallery1_2.Title1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Record"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RegistrationListView.Gallery1_2.Subtitle1_3.Text"
                 }
               ],
@@ -3330,86 +3371,6 @@
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Subtitle1_4.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Subtitle1_4.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Start_Date"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Gallery1_2.Subtitle1_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Start_Date"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Subtitle1_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.Subtitle1_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".End_Date"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Gallery1_2.Subtitle1_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "End_Date"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
         },
         {
           "locations": [

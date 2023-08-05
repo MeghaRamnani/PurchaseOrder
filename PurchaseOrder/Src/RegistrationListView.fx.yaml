@@ -39,7 +39,7 @@ RegistrationListView As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Title
+            Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =243
             X: =334
@@ -189,7 +189,7 @@ RegistrationListView As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Start_Date
+            Text: =ThisItem.StartDate
             VerticalAlign: =VerticalAlign.Top
             Width: =77
             X: =334
@@ -204,7 +204,7 @@ RegistrationListView As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.End_Date
+            Text: =ThisItem.EndDate
             VerticalAlign: =VerticalAlign.Top
             Width: =77
             X: =334
