@@ -32,6 +32,10 @@
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
+      "RegionHead": "Region Head",
+      "RegionHead#Claims": "Region Head Claims",
+      "RegionsOperationsHead": "Regions Operations Head",
+      "RegionsOperationsHead#Claims": "Regions Operations Head Claims",
       "Title": "Title"
     },
     "DatasetName": "https://xebiagroup.sharepoint.com/sites/PO?market=en-US",
