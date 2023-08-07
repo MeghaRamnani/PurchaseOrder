@@ -283,7 +283,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Summary"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -715,7 +715,7 @@ registration As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: = Concatenate("Currency", " ", "(",DataCardValue2.Selected.Value,")")
+                Text: = Concatenate("Amount", " ", "(",DataCardValue2.Selected.Value,")")
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -730,6 +730,8 @@ registration As screen:
                 Format: =TextFormat.Number
                 Height: =70
                 HoverFill: =RGBA(245, 191, 236, 1)
+                OnSelect: |-
+                    =UpdateContext({CalculatedBudget: DataCardValue4.Text})
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -928,6 +930,7 @@ registration As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue7.Text)
+            Visible: =true
             Width: =640
             X: =0
             Y: =10
