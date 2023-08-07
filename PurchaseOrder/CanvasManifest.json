@@ -137,6 +137,7 @@
     "registrationConfirmation",
     "noVendorFound",
     "vendor",
-    "vendorConfirmation"
+    "vendorConfirmation",
+    "SummaryRegistration"
   ]
 }
