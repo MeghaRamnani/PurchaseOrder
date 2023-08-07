@@ -11,6 +11,9 @@
     "datasets": {
       "https://xebiagroup.sharepoint.com/sites/PO": {
         "dataSources": {
+          "currencyRate": {
+            "tableName": "b06bab9a-93f7-4a11-8bd1-b01a0343f2f7"
+          },
           "vendor_1": {
             "tableName": "5af0839e-b30c-4099-a1a3-347a7f862f88"
           }
@@ -63,7 +66,8 @@
       "entity",
       "region",
       "registration_1",
-      "vendor_1"
+      "vendor_1",
+      "currencyRate"
     ],
     "dependencies": {},
     "dependents": [],

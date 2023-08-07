@@ -6276,19 +6276,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.registrationForm.CalculatedBudget_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "registration.registrationForm.CalculatedBudget_DataCard2.DataCardValue16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "registration.registrationForm.CalculatedBudget_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "registration.registrationForm.CalculatedBudget_DataCard2.DataCardValue16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "registration",
-                "type": "registration.registrationForm.CalculatedBudget_DataCard1.DataCardValue1"
+                "type": "registration.registrationForm.CalculatedBudget_DataCard2.DataCardValue16"
               }
             }
           ],
@@ -8196,17 +8196,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "registration.CalculatedBudget"
+                  "fullyQualifiedName": "registration.DataCardValue1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "registration.CalculatedBudget",
+                  "fullyQualifiedName": "registration.DataCardValue1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "CalculatedBudget",
+                "member": "DataCardValue1",
                 "module": "registration",
                 "type": "registration"
               }
@@ -8267,6 +8267,36 @@
               },
               "properties": {
                 "member": "vendor_1",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-NotOfflineConnectors",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.currencyRate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.currencyRate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "currencyRate",
                 "module": "App",
                 "type": "App"
               }
