@@ -748,3 +748,15 @@ SummaryRegistration As screen:
         Y: =37
         ZIndex: =4
 
+    Label9_6 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =20
+        Text: ="Summary"
+        Width: =560
+        X: =44
+        Y: =35
+        ZIndex: =5
+
