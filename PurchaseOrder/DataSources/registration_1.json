@@ -31,6 +31,7 @@
       "Created": "Created",
       "Currency": "Currency",
       "Currency#Id": "Currency Id",
+      "CurrencyRate": "CurrencyRate",
       "Department": "Department",
       "Department#Id": "Department Id",
       "Editor": "Modified By",
