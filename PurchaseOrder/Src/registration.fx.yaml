@@ -265,7 +265,7 @@ registration As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CalculatedBudget"
             Default: =Value(DataCardValue4.Text) * LookUp(currencyRate,Title=DataCardValue31.Selected.Value).'CurrencyRate(USD)'
-            DisplayMode: =DisplayMode.View
+            DisplayMode: =DisplayMode.Disabled
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"CalculatedBudget")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
