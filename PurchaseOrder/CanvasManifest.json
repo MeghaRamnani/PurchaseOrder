@@ -133,10 +133,12 @@
     "homePage",
     "RegistrationListView",
     "registration",
+    "summaryRegistration",
     "approval",
     "registrationConfirmation",
-    "noVendorFound",
+    "vendorListView",
     "vendor",
+    "summaryVendor",
     "vendorConfirmation"
   ]
 }
