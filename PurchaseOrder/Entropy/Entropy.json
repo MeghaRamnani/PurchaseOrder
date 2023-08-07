@@ -277,7 +277,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/07/2023 13:05:30",
+  "HeaderLastSavedDateTimeUTC": "08/07/2023 13:12:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4320845a-f039-4291-8e4c-6e4835b22bed": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/20118889000f4adcbe3763f03c8e918f\"",
@@ -948,7 +948,7 @@
     "AnalysisLoadTime": 1.3292179,
     "ControlCount": {
       "button": 5,
-      "combobox": 9,
+      "combobox": 10,
       "datepicker": 6,
       "dropdown": 4,
       "form": 5,

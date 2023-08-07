@@ -575,6 +575,7 @@ registration As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
                 IsSearchable: =false
                 Items: =Choices([@registration_1].Currency)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
