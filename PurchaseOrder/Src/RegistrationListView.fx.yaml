@@ -21,7 +21,7 @@ RegistrationListView As screen:
 
         Image9 As image:
             Height: =60
-            Image: ='Group 58'
+            Image: ='Group 57'
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
