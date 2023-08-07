@@ -12,7 +12,7 @@ homePage As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 232, 252, 1)
         Height: =259
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         Width: =274
         X: =330
         Y: =254
@@ -20,7 +20,7 @@ homePage As screen:
 
     Image5_2 As image:
         Image: ='Group 58'
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         X: =417
         Y: =322
         ZIndex: =9
@@ -30,7 +30,7 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         Size: =20
         Text: ="VENDOR"
         Width: =248
@@ -82,7 +82,7 @@ homePage As screen:
 
     Image5_4 As image:
         Image: ='Group 59'
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         X: =124
         Y: =605
         ZIndex: =21
@@ -92,7 +92,7 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         Size: =20
         Text: ="REPORTS"
         Width: =248
@@ -113,7 +113,7 @@ homePage As screen:
 
     Image5_5 As image:
         Image: ='Group 60'
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         X: =417
         Y: =605
         ZIndex: =24
@@ -123,7 +123,7 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(noVendorFound,ScreenTransition.Cover)
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         Size: =20
         Text: ="PURCHASE ORDER"
         Width: =248

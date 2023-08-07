@@ -1,4 +1,4 @@
-SummaryRegistration As screen:
+summaryRegistration As screen:
 
     Image3_6 As image:
         Height: =1136
