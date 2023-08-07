@@ -3536,14 +3536,7 @@
     "vendorForm": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DefaultMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DefaultMode",
         "Fill",
         "BorderColor",
         "BorderStyle",
