@@ -620,7 +620,7 @@ registration As screen:
                 ZIndex: =4
 
         Currency_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
+            BorderStyle: =
             DataField: ="Currency"
             Default: =ThisItem.Currency
             DisplayMode: =Parent.DisplayMode
