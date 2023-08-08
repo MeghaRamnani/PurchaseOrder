@@ -62,7 +62,7 @@ addEntity As screen:
             Height: =146
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "LegalEntityName")
             Required: =false
-            Update: =DataCardValue34.Text
+            Update: =DataCardValue10_1.Selected
             Width: =640
             X: =0
             Y: =0
@@ -117,7 +117,7 @@ addEntity As screen:
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 InputTextPlaceholder: ="Please select department"
                 IsSearchable: =false
-                Items: =entity
+                Items: =Filter(entity, Name = DataCardValue2_2.Selected.Id)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["ComplianceAssetId"]
                 SearchItems: =[]
@@ -502,75 +502,5 @@ addEntity As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey39.Y
-                ZIndex: =4
-
-        Attachments_DataCard2 As typedDataCard.attachmentsEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"{Attachments}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue40.Attachments
-            Width: =640
-            X: =0
-            Y: =6
-            ZIndex: =6
-
-            DataCardKey40 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue40 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisplayMode: =Parent.DisplayMode
-                Height: =520
-                IsInDataCard: =true
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey40.Y + DataCardKey40.Height + 5
-                ZIndex: =2
-
-            ErrorMessage37 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue40.Y + DataCardValue40.Height
-                ZIndex: =3
-
-            StarVisible37 As label:
-                Align: =Align.Center
-                Height: =DataCardKey40.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey40.Y
                 ZIndex: =4
 
