@@ -30,9 +30,9 @@ editRegistrationSummary As screen:
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |
-            =SubmitForm(vendorForm_2);
-            NewForm(vendorForm_2);
-            Navigate(vendorConfirmation,ScreenTransition.Cover);
+            =SubmitForm(registrationForm);
+            NewForm(registrationForm);
+            Navigate(summaryVendor,ScreenTransition.Cover);
         Size: =24
         Text: ="UPDATE REGISTRATION"
         Width: =560
