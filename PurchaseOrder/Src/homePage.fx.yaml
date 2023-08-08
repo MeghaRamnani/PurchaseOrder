@@ -131,7 +131,7 @@ homePage As screen:
         ZIndex: =35
 
     Image5_6 As image:
-        Image: ='Group 59'
+        Image: ='icons8-teamwork-64'
         OnSelect: =Navigate(entityListView,ScreenTransition.Cover)
         X: =116
         Y: =521
