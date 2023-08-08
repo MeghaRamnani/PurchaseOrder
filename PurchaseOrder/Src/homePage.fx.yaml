@@ -101,7 +101,7 @@ homePage As screen:
 
     Image5_3 As image:
         Image: ='Group 57'
-        OnSelect: =
+        OnSelect: =Navigate(registrationListView,ScreenTransition.Cover)
         X: =419
         Y: =243
         ZIndex: =33
