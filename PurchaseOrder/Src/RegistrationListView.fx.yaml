@@ -13,7 +13,7 @@ registrationListView As screen:
         Items: =registration_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(summaryVendor,ScreenTransition.None)
+        OnSelect: =Navigate(summaryRegistration,ScreenTransition.None)
         TemplatePadding: =0
         TemplateSize: =92
         Y: =131
