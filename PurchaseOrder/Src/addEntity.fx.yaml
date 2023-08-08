@@ -1,4 +1,4 @@
-Screen3 As screen:
+addEntity As screen:
 
     Rectangle2_1 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
@@ -22,9 +22,9 @@ Screen3 As screen:
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |
-            =SubmitForm(vendorForm_1);
-            NewForm(vendorForm_1);
-            Navigate(vendorConfirmation,ScreenTransition.Cover);
+            =SubmitForm(entityForm);
+            NewForm(entityForm);
+            Navigate(entityConfirmation,ScreenTransition.Cover);
         Size: =24
         Text: ="CREATE"
         Width: =560
@@ -44,7 +44,7 @@ Screen3 As screen:
         Y: =24
         ZIndex: =4
 
-    vendorForm_1 As form:
+    entityForm As form:
         DataSource: =entity
         DefaultMode: =FormMode.New
         Height: =843

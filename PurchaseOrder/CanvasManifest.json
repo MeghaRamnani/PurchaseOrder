@@ -142,6 +142,7 @@
     "vendorConfirmation",
     "entityListView",
     "summaryEntity",
-    "Screen3"
+    "addEntity",
+    "entityConfirmation"
   ]
 }

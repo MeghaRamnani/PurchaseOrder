@@ -110,7 +110,7 @@ entityListView As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.Add
-        OnSelect: =Navigate(vendor,ScreenTransition.Cover)
+        OnSelect: =Navigate(addEntity,ScreenTransition.Cover)
         Width: =32
         X: =578
         Y: =47
