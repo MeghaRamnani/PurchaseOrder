@@ -18,7 +18,7 @@ summaryRegistration As screen:
         DataSource: =registration_1
         DefaultMode: =FormMode.View
         Height: =889
-        Item: =Gallery1_3.Selected
+        Item: =Gallery2.Selected
         NumberOfColumns: =1
         Width: =640
         Y: =131
