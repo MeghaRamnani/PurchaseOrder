@@ -112,13 +112,13 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Purchase Order",
+    "Name": "Xebia Purchase Order",
     "OriginatingVersion": "1.334",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Purchase Order",
+    "AppName": "Xebia Purchase Order",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
