@@ -466,7 +466,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/08/2023 11:36:31",
+  "HeaderLastSavedDateTimeUTC": "08/08/2023 11:40:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1c1f3cde-0c54-4ba4-b415-01278490b886": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\"",
@@ -535,6 +535,8 @@
     "Documents": 5,
     "DropDownSample": 6,
     "entity": 7,
+    "LegendSample": 12,
+    "PieChartSample": 11,
     "region": 8,
     "registration_1": 9,
     "vendor_1": 10
