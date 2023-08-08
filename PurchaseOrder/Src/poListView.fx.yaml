@@ -10,7 +10,7 @@ poListView As screen:
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =896
-        Items: =vendor_1
+        Items: =registration_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(summaryVendor,ScreenTransition.None)
