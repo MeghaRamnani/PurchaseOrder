@@ -1,4 +1,4 @@
-RegistrationListView As screen:
+registrationListView As screen:
 
     Image3_5 As image:
         Height: =1136

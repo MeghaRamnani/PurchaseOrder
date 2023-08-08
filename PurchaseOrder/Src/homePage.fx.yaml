@@ -43,7 +43,7 @@ homePage As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 232, 252, 1)
         Height: =259
-        OnSelect: =Navigate(RegistrationListView,ScreenTransition.Cover)
+        OnSelect: =Navigate(registrationListView,ScreenTransition.Cover)
         Width: =274
         X: =35
         Y: =256
@@ -61,7 +61,7 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(RegistrationListView,ScreenTransition.Cover)
+        OnSelect: =Navigate(registrationListView,ScreenTransition.Cover)
         Size: =20
         Text: ="REGISTRATION"
         Width: =248

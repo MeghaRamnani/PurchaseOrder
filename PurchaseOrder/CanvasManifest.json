@@ -131,7 +131,7 @@
   "ScreenOrder": [
     "splashScreen",
     "homePage",
-    "RegistrationListView",
+    "registrationListView",
     "registration",
     "summaryRegistration",
     "approval",

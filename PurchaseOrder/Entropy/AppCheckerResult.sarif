@@ -7830,19 +7830,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_6.AccessibleLabel"
+                  "fullyQualifiedName": "registrationListView.Icon1_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_6.AccessibleLabel",
+                  "fullyQualifiedName": "registrationListView.Icon1_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Icon1_6"
+                "module": "registrationListView",
+                "type": "registrationListView.Icon1_6"
               }
             }
           ],
@@ -7860,19 +7860,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_6.TabIndex"
+                  "fullyQualifiedName": "registrationListView.Icon1_6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_6.TabIndex",
+                  "fullyQualifiedName": "registrationListView.Icon1_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Icon1_6"
+                "module": "registrationListView",
+                "type": "registrationListView.Icon1_6"
               }
             }
           ],
@@ -7890,19 +7890,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_5.AccessibleLabel"
+                  "fullyQualifiedName": "registrationListView.Icon1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_5.AccessibleLabel",
+                  "fullyQualifiedName": "registrationListView.Icon1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Icon1_5"
+                "module": "registrationListView",
+                "type": "registrationListView.Icon1_5"
               }
             }
           ],
@@ -7920,19 +7920,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_5.TabIndex"
+                  "fullyQualifiedName": "registrationListView.Icon1_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Icon1_5.TabIndex",
+                  "fullyQualifiedName": "registrationListView.Icon1_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Icon1_5"
+                "module": "registrationListView",
+                "type": "registrationListView.Icon1_5"
               }
             }
           ],
@@ -7950,19 +7950,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.AccessibleLabel"
+                  "fullyQualifiedName": "registrationListView.Gallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.AccessibleLabel",
+                  "fullyQualifiedName": "registrationListView.Gallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Gallery1_2"
+                "module": "registrationListView",
+                "type": "registrationListView.Gallery1_2"
               }
             }
           ],
@@ -7980,19 +7980,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.TabIndex"
+                  "fullyQualifiedName": "registrationListView.Gallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegistrationListView.Gallery1_2.TabIndex",
+                  "fullyQualifiedName": "registrationListView.Gallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "RegistrationListView",
-                "type": "RegistrationListView.Gallery1_2"
+                "module": "registrationListView",
+                "type": "registrationListView.Gallery1_2"
               }
             }
           ],
