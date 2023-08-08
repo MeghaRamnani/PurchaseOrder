@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 60,
+    "BindingErrorCount": 59,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -118,7 +118,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Purchase Order",
+    "AppName": "Xebia Purchase Order",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -143,6 +143,8 @@
     "entityListView",
     "summaryEntity",
     "addEntity",
-    "entityConfirmation"
+    "entityConfirmation",
+    "poListView",
+    "summaryPO"
   ]
 }
