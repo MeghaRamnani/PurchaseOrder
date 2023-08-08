@@ -1,51 +1,58 @@
-summaryVendor As screen:
+editVendorList As screen:
 
-    Image3_7 As image:
-        Height: =1136
-        Image: =image_1
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        ZIndex: =1
-
-    Rectangle2_8 As rectangle:
+    Rectangle2_3 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
         Fill: =RGBA(108, 29, 95, 1)
         Height: =131
         Width: =640
-        ZIndex: =2
+        ZIndex: =1
 
-    Icon1_4 As icon.ChevronLeft:
+    Icon1_17 As icon.ChevronLeft:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(vendorListView,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(homePage,ScreenTransition.CoverRight)
         Width: =32
         X: =20
         Y: =37
+        ZIndex: =2
+
+    Button3_6 As button:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
+        OnSelect: |
+            =SubmitForm(vendorForm_1);
+            NewForm(vendorForm_1);
+            Navigate(vendorConfirmation,ScreenTransition.Cover);
+        Size: =24
+        Text: ="UPDATE VENDOR"
+        Width: =560
+        X: =43
+        Y: =1038
         ZIndex: =3
 
-    Label9_7 As label:
+    Label9_3 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Summary"
+        Text: ="Edit Vendor"
         Width: =560
         X: =44
-        Y: =35
+        Y: =24
         ZIndex: =4
 
-    Form1_3 As form:
+    vendorForm_1 As form:
         DataSource: =vendor_1
-        DefaultMode: =FormMode.View
-        Height: =897
+        Height: =385
         Item: =Gallery1.Selected
         Width: =640
-        Y: =130
+        Y: =155
         ZIndex: =5
 
-        Title_DataCard4 As typedDataCard.textualEditCard:
+        Title_DataCard2_1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Title
@@ -55,24 +62,24 @@ summaryVendor As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@vendor_1], DataSourceInfo.MaxLength, "Title")
             Required: =true
-            Update: =DataCardValue23.Text
+            Update: =DataCardValue14_1.Text
             Width: =640
             X: =0
             Y: =0
-            ZIndex: =6
+            ZIndex: =28
 
-            DataCardKey23 As label:
+            DataCardKey14_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Name"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue23 As text:
+            DataCardValue14_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -88,10 +95,10 @@ summaryVendor As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                Y: =DataCardKey14_1.Y + DataCardKey14_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage23 As label:
+            ErrorMessage14_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -104,21 +111,21 @@ summaryVendor As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue23.Y + DataCardValue23.Height
+                Y: =DataCardValue14_1.Y + DataCardValue14_1.Height
                 ZIndex: =3
 
-            StarVisible23 As label:
+            StarVisible14_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey23.Height
+                Height: =DataCardKey14_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey23.Y
+                Y: =DataCardKey14_1.Y
                 ZIndex: =4
 
-        "'RegistrationNo._DataCard1' As typedDataCard.numberEditCard":
+        "'RegistrationNo._DataCard2_1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="RegistrationNo_x002e_"
             Default: =ThisItem.'RegistrationNo.'
@@ -126,14 +133,14 @@ summaryVendor As screen:
             DisplayName: =DataSourceInfo([@vendor_1],DataSourceInfo.DisplayName,"RegistrationNo_x002e_")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            Required: =false
-            Update: =Value(DataCardValue24.Text)
+            Required: =true
+            Update: =Value(DataCardValue15_1.Text)
             Width: =640
             X: =0
             Y: =1
-            ZIndex: =6
+            ZIndex: =28
 
-            DataCardKey24 As label:
+            DataCardKey15_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -144,7 +151,7 @@ summaryVendor As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue24 As text:
+            DataCardValue15_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -160,10 +167,10 @@ summaryVendor As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Y: =DataCardKey15_1.Y + DataCardKey15_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage24 As label:
+            ErrorMessage15_1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -176,36 +183,17 @@ summaryVendor As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue24.Y + DataCardValue24.Height
+                Y: =DataCardValue15_1.Y + DataCardValue15_1.Height
                 ZIndex: =3
 
-            StarVisible24 As label:
+            StarVisible15_1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey24.Height
+                Height: =DataCardKey15_1.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey24.Y
+                Y: =DataCardKey15_1.Y
                 ZIndex: =4
-
-    Icon2_2 As icon.Edit:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =25
-        Icon: =Icon.Edit
-        OnSelect: =Navigate(editVendorList,ScreenTransition.Cover)
-        Width: =34
-        X: =531
-        Y: =57
-        ZIndex: =6
-
-    Image8 As image:
-        Height: =35
-        Image: ='icons8-delete-24'
-        OnSelect: =Remove(vendor_1,Gallery1.Selected)
-        Width: =35
-        X: =589
-        Y: =55
-        ZIndex: =7
 
