@@ -72,7 +72,9 @@ addEntity As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Name
+                    "
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
