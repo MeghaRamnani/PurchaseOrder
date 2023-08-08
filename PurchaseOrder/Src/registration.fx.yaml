@@ -920,8 +920,7 @@ registration As screen:
         OperationalApprover_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="OperationalApprover"
-            Default: |
-                =LookUp(departmentEntityMapping,Department.Value=DataCardValue10.Selected.Value && Region.Value = DataCardValue11.Selected.Value && ApproverType="Operational" ).Name
+            Default: =LookUp(departmentEntityMapping,Department.Value=DataCardValue10.Selected.Value && Region.Value = DataCardValue11.Selected.Value && ApproverType="Operational" ).Name
             DisplayMode: =DisplayMode.Disabled
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"OperationalApprover")
             Fill: =RGBA(0, 0, 0, 0)
