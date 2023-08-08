@@ -5154,66 +5154,6 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 10
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 10
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 10
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 10
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 10
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -7320,39 +7260,271 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryEntity.Form1_4.Item"
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryEntity.Form1_4.Item",
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.Update",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 8,
+                  "charLength": 15,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": ".Selected"
+                    "text": "DataCardValue34"
                   }
                 }
               },
               "properties": {
-                "member": "Item",
-                "module": "summaryEntity",
-                "type": "summaryEntity.Form1_4"
+                "member": "Update",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataSource"
+              "DataCardValue34"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadTypeExpectedCompatibleWith-PropertyName",
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue34"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue34"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": "DataCardValue34"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue34"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.ErrorMessage31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1.DefaultSelectedItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1.DefaultSelectedItems",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": ".Default"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DefaultSelectedItems",
+                "module": "addEntity",
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
           "ruleIndex": 3
         },
         {
@@ -9700,49 +9872,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue34.AccessibleLabel"
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue34.AccessibleLabel",
+                  "fullyQualifiedName": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "addEntity",
-                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue34"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "addEntity.entityForm.Title_DataCard6.DataCardValue33.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "addEntity.entityForm.Title_DataCard6.DataCardValue33.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "addEntity",
-                "type": "addEntity.entityForm.Title_DataCard6.DataCardValue33"
+                "type": "addEntity.entityForm.'Legal Entity Name_DataCard1'.DataCardValue10_1"
               }
             }
           ],
@@ -11157,14 +11299,17 @@
               }
             },
             {
-              "id": "app-ErrBadTypeExpectedCompatibleWith-PropertyName",
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid formula. Expected a value compatible with '{0}'."
+                  "text": "Expected {0} value."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

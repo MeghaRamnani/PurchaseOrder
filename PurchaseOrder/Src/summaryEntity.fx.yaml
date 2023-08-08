@@ -40,7 +40,7 @@ summaryEntity As screen:
         DataSource: =entity
         DefaultMode: =FormMode.View
         Height: =881
-        Item: =Gallery1.Selected
+        Item: =Gallery1_1.Selected
         Width: =640
         Y: =136
         ZIndex: =5
