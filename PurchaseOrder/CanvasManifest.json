@@ -118,7 +118,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Xebia Purchase Order",
+    "AppName": "Purchase Order",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
