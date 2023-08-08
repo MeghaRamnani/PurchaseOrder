@@ -85,6 +85,7 @@ addEntity As screen:
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
