@@ -61,7 +61,6 @@ homePage As screen:
         Color: =RGBA(108, 29, 95, 1)
         FontWeight: =FontWeight.Semibold
         Height: =55
-        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         Size: =20
         Text: ="REPORTS"
         Width: =248
