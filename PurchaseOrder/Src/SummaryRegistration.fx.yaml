@@ -1160,6 +1160,15 @@ summaryRegistration As screen:
         Icon: =Icon.Edit
         Width: =44
         X: =514
-        Y: =52
+        Y: =61
         ZIndex: =6
+
+    Image8_2 As image:
+        Height: =35
+        Image: ='icons8-delete-24'
+        OnSelect: =Remove(vendor_1,Gallery1.Selected)
+        Width: =35
+        X: =589
+        Y: =55
+        ZIndex: =7
 
