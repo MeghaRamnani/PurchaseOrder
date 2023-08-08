@@ -20,7 +20,7 @@ homePage As screen:
 
     Image5_2 As image:
         Image: ='Group 58'
-        OnSelect: =
+        OnSelect: =Navigate(vendorListView,ScreenTransition.Cover)
         X: =129
         Y: =241
         ZIndex: =9

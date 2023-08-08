@@ -131,7 +131,7 @@ addEntity As screen:
         "'Legal Address_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="LegalAddress"
-            Default: =ThisItem.'LegalAddress'
+            Default: =ThisItem.LegalAddress
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"LegalAddress")
             Fill: =RGBA(0, 0, 0, 0)
@@ -205,7 +205,7 @@ addEntity As screen:
         "'PAN#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="PAN_x0023_"
-            Default: =ThisItem.'PAN'
+            Default: =ThisItem.PAN
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"PAN_x0023_")
             Fill: =RGBA(0, 0, 0, 0)
@@ -279,7 +279,7 @@ addEntity As screen:
         "'GST#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="GST_x0023_"
-            Default: =ThisItem.'GST'
+            Default: =ThisItem.GST
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"GST_x0023_")
             Fill: =RGBA(0, 0, 0, 0)
@@ -353,7 +353,7 @@ addEntity As screen:
         "'VAT#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="VAT_x0023_"
-            Default: =ThisItem.'VAT'
+            Default: =ThisItem.VAT
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"VAT_x0023_")
             Fill: =RGBA(0, 0, 0, 0)

@@ -15,7 +15,8 @@
       }
     },
     "dataSources": [
-      "departmentEntityMapping"
+      "departmentEntityMapping",
+      "registration_1"
     ],
     "dependencies": {},
     "dependents": [],
