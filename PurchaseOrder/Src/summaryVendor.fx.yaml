@@ -203,6 +203,7 @@ summaryVendor As screen:
     Image8 As image:
         Height: =35
         Image: ='icons8-delete-24'
+        OnSelect: =Remove(vendor_1,Gallery1.Selected)
         Width: =35
         X: =589
         Y: =55
