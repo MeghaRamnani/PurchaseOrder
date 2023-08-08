@@ -29,10 +29,16 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
+      "GST_x0023_": "GST#",
       "ID": "ID",
+      "LegalAddress": "Legal Address",
+      "LegalEntityName": "Legal Entity Name",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "Title": "Title"
+      "PAN_x0023_": "PAN#",
+      "SigningAuthority": "Signing Authority",
+      "Title": "Title",
+      "VAT_x0023_": "VAT#"
     },
     "DatasetName": "https://xebiagroup.sharepoint.com/sites/PO?market=en-US",
     "EncodeDataset": true,
