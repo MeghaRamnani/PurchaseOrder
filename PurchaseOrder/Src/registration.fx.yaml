@@ -66,7 +66,7 @@ registration As screen:
             DataCardValue10 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 1), -20%)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
@@ -142,6 +142,7 @@ registration As screen:
             DataCardValue11 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(108, 29, 95, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
