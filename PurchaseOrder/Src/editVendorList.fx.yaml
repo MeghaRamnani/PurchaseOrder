@@ -26,7 +26,7 @@ editVendorList As screen:
             NewForm(vendorForm_1);
             Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: ="CREATE"
+        Text: ="UPDATE VENDOR"
         Width: =560
         X: =43
         Y: =1038
