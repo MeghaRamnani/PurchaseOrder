@@ -112,7 +112,7 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Purchase Order",
+    "Name": "Xebia Purchase Order",
     "OriginatingVersion": "1.334",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
@@ -131,7 +131,7 @@
   "ScreenOrder": [
     "splashScreen",
     "homePage",
-    "RegistrationListView",
+    "registrationListView",
     "registration",
     "summaryRegistration",
     "approval",
@@ -139,6 +139,10 @@
     "vendorListView",
     "vendor",
     "summaryVendor",
-    "vendorConfirmation"
+    "vendorConfirmation",
+    "entityListView",
+    "summaryEntity",
+    "addEntity",
+    "entityConfirmation"
   ]
 }
