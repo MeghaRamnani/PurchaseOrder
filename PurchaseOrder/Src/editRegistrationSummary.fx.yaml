@@ -1,0 +1,7 @@
+editRegistrationSummary As screen:
+
+    Form1 As form:
+        Width: =640
+        Y: =161
+        ZIndex: =1
+
