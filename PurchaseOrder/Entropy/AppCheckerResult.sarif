@@ -12698,6 +12698,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.icons8-business-entity-64"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.icons8-business-entity-64",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "icons8-business-entity-64",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "registration.DataCardValue1"
                 }
               ],
