@@ -100,7 +100,7 @@ entityListView As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Vendors List"
+        Text: ="Entity List"
         Width: =560
         X: =50
         Y: =35
