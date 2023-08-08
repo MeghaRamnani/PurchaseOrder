@@ -47,28 +47,28 @@ addEntity As screen:
     entityForm As form:
         DataSource: =entity
         DefaultMode: =FormMode.New
-        Height: =843
+        Height: =867
         Width: =640
-        Y: =155
+        Y: =131
         ZIndex: =5
 
-        "'Legal Entity Name_DataCard1' As typedDataCard.textualEditCard":
+        Title_DataCard12 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="LegalEntityName"
-            Default: =ThisItem.'Legal Entity Name'
+            DataField: ="Title"
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"LegalEntityName")
+            DisplayName: =DataSourceInfo([@entity],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =146
-            MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "LegalEntityName")
-            Required: =false
-            Update: =DataCardValue10_1.Selected
+            Height: =50
+            MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "Title")
+            Required: =true
+            Update: =DataCardValue62.Text
             Width: =640
             X: =0
             Y: =0
-            ZIndex: =6
+            ZIndex: =1
 
-            DataCardKey34 As label:
+            DataCardKey62 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -79,7 +79,26 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage31 As label:
+            DataCardValue62 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey62.Y + DataCardKey62.Height + 5
+                ZIndex: =2
+
+            ErrorMessage59 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -92,45 +111,21 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue34.Y + DataCardValue34.Height
+                Y: =DataCardValue62.Y + DataCardValue62.Height
                 ZIndex: =3
 
-            StarVisible31 As label:
+            StarVisible59 As label:
                 Align: =Align.Center
-                Height: =DataCardKey34.Height
+                Height: =DataCardKey62.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey34.Y
+                Y: =DataCardKey62.Y
                 ZIndex: =4
 
-            DataCardValue10_1 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(108, 29, 95, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(108, 29, 95, 1), 40%)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["ComplianceAssetId"]
-                DisplayMode: =Parent.DisplayMode
-                Height: =70
-                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
-                InputTextPlaceholder: ="Please select department"
-                IsSearchable: =false
-                Items: =Filter(entity, Name = DataCardValue2_2.Selected.Id)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["ComplianceAssetId"]
-                SearchItems: =[]
-                SelectionFill: =RGBA(108, 29, 95, 1)
-                SelectMultiple: =false
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =68
-                ZIndex: =5
-
-        "'Legal Address_DataCard1' As typedDataCard.textualEditCard":
+        "'Legal Address_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="LegalAddress"
             Default: =ThisItem.'Legal Address'
@@ -139,14 +134,14 @@ addEntity As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "LegalAddress")
-            Required: =false
-            Update: =DataCardValue35.Text
+            Required: =true
+            Update: =DataCardValue54.Text
             Width: =640
             X: =0
             Y: =1
             ZIndex: =6
 
-            DataCardKey35 As label:
+            DataCardKey54 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -157,13 +152,12 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue35 As text:
+            DataCardValue54 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                HoverColor: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -175,10 +169,10 @@ addEntity As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                Y: =DataCardKey54.Y + DataCardKey54.Height + 5
                 ZIndex: =2
 
-            ErrorMessage32 As label:
+            ErrorMessage51 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -191,21 +185,21 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue35.Y + DataCardValue35.Height
+                Y: =DataCardValue54.Y + DataCardValue54.Height
                 ZIndex: =3
 
-            StarVisible32 As label:
+            StarVisible51 As label:
                 Align: =Align.Center
-                Height: =DataCardKey35.Height
+                Height: =DataCardKey54.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey35.Y
+                Y: =DataCardKey54.Y
                 ZIndex: =4
 
-        "'PAN#_DataCard1' As typedDataCard.textualEditCard":
+        "'PAN#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="PAN_x0023_"
             Default: |-
@@ -215,14 +209,14 @@ addEntity As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "PAN_x0023_")
-            Required: =false
-            Update: =DataCardValue36.Text
+            Required: =true
+            Update: =DataCardValue55.Text
             Width: =640
             X: =0
             Y: =2
             ZIndex: =6
 
-            DataCardKey36 As label:
+            DataCardKey55 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -233,7 +227,7 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue36 As text:
+            DataCardValue55 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -250,10 +244,10 @@ addEntity As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                Y: =DataCardKey55.Y + DataCardKey55.Height + 5
                 ZIndex: =2
 
-            ErrorMessage33 As label:
+            ErrorMessage52 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -266,21 +260,21 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue36.Y + DataCardValue36.Height
+                Y: =DataCardValue55.Y + DataCardValue55.Height
                 ZIndex: =3
 
-            StarVisible33 As label:
+            StarVisible52 As label:
                 Align: =Align.Center
-                Height: =DataCardKey36.Height
+                Height: =DataCardKey55.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey36.Y
+                Y: =DataCardKey55.Y
                 ZIndex: =4
 
-        "'GST#_DataCard1' As typedDataCard.textualEditCard":
+        "'GST#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="GST_x0023_"
             Default: |-
@@ -290,14 +284,14 @@ addEntity As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "GST_x0023_")
-            Required: =false
-            Update: =DataCardValue37.Text
+            Required: =true
+            Update: =DataCardValue56.Text
             Width: =640
             X: =0
             Y: =3
             ZIndex: =6
 
-            DataCardKey37 As label:
+            DataCardKey56 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -308,7 +302,7 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue37 As text:
+            DataCardValue56 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -324,11 +318,11 @@ addEntity As screen:
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey37.Y + DataCardKey37.Height + 5
+                X: =29
+                Y: =60
                 ZIndex: =2
 
-            ErrorMessage34 As label:
+            ErrorMessage53 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -341,21 +335,21 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue37.Y + DataCardValue37.Height
+                Y: =DataCardValue56.Y + DataCardValue56.Height
                 ZIndex: =3
 
-            StarVisible34 As label:
+            StarVisible53 As label:
                 Align: =Align.Center
-                Height: =DataCardKey37.Height
+                Height: =DataCardKey56.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey37.Y
+                Y: =DataCardKey56.Y
                 ZIndex: =4
 
-        "'VAT#_DataCard1' As typedDataCard.textualEditCard":
+        "'VAT#_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="VAT_x0023_"
             Default: |-
@@ -365,14 +359,14 @@ addEntity As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "VAT_x0023_")
-            Required: =false
-            Update: =DataCardValue38.Text
+            Required: =true
+            Update: =DataCardValue57.Text
             Width: =640
             X: =0
             Y: =4
             ZIndex: =6
 
-            DataCardKey38 As label:
+            DataCardKey57 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -383,7 +377,7 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue38 As text:
+            DataCardValue57 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -400,10 +394,10 @@ addEntity As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey38.Y + DataCardKey38.Height + 5
+                Y: =DataCardKey57.Y + DataCardKey57.Height + 5
                 ZIndex: =2
 
-            ErrorMessage35 As label:
+            ErrorMessage54 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -416,21 +410,21 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue38.Y + DataCardValue38.Height
+                Y: =DataCardValue57.Y + DataCardValue57.Height
                 ZIndex: =3
 
-            StarVisible35 As label:
+            StarVisible54 As label:
                 Align: =Align.Center
-                Height: =DataCardKey38.Height
+                Height: =DataCardKey57.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey38.Y
+                Y: =DataCardKey57.Y
                 ZIndex: =4
 
-        "'Signing Authority_DataCard1' As typedDataCard.textualEditCard":
+        "'Signing Authority_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="SigningAuthority"
             Default: =ThisItem.'Signing Authority'
@@ -440,13 +434,13 @@ addEntity As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@entity], DataSourceInfo.MaxLength, "SigningAuthority")
             Required: =false
-            Update: =DataCardValue39.Text
+            Update: =DataCardValue58.Text
             Width: =640
             X: =0
             Y: =5
             ZIndex: =6
 
-            DataCardKey39 As label:
+            DataCardKey58 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -457,7 +451,7 @@ addEntity As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue39 As text:
+            DataCardValue58 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -474,10 +468,10 @@ addEntity As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey39.Y + DataCardKey39.Height + 5
+                Y: =DataCardKey58.Y + DataCardKey58.Height + 5
                 ZIndex: =2
 
-            ErrorMessage36 As label:
+            ErrorMessage55 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -490,17 +484,17 @@ addEntity As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue39.Y + DataCardValue39.Height
+                Y: =DataCardValue58.Y + DataCardValue58.Height
                 ZIndex: =3
 
-            StarVisible36 As label:
+            StarVisible55 As label:
                 Align: =Align.Center
-                Height: =DataCardKey39.Height
+                Height: =DataCardKey58.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey39.Y
+                Y: =DataCardKey58.Y
                 ZIndex: =4
 
