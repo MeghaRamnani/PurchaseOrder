@@ -31,7 +31,7 @@ editRegistrationSummary As screen:
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |
             =SubmitForm(editRegistrationSummary);
-            NewForm(editRegistrationSummary);
+            NewForm(registrationListView);
             Navigate(registrationListView,ScreenTransition.Cover);
         Size: =24
         Text: ="UPDATE REGISTRATION"

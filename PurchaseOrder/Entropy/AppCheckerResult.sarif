@@ -9520,10 +9520,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 23,
+                  "charLength": 20,
                   "charOffset": 46,
                   "snippet": {
-                    "text": "editRegistrationSummary"
+                    "text": "registrationListView"
                   }
                 }
               },
