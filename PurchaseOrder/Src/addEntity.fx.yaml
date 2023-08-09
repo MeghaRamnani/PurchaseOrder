@@ -27,7 +27,7 @@ addEntity As screen:
             SubmitForm(entityForm);
             Navigate(entityConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: =If(entityForm.Mode=FormMode.New,"CREATE","UPDATE ENTITY")
+        Text: =If(entityForm.Mode=FormMode.New,"CREATE","UPDATE")
         Width: =560
         X: =43
         Y: =1038

@@ -1374,7 +1374,7 @@ registration As screen:
             Navigate(registrationConfirmation,ScreenTransition.Cover);
             )
         Size: =24
-        Text: =If(registrationForm.Mode=FormMode.New,"REGISTER","UPDATE REGISTRATION")
+        Text: =If(registrationForm.Mode=FormMode.New,"REGISTER","UPDATE")
         Width: =560
         X: =44
         Y: =1054

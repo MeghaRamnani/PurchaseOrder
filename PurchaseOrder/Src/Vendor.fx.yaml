@@ -27,7 +27,7 @@ vendor As screen:
             SubmitForm(vendorForm);
             Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE VENDOR")
+        Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE")
         Width: =560
         X: =43
         Y: =1038
