@@ -44,7 +44,7 @@ vendorListView As screen:
                 =Concatenate("Vendor : ",ThisItem.Title)
             VerticalAlign: =VerticalAlign.Top
             Width: =500
-            X: =106
+            X: =108
             Y: =46
             ZIndex: =2
 
