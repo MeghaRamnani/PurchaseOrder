@@ -1185,7 +1185,7 @@ summaryRegistration As screen:
         ZIndex: =14
 
         Rectangle4_1 As rectangle:
-            Fill: =RGBA(237, 237, 237, 1)
+            Fill: =RGBA(219, 219, 219, .7)
             Height: =1136
             Visible: =regPopUp
             Width: =640
