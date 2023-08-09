@@ -9,15 +9,15 @@ registrationListView As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =866
+        Height: =838
         Items: =Filter(registration_1, Status ="Pending")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         NavigationStep: =10
         OnSelect: =Navigate(summaryRegistration,ScreenTransition.None)
         TemplatePadding: =0
-        TemplateSize: =250
-        Y: =104
+        TemplateSize: =262
+        Y: =132
         ZIndex: =1
 
         Image14 As image:
