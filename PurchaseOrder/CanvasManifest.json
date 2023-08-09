@@ -143,6 +143,7 @@
     "entityListView",
     "summaryEntity",
     "addEntity",
+    "editEntityList",
     "entityConfirmation",
     "poListView",
     "summaryPO",
