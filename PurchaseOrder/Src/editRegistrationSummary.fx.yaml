@@ -32,12 +32,12 @@ editRegistrationSummary As screen:
         OnSelect: |
             =SubmitForm(registrationForm);
             NewForm(registrationForm);
-            Navigate(summaryVendor,ScreenTransition.Cover);
+            Navigate(registrationListView,ScreenTransition.Cover);
         Size: =24
         Text: ="UPDATE REGISTRATION"
         Width: =560
-        X: =63
-        Y: =927
+        X: =45
+        Y: =1044
         ZIndex: =4
 
     Label9_4 As label:
@@ -54,10 +54,10 @@ editRegistrationSummary As screen:
 
     Form2 As form:
         DataSource: =registration_1
-        Height: =772
+        Height: =889
         Item: =Gallery2.Selected
         Width: =640
-        Y: =150
+        Y: =138
         ZIndex: =6
 
         Title_DataCard7 As typedDataCard.textualEditCard:
