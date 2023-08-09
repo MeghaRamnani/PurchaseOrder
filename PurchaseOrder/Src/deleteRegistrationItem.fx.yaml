@@ -1,0 +1,42 @@
+deleteRegistrationItem As screen:
+
+    Image3_5 As image:
+        Height: =1136
+        Image: =image_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    Image4_6 As image:
+        Height: =554
+        Image: ='Confirmed-cuate'
+        ImagePosition: =ImagePosition.Fill
+        Width: =509
+        X: =69
+        Y: =222
+        ZIndex: =2
+
+    Label4_6 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =20
+        Text: ="Are you sure you want to delete this item?"
+        Width: =560
+        X: =40
+        Y: =822
+        ZIndex: =4
+
+    Button3_6 As button:
+        Fill: =RGBA(108, 29, 95, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
+        OnSelect: |-
+            =Remove(registration_1,Gallery2.Selected);
+            Navigate(homePage,ScreenTransition.Cover);
+        Size: =24
+        Text: ="CONFRM"
+        Width: =560
+        X: =43
+        Y: =1033
+        ZIndex: =5
+

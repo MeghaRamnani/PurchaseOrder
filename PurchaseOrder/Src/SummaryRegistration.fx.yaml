@@ -1201,7 +1201,7 @@ summaryRegistration As screen:
     Image8_2 As image:
         Height: =35
         Image: ='icons8-delete-24'
-        OnSelect: =Remove(registration_1,Gallery2.Selected)
+        OnSelect: =Navigate(deleteRegistrationItem,ScreenTransition.None)
         Width: =35
         X: =589
         Y: =55
