@@ -565,7 +565,7 @@ summaryEntity As screen:
         Icon: =Icon.Edit
         OnSelect: |-
             =EditForm(entityForm);
-            Navigate(editVendorSummary,ScreenTransition.Cover)
+            Navigate(addEntity,ScreenTransition.Cover);
         Width: =34
         X: =531
         Y: =57

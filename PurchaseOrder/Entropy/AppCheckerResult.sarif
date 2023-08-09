@@ -6184,46 +6184,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryEntity.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "summaryEntity.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 32,
-                  "snippet": {
-                    "text": "editVendorSummary"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "summaryEntity",
-                "type": "summaryEntity.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "editVendorSummary"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "summaryEntity.Form1_4.'Legal Entity Name_DataCard2'.Default"
                 }
               ],
@@ -13073,6 +13033,66 @@
                 "member": "TabIndex",
                 "module": "poListView",
                 "type": "poListView.Gallery1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "summaryEntity.Icon2_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "summaryEntity.Icon2_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "summaryEntity",
+                "type": "summaryEntity.Icon2_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "summaryEntity.Icon2_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "summaryEntity.Icon2_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "summaryEntity",
+                "type": "summaryEntity.Icon2_3"
               }
             }
           ],
