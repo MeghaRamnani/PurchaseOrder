@@ -1,4 +1,4 @@
-editVendorList As screen:
+editVendorSummary As screen:
 
     Rectangle2_3 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
