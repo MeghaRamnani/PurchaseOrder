@@ -1370,9 +1370,9 @@ registration As screen:
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |-
             =If(registrationForm.Valid && Value(DataCardValue16.Text)>0,SubmitForm(registrationForm);
-            NewForm(registrationForm);
-            Navigate(registrationConfirmation,ScreenTransition.Cover);
+            If(registrationForm.Mode = FormMode.New=NewForm(registrationForm),EditForm(registrationForm));
             
+            Navigate(registrationConfirmation,ScreenTransition.Cover);
             )
         Size: =24
         Text: =If(registrationForm.Mode=FormMode.New,"REGISTRATION","UPDATE REGISTRATION")
