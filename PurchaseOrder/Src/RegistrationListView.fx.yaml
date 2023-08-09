@@ -16,7 +16,7 @@ registrationListView As screen:
         NavigationStep: =10
         OnSelect: =Navigate(summaryRegistration,ScreenTransition.None)
         TemplatePadding: =0
-        TemplateSize: =262
+        TemplateSize: =290
         Y: =132
         ZIndex: =1
 
@@ -90,26 +90,25 @@ registrationListView As screen:
             ZIndex: =15
 
         Label12_3 As label:
-            Height: =50
+            Height: =30
             OnSelect: =Select(Parent)
             Size: =16
             Text: |-
                 =Concatenate("Start Date: ",ThisItem.StartDate)
-            Width: =250
+            Width: =500
             X: =100
             Y: =170
             ZIndex: =16
 
         Label12_4 As label:
-            Align: =Align.Right
             Height: =30
             OnSelect: =Select(Parent)
             Size: =16
             Text: |-
                 =Concatenate("End Date: ",ThisItem.EndDate)
-            Width: =250
-            X: =350
-            Y: =170
+            Width: =500
+            X: =100
+            Y: =205
             ZIndex: =17
 
         Label12_5 As label:
@@ -120,7 +119,7 @@ registrationListView As screen:
                 =Concatenate("Vendor : ",ThisItem.Vendor.Value)
             Width: =500
             X: =100
-            Y: =130
+            Y: =135
             ZIndex: =18
 
         Label12_6 As label:
@@ -131,7 +130,7 @@ registrationListView As screen:
                 =Concatenate("Budget : $ ",ThisItem.CalculatedBudget)
             Width: =250
             X: =100
-            Y: =205
+            Y: =240
             ZIndex: =19
 
         Label12_7 As label:
@@ -143,7 +142,7 @@ registrationListView As screen:
             Text: =ThisItem.Status
             Width: =250
             X: =350
-            Y: =205
+            Y: =240
             ZIndex: =20
 
     Rectangle2_15 As rectangle:
