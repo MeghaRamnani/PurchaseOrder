@@ -142,9 +142,7 @@ summaryRegistration As screen:
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ServiceAndBusinessCase")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@registration_1], DataSourceInfo.MaxLength, "ServiceAndBusinessCase")
             Required: =true
-            Update: =DataCardValue18.Text
             Width: =640
             X: =0
             Y: =5
