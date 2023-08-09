@@ -138,7 +138,7 @@ summaryEntity As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Legal Entity Name"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -211,7 +211,7 @@ summaryEntity As screen:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="Legal Address"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
