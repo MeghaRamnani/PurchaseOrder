@@ -14,6 +14,7 @@ registrationListView As screen:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         NavigationStep: =10
+        OnSelect: =Navigate(summaryRegistration,ScreenTransition.None)
         TemplatePadding: =0
         TemplateSize: =229
         Y: =127
@@ -194,8 +195,8 @@ registrationListView As screen:
             Size: =16
             Text: =ThisItem.EndDate
             Width: =133
-            X: =433
-            Y: =68
+            X: =463
+            Y: =98
             ZIndex: =21
 
         Label8_1 As label:
