@@ -43,7 +43,7 @@ vendorListView As screen:
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =167
-            X: =302
+            X: =176
             Y: =49
             ZIndex: =2
 
@@ -83,7 +83,7 @@ vendorListView As screen:
             Size: =14
             Text: =ThisItem.'RegistrationNo.'
             Width: =208
-            X: =302
+            X: =284
             Y: =84
             ZIndex: =6
 
@@ -93,7 +93,7 @@ vendorListView As screen:
             Size: =14
             Text: ="Registration Number"
             Width: =195
-            X: =76
+            X: =85
             Y: =79
             ZIndex: =7
 
@@ -103,7 +103,7 @@ vendorListView As screen:
             Size: =14
             Text: ="Vendor"
             Width: =181
-            X: =83
+            X: =92
             Y: =49
             ZIndex: =8
 
@@ -140,7 +140,9 @@ vendorListView As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.Add
-        OnSelect: =Navigate(vendor,ScreenTransition.Cover)
+        OnSelect: |-
+            =NewForm(vendorForm);
+            Navigate(vendor,ScreenTransition.Cover)
         Width: =32
         X: =572
         Y: =47

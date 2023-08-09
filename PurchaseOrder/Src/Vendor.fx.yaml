@@ -38,7 +38,7 @@ vendor As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create Vendor"
+        Text: =If(vendorForm.Mode=FormMode.New,"Create Vendor","Update Vendor")
         Width: =560
         X: =44
         Y: =24
@@ -48,6 +48,7 @@ vendor As screen:
         DataSource: =vendor_1
         DefaultMode: =FormMode.New
         Height: =385
+        Item: =Gallery1.Selected
         Width: =640
         Y: =155
         ZIndex: =27
