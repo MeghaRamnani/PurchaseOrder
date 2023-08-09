@@ -134,20 +134,20 @@
     "registrationListView",
     "registration",
     "summaryRegistration",
+    "editRegistrationSummary",
     "approval",
     "registrationConfirmation",
     "vendorListView",
     "vendor",
     "summaryVendor",
+    "editVendorSummary",
     "vendorConfirmation",
     "entityListView",
     "summaryEntity",
     "addEntity",
-    "editEntityList",
+    "editEntitySummary",
     "entityConfirmation",
     "poListView",
-    "summaryPO",
-    "editRegistrationSummary",
-    "editVendorList"
+    "summaryPO"
   ]
 }
