@@ -32,7 +32,7 @@ editRegistrationSummary As screen:
         OnSelect: |
             =SubmitForm(registrationForm);
             NewForm(registrationForm);
-            Navigate(summaryVendor,ScreenTransition.Cover);
+            Navigate(summaryRegistration,ScreenTransition.Cover);
         Size: =24
         Text: ="UPDATE REGISTRATION"
         Width: =560
