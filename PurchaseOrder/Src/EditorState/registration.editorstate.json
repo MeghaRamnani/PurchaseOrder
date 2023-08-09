@@ -78,7 +78,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Amount_DataCard1",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -787,7 +787,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CurrencyRate_DataCard3",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24547,7 +24547,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "UnitNeeded_DataCard1",
-      "ParentIndex": 10,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

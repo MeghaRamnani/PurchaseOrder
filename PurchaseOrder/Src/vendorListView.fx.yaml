@@ -34,17 +34,18 @@ vendorListView As screen:
 
         Title2 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =22
+            Height: =30
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Title
+            Text: |-
+                =Concatenate("Vendor:",ThisItem.Title)
             VerticalAlign: =VerticalAlign.Top
-            Width: =167
-            X: =176
-            Y: =49
+            Width: =500
+            X: =106
+            Y: =46
             ZIndex: =2
 
         NextArrow2 As icon.ChevronRight:
@@ -78,34 +79,15 @@ vendorListView As screen:
             ZIndex: =5
 
         Label1 As label:
-            Height: =22
+            Height: =30
             OnSelect: =Select(Parent)
             Size: =14
-            Text: =ThisItem.'RegistrationNo.'
-            Width: =208
-            X: =284
+            Text: |-
+                =Concatenate("Registration Number:",ThisItem.'RegistrationNo.')
+            Width: =500
+            X: =94
             Y: =84
             ZIndex: =6
-
-        Label5 As label:
-            Height: =27
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: ="Registration Number"
-            Width: =195
-            X: =85
-            Y: =79
-            ZIndex: =7
-
-        Label5_1 As label:
-            Height: =22
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: ="Vendor"
-            Width: =181
-            X: =92
-            Y: =49
-            ZIndex: =8
 
     Rectangle2_9 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
