@@ -78,7 +78,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Amount_DataCard1",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -163,7 +163,14 @@
     "Button1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Text",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"REGISTER\"",
+          "InvariantPropertyName": "Text",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderColor",
         "DisabledBorderColor",
         "PressedBorderColor",
@@ -787,7 +794,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CurrencyRate_DataCard3",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24547,7 +24554,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "UnitNeeded_DataCard1",
-      "ParentIndex": 12,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
