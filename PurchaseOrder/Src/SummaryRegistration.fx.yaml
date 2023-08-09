@@ -161,6 +161,7 @@ summaryRegistration As screen:
 
             DataCardValue2 As htmlViewer:
                 AutoHeight: =true
+                Color: =RGBA(13, 12, 12, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =50
                 HtmlText: =Parent.Default
@@ -169,8 +170,8 @@ summaryRegistration As screen:
                 PaddingTop: =0
                 Size: =21
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                X: =15
+                Y: =60
                 ZIndex: =2
 
         ServiceProvider_DataCard2 As typedDataCard.toggleEditCard:
