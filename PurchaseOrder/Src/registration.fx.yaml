@@ -1371,11 +1371,10 @@ registration As screen:
         OnSelect: |-
             =If(registrationForm.Valid && Value(DataCardValue16.Text)>0,SubmitForm(registrationForm);
             If(registrationForm.Mode = FormMode.New=NewForm(registrationForm),EditForm(registrationForm));
-            SubmitForm(registrationForm);
             Navigate(registrationConfirmation,ScreenTransition.Cover);
             )
         Size: =24
-        Text: =If(registrationForm.Mode=FormMode.New,"REGISTRATION","UPDATE REGISTRATION")
+        Text: =If(registrationForm.Mode=FormMode.New,"REGISTER","UPDATE REGISTRATION")
         Width: =560
         X: =44
         Y: =1054
