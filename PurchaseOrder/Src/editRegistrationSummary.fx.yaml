@@ -37,7 +37,7 @@ editRegistrationSummary As screen:
         Text: ="UPDATE REGISTRATION"
         Width: =560
         X: =45
-        Y: =1044
+        Y: =1034
         ZIndex: =4
 
     Label9_4 As label:
