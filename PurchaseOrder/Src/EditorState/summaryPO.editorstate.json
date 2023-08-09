@@ -59,10 +59,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -333,10 +333,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey2",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -607,10 +607,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey35",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -881,10 +881,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey36",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1155,10 +1155,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey37",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1429,10 +1429,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey38",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1703,10 +1703,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey39",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1977,10 +1977,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey40",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2282,10 +2282,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue1",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2621,10 +2621,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue2",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2985,10 +2985,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue35",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3349,10 +3349,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue36",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3694,10 +3694,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue37",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4013,10 +4013,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue38",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4330,10 +4330,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue39",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4662,10 +4662,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue40",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4969,7 +4969,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Department_DataCard1",
       "ParentIndex": 1,
@@ -5116,7 +5116,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "EndDate_DataCard2",
       "ParentIndex": 7,
@@ -5262,7 +5262,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage1",
       "ParentIndex": 3,
@@ -5543,7 +5543,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage2",
       "ParentIndex": 3,
@@ -5824,7 +5824,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage32",
       "ParentIndex": 3,
@@ -6105,7 +6105,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage33",
       "ParentIndex": 3,
@@ -6386,7 +6386,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage34",
       "ParentIndex": 3,
@@ -6667,7 +6667,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage35",
       "ParentIndex": 3,
@@ -6948,7 +6948,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage36",
       "ParentIndex": 3,
@@ -7229,7 +7229,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage37",
       "ParentIndex": 3,
@@ -7480,7 +7480,15 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "OnSuccess"
+        "OnSuccess",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "NumberOfColumns",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        }
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -7553,6 +7561,11 @@
         {
           "Category": "Design",
           "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "NumberOfColumns",
           "RuleProviderType": "Unknown"
         },
         {
@@ -8434,10 +8447,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Region_DataCard2",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8589,7 +8602,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "ServiceAndBusinessCase_DataCard3",
       "ParentIndex": 4,
@@ -8741,7 +8754,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "StartDate_DataCard2",
       "ParentIndex": 6,
@@ -8887,10 +8900,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9168,10 +9181,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible2",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9449,10 +9462,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible32",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9730,10 +9743,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible33",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10011,10 +10024,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible34",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10292,10 +10305,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible35",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10573,10 +10586,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible36",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10854,10 +10867,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible37",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11212,7 +11225,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Title_DataCard1",
       "ParentIndex": 0,
@@ -11364,10 +11377,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "UnitEntity_DataCard2",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11511,7 +11524,7 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "",
+      "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "UnitNeeded_DataCard2",
       "ParentIndex": 5,
