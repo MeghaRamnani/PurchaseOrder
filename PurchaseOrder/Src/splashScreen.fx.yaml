@@ -40,7 +40,7 @@ splashScreen As screen:
         OnTimerEnd: =Navigate(homePage,ScreenTransition.Fade)
         Visible: =false
         Width: =280
-        X: =266
-        Y: =128
+        X: =180
+        Y: =141
         ZIndex: =5
 
