@@ -26,7 +26,7 @@ vendor As screen:
             NewForm(vendorForm);
             Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: ="CREATE"
+        Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE REGISTRATION")
         Width: =560
         X: =43
         Y: =1038
