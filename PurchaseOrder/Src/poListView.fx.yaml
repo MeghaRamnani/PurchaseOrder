@@ -15,7 +15,7 @@ poListView As screen:
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(summaryPO,ScreenTransition.None)
         TemplatePadding: =0
-        TemplateSize: =256
+        TemplateSize: =290
         Y: =131
         ZIndex: =1
 
@@ -99,8 +99,8 @@ poListView As screen:
             Text: |-
                 =Concatenate("Registration No.: XEBIA-",ThisItem.ID)
             Width: =500
-            X: =120
-            Y: =21
+            X: =100
+            Y: =30
             ZIndex: =8
 
         Label12_9 As label:
@@ -110,8 +110,8 @@ poListView As screen:
             Text: |-
                 =Concatenate("Region : ",ThisItem.Region.Value)
             Width: =500
-            X: =120
-            Y: =56
+            X: =100
+            Y: =65
             ZIndex: =9
 
         Label12_10 As label:
@@ -121,8 +121,8 @@ poListView As screen:
             Text: |-
                 =Concatenate("Department : ",ThisItem.Department.Value)
             Width: =500
-            X: =120
-            Y: =91
+            X: =100
+            Y: =100
             ZIndex: =10
 
         Label12_11 As label:
@@ -131,21 +131,20 @@ poListView As screen:
             Size: =16
             Text: |-
                 =Concatenate("Start Date: ",ThisItem.StartDate)
-            Width: =250
-            X: =120
-            Y: =161
+            Width: =500
+            X: =100
+            Y: =170
             ZIndex: =11
 
         Label12_12 As label:
-            Align: =Align.Right
             Height: =30
             OnSelect: =Select(Parent)
             Size: =16
             Text: |-
                 =Concatenate("End Date: ",ThisItem.EndDate)
             Width: =250
-            X: =370
-            Y: =161
+            X: =100
+            Y: =205
             ZIndex: =12
 
         Label12_13 As label:
@@ -155,8 +154,8 @@ poListView As screen:
             Text: |-
                 =Concatenate("Vendor : ",ThisItem.Vendor.Value)
             Width: =500
-            X: =120
-            Y: =121
+            X: =100
+            Y: =135
             ZIndex: =13
 
         Label12_14 As label:
@@ -166,8 +165,8 @@ poListView As screen:
             Text: |-
                 =Concatenate("Budget : $ ",ThisItem.CalculatedBudget)
             Width: =250
-            X: =120
-            Y: =196
+            X: =100
+            Y: =240
             ZIndex: =14
 
         Label12_15 As label:
@@ -178,8 +177,8 @@ poListView As screen:
             Size: =16
             Text: =ThisItem.Status
             Width: =250
-            X: =370
-            Y: =196
+            X: =350
+            Y: =240
             ZIndex: =15
 
     Rectangle2_13 As rectangle:
