@@ -46,10 +46,10 @@ editVendorList As screen:
 
     vendorForm_1 As form:
         DataSource: =vendor_1
-        Height: =385
+        Height: =857
         Item: =Gallery1.Selected
         Width: =640
-        Y: =155
+        Y: =127
         ZIndex: =5
 
         Title_DataCard2_1 As typedDataCard.textualEditCard:

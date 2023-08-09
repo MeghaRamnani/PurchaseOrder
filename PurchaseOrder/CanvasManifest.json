@@ -147,6 +147,7 @@
     "poListView",
     "summaryPO",
     "editRegistrationSummary",
-    "editVendorList"
+    "editVendorList",
+    "editEntityList"
   ]
 }
