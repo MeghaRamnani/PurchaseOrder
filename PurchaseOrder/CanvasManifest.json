@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 68,
+    "BindingErrorCount": 69,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -145,9 +145,6 @@
     "addEntity",
     "entityConfirmation",
     "poListView",
-    "summaryPO",
-    "deleteRegistrationItem",
-    "deleteEntity",
-    "deleteVendor"
+    "summaryPO"
   ]
 }
