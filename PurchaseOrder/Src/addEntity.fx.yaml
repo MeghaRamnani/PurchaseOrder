@@ -38,7 +38,7 @@ addEntity As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =20
-        Text: ="Create Entity"
+        Text: =If(entityForm.Mode=FormMode.New,"Create Entity","Update Entity")
         Width: =560
         X: =44
         Y: =24
@@ -48,6 +48,7 @@ addEntity As screen:
         DataSource: =entity
         DefaultMode: =FormMode.New
         Height: =867
+        Item: =Gallery1_1.Selected
         Width: =640
         Y: =131
         ZIndex: =5
