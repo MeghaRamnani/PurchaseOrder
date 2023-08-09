@@ -1191,8 +1191,8 @@ summaryRegistration As screen:
         Height: =30
         Icon: =Icon.Edit
         OnSelect: |-
-            =EditForm(regForm);
-            Navigate(editRegistrationSummary,ScreenTransition.CoverRight)
+            =EditForm(registrationForm);
+            Navigate(registration,ScreenTransition.CoverRight);
         Width: =44
         X: =514
         Y: =61
