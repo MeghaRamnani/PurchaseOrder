@@ -24,6 +24,7 @@ vendor As screen:
         OnSelect: |
             =If(vendorForm.Mode=FormMode.New,
             NewForm(vendorForm),EditForm(vendorForm));
+            SubmitForm(vendorForm);
             Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
         Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE VENDOR")
@@ -47,10 +48,10 @@ vendor As screen:
     vendorForm As form:
         DataSource: =vendor_1
         DefaultMode: =FormMode.New
-        Height: =385
+        Height: =855
         Item: =Gallery1.Selected
         Width: =640
-        Y: =155
+        Y: =135
         ZIndex: =27
 
         Title_DataCard2 As typedDataCard.textualEditCard:
