@@ -166,8 +166,10 @@ editRegistrationSummary As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 Items: =Choices([@registration_1].Department)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(registration_1.Department,DataCardValue64.SearchText)
                 SelectMultiple: =false
@@ -238,6 +240,7 @@ editRegistrationSummary As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 Items: =Choices([@registration_1].Region)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
@@ -310,6 +313,7 @@ editRegistrationSummary As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
                 Items: =Choices([@registration_1].UnitEntity)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
