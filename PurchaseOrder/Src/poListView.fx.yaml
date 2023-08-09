@@ -13,7 +13,7 @@ poListView As screen:
         Items: =Filter(registration_1, Status="Approved")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(summaryVendor,ScreenTransition.None)
+        OnSelect: =Navigate(summaryPO,ScreenTransition.None)
         TemplatePadding: =0
         TemplateSize: =116
         Y: =131

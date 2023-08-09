@@ -18,7 +18,7 @@ summaryPO As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(vendorListView,ScreenTransition.CoverRight)
+        OnSelect: =Navigate(poListView,ScreenTransition.CoverRight)
         Width: =32
         X: =20
         Y: =37
