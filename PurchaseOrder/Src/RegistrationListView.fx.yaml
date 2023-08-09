@@ -90,7 +90,7 @@ registrationListView As screen:
             ZIndex: =15
 
         Label12_3 As label:
-            Height: =30
+            Height: =50
             OnSelect: =Select(Parent)
             Size: =16
             Text: |-
