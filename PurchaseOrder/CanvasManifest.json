@@ -146,6 +146,8 @@
     "entityConfirmation",
     "poListView",
     "summaryPO",
-    "deleteRegistrationItem"
+    "deleteRegistrationItem",
+    "deleteEntity",
+    "deleteVendor"
   ]
 }

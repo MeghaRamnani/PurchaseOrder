@@ -574,7 +574,7 @@ summaryEntity As screen:
     Image8_1 As image:
         Height: =35
         Image: ='icons8-delete-24'
-        OnSelect: =Remove(entity,Gallery1_1.Selected)
+        OnSelect: =Navigate(deleteEntity,ScreenTransition.None)
         Width: =35
         X: =589
         Y: =55
