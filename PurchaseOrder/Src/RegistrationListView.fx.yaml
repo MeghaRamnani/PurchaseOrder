@@ -97,10 +97,11 @@ registrationListView As screen:
                 =Concatenate("Start Date: ",ThisItem.StartDate)
             Width: =250
             X: =100
-            Y: =135
+            Y: =170
             ZIndex: =16
 
         Label12_4 As label:
+            Align: =Align.Right
             Height: =30
             OnSelect: =Select(Parent)
             Size: =16
@@ -108,18 +109,18 @@ registrationListView As screen:
                 =Concatenate("End Date: ",ThisItem.EndDate)
             Width: =250
             X: =350
-            Y: =135
+            Y: =170
             ZIndex: =17
 
         Label12_5 As label:
-            Height: =30
+            Height: =35
             OnSelect: =Select(Parent)
             Size: =16
             Text: |-
                 =Concatenate("Vendor : ",ThisItem.Vendor.Value)
             Width: =500
             X: =100
-            Y: =170
+            Y: =130
             ZIndex: =18
 
         Label12_6 As label:
@@ -134,6 +135,8 @@ registrationListView As screen:
             ZIndex: =19
 
         Label12_7 As label:
+            Align: =Align.Right
+            Color: =RGBA(108, 29, 95, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
             OnSelect: =Select(Parent)
