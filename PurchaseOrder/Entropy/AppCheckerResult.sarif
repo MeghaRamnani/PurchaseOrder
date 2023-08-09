@@ -6834,6 +6834,54 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 10
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 10
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 10
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 10
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -7030,6 +7078,46 @@
           "message": {
             "arguments": [
               "VAT#"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": ".MaxLength"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "summaryRegistration",
+                "type": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "MaxLength"
             ],
             "id": "issue"
           },
@@ -9186,10 +9274,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 23,
+                  "charLength": 20,
                   "charOffset": 46,
                   "snippet": {
-                    "text": "editRegistrationSummary"
+                    "text": "registrationListView"
                   }
                 }
               },
@@ -11944,19 +12032,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Department_DataCard1_2.DataCardValue2_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Department_DataCard1_2.DataCardValue2_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Department_DataCard1_2.DataCardValue2_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Department_DataCard1_2.DataCardValue2_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Department_DataCard1_2.DataCardValue2_2"
+                "type": "summaryRegistration.regForm.Department_DataCard1_2.DataCardValue2_2"
               }
             }
           ],
@@ -11974,19 +12062,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Region_DataCard2_2.DataCardValue4_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Region_DataCard2_2.DataCardValue4_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Region_DataCard2_2.DataCardValue4_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Region_DataCard2_2.DataCardValue4_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Region_DataCard2_2.DataCardValue4_2"
+                "type": "summaryRegistration.regForm.Region_DataCard2_2.DataCardValue4_2"
               }
             }
           ],
@@ -12004,19 +12092,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.UnitEntity_DataCard2_2.DataCardValue16_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.UnitEntity_DataCard2_2.DataCardValue16_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.UnitEntity_DataCard2_2.DataCardValue16_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.UnitEntity_DataCard2_2.DataCardValue16_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.UnitEntity_DataCard2_2.DataCardValue16_2"
+                "type": "summaryRegistration.regForm.UnitEntity_DataCard2_2.DataCardValue16_2"
               }
             }
           ],
@@ -12034,19 +12122,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Title_DataCard5.DataCardValue28.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Title_DataCard5.DataCardValue28.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Title_DataCard5.DataCardValue28.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Title_DataCard5.DataCardValue28.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Title_DataCard5.DataCardValue28"
+                "type": "summaryRegistration.regForm.Title_DataCard5.DataCardValue28"
               }
             }
           ],
@@ -12064,19 +12152,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.StartDate_DataCard2_2.DataCardValue19_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.StartDate_DataCard2_2.DataCardValue19_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.StartDate_DataCard2_2.DataCardValue19_2"
+                "type": "summaryRegistration.regForm.ServiceAndBusinessCase_DataCard1.DataCardValue18"
               }
             }
           ],
@@ -12094,19 +12182,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.EndDate_DataCard2_2.DataCardValue20_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.StartDate_DataCard2_2.DataCardValue19_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.EndDate_DataCard2_2.DataCardValue20_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.StartDate_DataCard2_2.DataCardValue19_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.EndDate_DataCard2_2.DataCardValue20_2"
+                "type": "summaryRegistration.regForm.StartDate_DataCard2_2.DataCardValue19_2"
               }
             }
           ],
@@ -12124,19 +12212,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.ServiceProvider_DataCard2.DataCardValue25.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.EndDate_DataCard2_2.DataCardValue20_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.ServiceProvider_DataCard2.DataCardValue25.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.EndDate_DataCard2_2.DataCardValue20_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.ServiceProvider_DataCard2.DataCardValue25"
+                "type": "summaryRegistration.regForm.EndDate_DataCard2_2.DataCardValue20_2"
               }
             }
           ],
@@ -12154,19 +12242,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Vendor_DataCard2_2.DataCardValue22_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceProvider_DataCard2.DataCardValue25.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Vendor_DataCard2_2.DataCardValue22_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.ServiceProvider_DataCard2.DataCardValue25.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Vendor_DataCard2_2.DataCardValue22_2"
+                "type": "summaryRegistration.regForm.ServiceProvider_DataCard2.DataCardValue25"
               }
             }
           ],
@@ -12184,19 +12272,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Currency_DataCard2.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Vendor_DataCard2_2.DataCardValue22_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Currency_DataCard2.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Vendor_DataCard2_2.DataCardValue22_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Currency_DataCard2.DataCardValue20"
+                "type": "summaryRegistration.regForm.Vendor_DataCard2_2.DataCardValue22_2"
               }
             }
           ],
@@ -12214,19 +12302,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.UnitNeeded_DataCard2_2.DataCardValue18_2.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Currency_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.UnitNeeded_DataCard2_2.DataCardValue18_2.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Currency_DataCard2.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.UnitNeeded_DataCard2_2.DataCardValue18_2"
+                "type": "summaryRegistration.regForm.Currency_DataCard2.DataCardValue20"
               }
             }
           ],
@@ -12244,19 +12332,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.CurrencyRate_DataCard2.DataCardValue21.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.UnitNeeded_DataCard2_2.DataCardValue18_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.CurrencyRate_DataCard2.DataCardValue21.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.UnitNeeded_DataCard2_2.DataCardValue18_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.CurrencyRate_DataCard2.DataCardValue21"
+                "type": "summaryRegistration.regForm.UnitNeeded_DataCard2_2.DataCardValue18_2"
               }
             }
           ],
@@ -12274,19 +12362,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Amount_DataCard2.DataCardValue29.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.CurrencyRate_DataCard2.DataCardValue21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.Amount_DataCard2.DataCardValue29.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.CurrencyRate_DataCard2.DataCardValue21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.Amount_DataCard2.DataCardValue29"
+                "type": "summaryRegistration.regForm.CurrencyRate_DataCard2.DataCardValue21"
               }
             }
           ],
@@ -12304,19 +12392,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.CalculatedBudget_DataCard3.DataCardValue26.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.Amount_DataCard2.DataCardValue29.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.CalculatedBudget_DataCard3.DataCardValue26.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.Amount_DataCard2.DataCardValue29.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.CalculatedBudget_DataCard3.DataCardValue26"
+                "type": "summaryRegistration.regForm.Amount_DataCard2.DataCardValue29"
               }
             }
           ],
@@ -12334,19 +12422,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.'Created By_DataCard1'.DataCardValue19.AccessibleLabel"
+                  "fullyQualifiedName": "summaryRegistration.regForm.CalculatedBudget_DataCard3.DataCardValue26.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "summaryRegistration.Form1_2.'Created By_DataCard1'.DataCardValue19.AccessibleLabel",
+                  "fullyQualifiedName": "summaryRegistration.regForm.CalculatedBudget_DataCard3.DataCardValue26.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "summaryRegistration",
-                "type": "summaryRegistration.Form1_2.'Created By_DataCard1'.DataCardValue19"
+                "type": "summaryRegistration.regForm.CalculatedBudget_DataCard3.DataCardValue26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "summaryRegistration.regForm.'Created By_DataCard1'.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "summaryRegistration.regForm.'Created By_DataCard1'.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "summaryRegistration",
+                "type": "summaryRegistration.regForm.'Created By_DataCard1'.DataCardValue19"
               }
             }
           ],

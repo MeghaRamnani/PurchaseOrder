@@ -563,7 +563,9 @@ summaryEntity As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =25
         Icon: =Icon.Edit
-        OnSelect: =Navigate(editVendorSummary,ScreenTransition.Cover)
+        OnSelect: |-
+            =EditForm(entityForm);
+            Navigate(editVendorSummary,ScreenTransition.Cover)
         Width: =34
         X: =531
         Y: =57
