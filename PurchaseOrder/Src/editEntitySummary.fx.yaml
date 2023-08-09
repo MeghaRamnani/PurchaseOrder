@@ -1,4 +1,4 @@
-editEntityList As screen:
+editEntitySummary As screen:
 
     Rectangle2_5 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
