@@ -22,11 +22,11 @@ vendor As screen:
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |
-            =SubmitForm(vendorForm);
-            NewForm(vendorForm);
+            =If(vendorForm.Mode=FormMode.New,
+            NewForm(vendorForm),EditForm(vendorForm));
             Navigate(vendorConfirmation,ScreenTransition.Cover);
         Size: =24
-        Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE REGISTRATION")
+        Text: =If(vendorForm.Mode=FormMode.New,"CREATE","UPDATE VENDOR")
         Width: =560
         X: =43
         Y: =1038
