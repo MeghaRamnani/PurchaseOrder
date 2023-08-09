@@ -131,14 +131,14 @@ homePage As screen:
         PressedFill: =RGBA(255, 255, 255, 1)
         Width: =274
         X: =33
-        Y: =429
+        Y: =439
         ZIndex: =13
 
     Image5_6 As image:
         Image: ='icons8-teamwork-64'
         OnSelect: =Navigate(entityListView,ScreenTransition.Cover)
         X: =116
-        Y: =511
+        Y: =521
         ZIndex: =14
 
     Label5_6 As label:
@@ -151,7 +151,7 @@ homePage As screen:
         Text: ="ENTITY"
         Width: =248
         X: =42
-        Y: =630
+        Y: =640
         ZIndex: =15
 
     Rectangle1_6 As rectangle:
