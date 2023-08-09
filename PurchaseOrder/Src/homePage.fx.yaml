@@ -130,8 +130,8 @@ homePage As screen:
         OnSelect: =Navigate(entityListView,ScreenTransition.Cover)
         PressedFill: =RGBA(255, 255, 255, 1)
         Width: =274
-        X: =29
-        Y: =443
+        X: =33
+        Y: =429
         ZIndex: =13
 
     Image5_6 As image:
