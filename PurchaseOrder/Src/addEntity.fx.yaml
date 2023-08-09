@@ -24,6 +24,7 @@ addEntity As screen:
         OnSelect: |
             =If(entityForm.Mode=FormMode.New,
             NewForm(entityForm),EditForm(entityForm));
+            SubmitForm(entityForm);
             Navigate(entityConfirmation,ScreenTransition.Cover);
         Size: =24
         Text: =If(entityForm.Mode=FormMode.New,"CREATE","UPDATE ENTITY")
