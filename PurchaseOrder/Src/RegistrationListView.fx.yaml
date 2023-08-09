@@ -179,7 +179,9 @@ registrationListView As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =57
         Icon: =Icon.Add
-        OnSelect: =Navigate(registration,ScreenTransition.Cover)
+        OnSelect: |-
+            =NewForm(registrationForm);
+            Navigate(registration,ScreenTransition.Cover)
         Width: =32
         X: =572
         Y: =47
