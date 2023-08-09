@@ -22,8 +22,8 @@ addEntity As screen:
         Height: =70
         HoverFill: =ColorFade(RGBA(212,94,192,90),-20%)
         OnSelect: |
-            =SubmitForm(entityForm);
-            NewForm(entityForm);
+            =If(entityForm.Mode=FormMode.New,
+            NewForm(entityForm),EditForm(entityForm));
             Navigate(entityConfirmation,ScreenTransition.Cover);
         Size: =24
         Text: =If(entityForm.Mode=FormMode.New,"CREATE","UPDATE ENTITY")
