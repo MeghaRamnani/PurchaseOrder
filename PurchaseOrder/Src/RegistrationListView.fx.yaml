@@ -21,7 +21,7 @@ registrationListView As screen:
         ZIndex: =1
 
         Image14 As image:
-            Height: =84
+            Height: =87
             Image: ='Group 60'
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
@@ -30,7 +30,7 @@ registrationListView As screen:
             RadiusTopRight: =8
             Width: =84
             X: =6
-            Y: =82
+            Y: =63
             ZIndex: =1
 
         Subtitle11 As label:
@@ -208,6 +208,16 @@ registrationListView As screen:
             X: =190
             Y: =160
             ZIndex: =22
+
+        Label1 As label:
+            Height: =48
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =
+            Width: =345
+            X: =275
+            Y: =26
+            ZIndex: =23
 
     Rectangle2_15 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)

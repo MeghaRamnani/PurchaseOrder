@@ -146,3 +146,14 @@ poListView As screen:
         Y: =47
         ZIndex: =6
 
+    Icon1_21 As icon.ChevronLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =57
+        Icon: =Icon.Reload
+        OnSelect: |-
+            =UpdateContext({locShowSpinner: true});Refresh(registration_1)
+        Width: =32
+        X: =528
+        Y: =47
+        ZIndex: =7
+
