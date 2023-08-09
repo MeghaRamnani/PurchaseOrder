@@ -1192,9 +1192,9 @@ summaryRegistration As screen:
 
         Rectangle6 As rectangle:
             Fill: =RGBA(97, 23, 97, 0.93)
-            Height: =364
+            Height: =366
             Visible: =regPopUp
-            Width: =525
+            Width: =545
             X: =44
             Y: =306
             ZIndex: =9
@@ -1219,7 +1219,7 @@ summaryRegistration As screen:
             HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
             OnSelect: |-
                 =Remove(registration_1,Gallery2.Selected);
-                Navigate(homePage,ScreenTransition.Cover);
+                Navigate(registrationListView,ScreenTransition.Cover);
             Size: =24
             Text: ="DELETE"
             Visible: =regPopUp
@@ -1238,7 +1238,7 @@ summaryRegistration As screen:
             Text: ="GO BACK"
             Visible: =regPopUp
             Width: =220
-            X: =319
+            X: =329
             Y: =533
             ZIndex: =12
 

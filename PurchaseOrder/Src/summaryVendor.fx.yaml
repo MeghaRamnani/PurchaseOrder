@@ -254,7 +254,7 @@ summaryVendor As screen:
             HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
             OnSelect: |-
                 =Remove(vendor_1,Gallery1.Selected);
-                Navigate(homePage,ScreenTransition.Cover);
+                Navigate(vendorListView,ScreenTransition.Cover);
             Size: =24
             Text: ="DELETE"
             Visible: =venPopUp

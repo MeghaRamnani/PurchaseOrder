@@ -46,45 +46,6 @@ summaryPO As screen:
         Y: =131
         ZIndex: =5
 
-        ServiceAndBusinessCase_DataCard6 As typedDataCard.richTextEditorViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ServiceAndBusinessCase"
-            Default: =ThisItem.ServiceAndBusinessCase
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ServiceAndBusinessCase")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =true
-            Width: =640
-            X: =0
-            Y: =5
-            ZIndex: =1
-
-            DataCardKey36 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: ="Service and Business Case"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue36 As htmlViewer:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =50
-                HtmlText: =Parent.Default
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
-                ZIndex: =2
-
         ID_DataCard1_1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="ID"
@@ -194,6 +155,45 @@ summaryPO As screen:
                 Wrap: =false
                 Y: =DataCardKey28_1.Y
                 ZIndex: =4
+
+        ServiceAndBusinessCase_DataCard6 As typedDataCard.richTextEditorViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ServiceAndBusinessCase"
+            Default: =ThisItem.ServiceAndBusinessCase
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ServiceAndBusinessCase")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =640
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            DataCardKey36 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: ="Service and Business Case"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue36 As htmlViewer:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =50
+                HtmlText: =Parent.Default
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                ZIndex: =2
 
         ServiceProvider_DataCard2_1 As typedDataCard.toggleEditCard:
             BorderStyle: =BorderStyle.Solid
