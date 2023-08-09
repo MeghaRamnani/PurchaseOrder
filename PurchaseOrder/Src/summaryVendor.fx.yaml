@@ -227,9 +227,9 @@ summaryVendor As screen:
 
         Rectangle6_1 As rectangle:
             Fill: =RGBA(97, 23, 97, 0.93)
-            Height: =364
+            Height: =376
             Visible: =venPopUp
-            Width: =525
+            Width: =545
             X: =44
             Y: =306
             ZIndex: =9
@@ -273,7 +273,7 @@ summaryVendor As screen:
             Text: ="GO BACK"
             Visible: =venPopUp
             Width: =220
-            X: =319
+            X: =329
             Y: =533
             ZIndex: =12
 

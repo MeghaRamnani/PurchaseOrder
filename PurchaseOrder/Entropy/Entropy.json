@@ -290,7 +290,7 @@
     "galleryTemplate1_1": 562,
     "galleryTemplate1_2": 31,
     "galleryTemplate2": 156,
-    "Group1": 574,
+    "GroupReg": 574,
     "GroupVendor": 580,
     "GST#_DataCard2": 201,
     "GST#_DataCard3": 463,
@@ -583,7 +583,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/09/2023 11:52:16",
+  "HeaderLastSavedDateTimeUTC": "08/09/2023 11:53:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1c1f3cde-0c54-4ba4-b415-01278490b886": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/88cf232da52e48f898a190cbb916092b\"",
@@ -670,7 +670,7 @@
     "vendor_1": 12
   },
   "OrderGroupControls": {
-    "Group1": {
+    "GroupReg": {
       "Button2": 1,
       "Button2_1": 0,
       "Label5": 2,
@@ -993,7 +993,7 @@
     "galleryTemplate1_1": {},
     "galleryTemplate1_2": {},
     "galleryTemplate2": {},
-    "Group1": {},
+    "GroupReg": {},
     "GroupVendor": {},
     "GST#_DataCard2": {},
     "GST#_DataCard3": {},
@@ -1575,7 +1575,7 @@
     "galleryTemplate1_1": 122,
     "galleryTemplate1_2": 155,
     "galleryTemplate2": 280,
-    "Group1": 0,
+    "GroupReg": 0,
     "GroupVendor": 0,
     "GST#_DataCard2": 309,
     "GST#_DataCard3": 10,

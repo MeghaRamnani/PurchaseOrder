@@ -1176,7 +1176,7 @@ summaryRegistration As screen:
         Y: =55
         ZIndex: =7
 
-    Group1 As group:
+    GroupReg As group:
         Height: =5
         Width: =5
         X: =40
