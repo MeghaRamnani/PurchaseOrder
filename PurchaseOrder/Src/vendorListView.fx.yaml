@@ -41,7 +41,7 @@ vendorListView As screen:
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                =Concatenate("Vendor:",ThisItem.Title)
+                =Concatenate("Vendor : ",ThisItem.Title)
             VerticalAlign: =VerticalAlign.Top
             Width: =500
             X: =106
@@ -83,9 +83,9 @@ vendorListView As screen:
             OnSelect: =Select(Parent)
             Size: =14
             Text: |-
-                =Concatenate("Registration Number:",ThisItem.'RegistrationNo.')
+                =Concatenate("Registration Number : ",ThisItem.'RegistrationNo.')
             Width: =500
-            X: =94
+            X: =103
             Y: =84
             ZIndex: =6
 
