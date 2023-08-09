@@ -1176,69 +1176,10 @@ summaryRegistration As screen:
         Y: =55
         ZIndex: =7
 
-    Group1 As group:
+    GroupReg As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =13
-
-        Rectangle5 As rectangle:
-            Fill: =RGBA(219, 219, 219, .7)
-            Height: =1136
-            Visible: =regPopUp
-            Width: =640
-            ZIndex: =8
-
-        Rectangle6 As rectangle:
-            Fill: =RGBA(97, 23, 97, 0.93)
-            Height: =364
-            Visible: =regPopUp
-            Width: =525
-            X: =44
-            Y: =306
-            ZIndex: =9
-
-        Label5 As label:
-            Align: =Align.Center
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =90
-            Size: =26
-            Text: ="Are you sure you want to delete this item?"
-            Visible: =regPopUp
-            Width: =490
-            X: =61
-            Y: =341
-            ZIndex: =10
-
-        Button2 As button:
-            Color: =RGBA(0, 0, 0, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =58
-            HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
-            OnSelect: |-
-                =Remove(registration_1,Gallery2.Selected);
-                Navigate(homePage,ScreenTransition.Cover);
-            Size: =24
-            Text: ="DELETE"
-            Visible: =regPopUp
-            Width: =220
-            X: =81
-            Y: =533
-            ZIndex: =11
-
-        Button2_1 As button:
-            Color: =RGBA(0, 0, 0, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            Height: =58
-            HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
-            OnSelect: =Set(regPopUp,false)
-            Size: =24
-            Text: ="GO BACK"
-            Visible: =regPopUp
-            Width: =220
-            X: =319
-            Y: =533
-            ZIndex: =12
 
