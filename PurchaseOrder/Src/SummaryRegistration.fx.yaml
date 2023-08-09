@@ -1167,19 +1167,79 @@ summaryRegistration As screen:
         Y: =61
         ZIndex: =6
 
-    Image8_2 As image:
+    Icon3 As icon.Trash:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =35
-        Image: ='icons8-delete-24'
+        Icon: =Icon.Trash
         OnSelect: =Set(regPopUp,true)
-        Width: =35
-        X: =589
-        Y: =55
-        ZIndex: =7
+        Width: =46
+        X: =570
+        Y: =61
+        ZIndex: =8
 
-    GroupReg As group:
+    regGroup As group:
         Height: =5
         Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =13
+        X: =60
+        Y: =60
+        ZIndex: =14
+
+        Rectangle4_1 As rectangle:
+            Fill: =RGBA(237, 237, 237, 1)
+            Height: =1136
+            Visible: =regPopUp
+            Width: =640
+            ZIndex: =9
+
+        Rectangle8_1 As rectangle:
+            Fill: =RGBA(97, 23, 97, 1)
+            Height: =366
+            Visible: =regPopUp
+            Width: =545
+            X: =47
+            Y: =361
+            ZIndex: =10
+
+        Label11_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =90
+            Size: =26
+            Text: ="Are you sure you want to delete this item?"
+            Visible: =regPopUp
+            Width: =545
+            X: =47
+            Y: =386
+            ZIndex: =11
+
+        Button3_6 As button:
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =58
+            HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+            OnSelect: |-
+                =Remove(registration_1,Gallery2.Selected);
+                Navigate(registrationListView,ScreenTransition.Cover);
+            Size: =24
+            Text: ="DELETE"
+            Visible: =regPopUp
+            Width: =220
+            X: =88
+            Y: =621
+            ZIndex: =12
+
+        Button3_10 As button:
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =58
+            HoverFill: =ColorFade(RGBA(108, 29, 95, 1), 40%)
+            OnSelect: =Set(regPopUp,false)
+            Size: =24
+            Text: ="GO BACK"
+            Visible: =regPopUp
+            Width: =220
+            X: =335
+            Y: =621
+            ZIndex: =13
 

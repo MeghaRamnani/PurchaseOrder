@@ -202,14 +202,15 @@ summaryVendor As screen:
         Y: =57
         ZIndex: =6
 
-    Image8 As image:
+    Icon3_2 As icon.Trash:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =35
-        Image: ='icons8-delete-24'
+        Icon: =Icon.Trash
         OnSelect: =Set(venPopUp,true)
-        Width: =35
-        X: =589
-        Y: =55
-        ZIndex: =7
+        Width: =46
+        X: =570
+        Y: =51
+        ZIndex: =13
 
     GroupVendor As group:
         Height: =5
