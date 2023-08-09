@@ -15,7 +15,7 @@ poListView As screen:
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(summaryPO,ScreenTransition.None)
         TemplatePadding: =0
-        TemplateSize: =116
+        TemplateSize: =256
         Y: =131
         ZIndex: =1
 
@@ -31,21 +31,6 @@ poListView As screen:
             X: =16
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
-
-        Title3 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 185
-            X: =115
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle1.Size*1.8 + 2 + Body1.Size*1.8)) / 2
-            ZIndex: =2
 
         Subtitle1 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -106,6 +91,96 @@ poListView As screen:
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =7
+
+        Label12_8 As label:
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Registration No.: XEBIA-",ThisItem.ID)
+            Width: =500
+            X: =120
+            Y: =21
+            ZIndex: =8
+
+        Label12_9 As label:
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Region : ",ThisItem.Region.Value)
+            Width: =500
+            X: =120
+            Y: =56
+            ZIndex: =9
+
+        Label12_10 As label:
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Department : ",ThisItem.Department.Value)
+            Width: =500
+            X: =120
+            Y: =91
+            ZIndex: =10
+
+        Label12_11 As label:
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Start Date: ",ThisItem.StartDate)
+            Width: =250
+            X: =120
+            Y: =161
+            ZIndex: =11
+
+        Label12_12 As label:
+            Align: =Align.Right
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("End Date: ",ThisItem.EndDate)
+            Width: =250
+            X: =370
+            Y: =161
+            ZIndex: =12
+
+        Label12_13 As label:
+            Height: =35
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Vendor : ",ThisItem.Vendor.Value)
+            Width: =500
+            X: =120
+            Y: =121
+            ZIndex: =13
+
+        Label12_14 As label:
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: |-
+                =Concatenate("Budget : $ ",ThisItem.CalculatedBudget)
+            Width: =250
+            X: =120
+            Y: =196
+            ZIndex: =14
+
+        Label12_15 As label:
+            Align: =Align.Right
+            FontWeight: =FontWeight.Bold
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: =ThisItem.Status
+            Width: =250
+            X: =370
+            Y: =196
+            ZIndex: =15
 
     Rectangle2_13 As rectangle:
         BorderColor: =RGBA(108, 29, 95, 1)
