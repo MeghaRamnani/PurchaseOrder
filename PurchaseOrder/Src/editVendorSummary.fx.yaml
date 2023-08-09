@@ -55,7 +55,7 @@ editVendorSummary As screen:
     Form2_1 As form:
         DataSource: =vendor_1
         Height: =878
-        Item: =Gallery2.Selected
+        Item: =Gallery1.Selected
         Width: =640
         Y: =134
         ZIndex: =6

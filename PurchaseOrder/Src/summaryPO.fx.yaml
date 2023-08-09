@@ -41,6 +41,7 @@ summaryPO As screen:
         DefaultMode: =FormMode.View
         Height: =897
         Item: =Gallery1_2.Selected
+        NumberOfColumns: =2
         Width: =640
         Y: =130
         ZIndex: =5
@@ -56,7 +57,7 @@ summaryPO As screen:
             MaxLength: =DataSourceInfo([@registration_1], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =640
+            Width: =320
             X: =0
             Y: =0
             ZIndex: =6
@@ -128,9 +129,9 @@ summaryPO As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue2.Selected
-            Width: =640
-            X: =0
-            Y: =1
+            Width: =320
+            X: =1
+            Y: =0
             ZIndex: =6
 
             DataCardKey2 As label:
@@ -199,9 +200,9 @@ summaryPO As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue35.Selected
-            Width: =640
+            Width: =320
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =6
 
             DataCardKey35 As label:
@@ -270,9 +271,9 @@ summaryPO As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue36.Selected
-            Width: =640
-            X: =0
-            Y: =3
+            Width: =320
+            X: =1
+            Y: =1
             ZIndex: =6
 
             DataCardKey36 As label:
@@ -342,9 +343,9 @@ summaryPO As screen:
             MaxLength: =DataSourceInfo([@registration_1], DataSourceInfo.MaxLength, "ServiceAndBusinessCase")
             Required: =true
             Update: =DataCardValue37.Text
-            Width: =640
+            Width: =320
             X: =0
-            Y: =4
+            Y: =2
             ZIndex: =6
 
             DataCardKey37 As label:
@@ -414,9 +415,9 @@ summaryPO As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue38.Text)
-            Width: =640
-            X: =0
-            Y: =5
+            Width: =320
+            X: =1
+            Y: =2
             ZIndex: =6
 
             DataCardKey38 As label:
@@ -486,9 +487,9 @@ summaryPO As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue39.SelectedDate
-            Width: =640
+            Width: =320
             X: =0
-            Y: =6
+            Y: =3
             ZIndex: =6
 
             DataCardKey39 As label:
@@ -556,9 +557,9 @@ summaryPO As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue40.SelectedDate
-            Width: =640
-            X: =0
-            Y: =7
+            Width: =320
+            X: =1
+            Y: =3
             ZIndex: =6
 
             DataCardKey40 As label:
