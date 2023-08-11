@@ -50,6 +50,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_25 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =30
             OnSelect: =Select(Parent)
             Size: =18
@@ -62,6 +63,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_26 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =30
             OnSelect: =Select(Parent)
             Size: =18
@@ -74,6 +76,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_28 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =30
             OnSelect: =Select(Parent)
             Size: =18
@@ -86,6 +89,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_29 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =30
             OnSelect: =Select(Parent)
             Size: =18
@@ -98,6 +102,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_27 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =35
             OnSelect: =Select(Parent)
             Size: =18
@@ -110,6 +115,7 @@ duplicateRegistrationlistView As screen:
 
         Label12_30 As label:
             Color: =RGBA(128, 128, 128, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =30
             OnSelect: =Select(Parent)
             Size: =18
