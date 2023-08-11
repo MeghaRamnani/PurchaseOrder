@@ -52,7 +52,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =30
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("Region : ",ThisItem.Region.Value)
             Width: =500
@@ -64,7 +64,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =30
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("Department : ",ThisItem.Department.Value)
             Width: =500
@@ -76,7 +76,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =30
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("Start Date: ",ThisItem.StartDate)
             Width: =500
@@ -88,7 +88,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =30
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("End Date: ",ThisItem.EndDate)
             Width: =500
@@ -100,7 +100,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =35
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("Vendor : ",ThisItem.Vendor.Value)
             Width: =500
@@ -112,7 +112,7 @@ duplicateRegistrationlistView As screen:
             Color: =RGBA(128, 128, 128, 1)
             Height: =30
             OnSelect: =Select(Parent)
-            Size: =16
+            Size: =18
             Text: |-
                 =Concatenate("Budget : $ ",ThisItem.CalculatedBudget)
             Width: =250
