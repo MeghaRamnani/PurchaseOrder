@@ -134,13 +134,13 @@ duplicateRegistrationlistView As screen:
         Label12_31 As label:
             Align: =Align.Right
             FontWeight: =FontWeight.Bold
-            Height: =25
+            Height: =44
             OnSelect: =Select(Parent)
             Size: =16
             Text: =ThisItem.Status
             Width: =98
             X: =484
-            Y: =240
+            Y: =230
             ZIndex: =11
 
     Rectangle2_17 As rectangle:
