@@ -37,7 +37,7 @@ duplicateRegistrationlistView As screen:
             ZIndex: =2
 
         Label12_21 As label:
-            FontWeight: =FontWeight.Semibold
+            FontWeight: =FontWeight.Bold
             Height: =43
             OnSelect: =Select(Parent)
             Size: =22
