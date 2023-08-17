@@ -392,7 +392,7 @@ DuplicatesummaryRegistration As screen:
             Height: =124
             Required: =false
             Update: =Value(DataCardValue21_2.Text)
-            Width: =270
+            Width: =320
             X: =0
             Y: =10
             ZIndex: =1
@@ -1072,7 +1072,7 @@ DuplicatesummaryRegistration As screen:
             Height: =108
             Required: =false
             Update: =Value(DataCardValue18_4.Text)
-            Width: =284
+            Width: =320
             X: =0
             Y: =10
             ZIndex: =2
