@@ -31,9 +31,10 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ID")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =63
+            Height: =83
             Required: =false
-            Width: =640
+            Width: =369
+            WidthFit: =false
             X: =0
             Y: =0
             ZIndex: =1
@@ -74,7 +75,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue28_2.Text
             Width: =640
             X: =0
-            Y: =4
+            Y: =2
             ZIndex: =1
 
             DataCardKey28_2 As label:
@@ -145,7 +146,7 @@ DuplicatesummaryRegistration As screen:
             Required: =true
             Width: =640
             X: =0
-            Y: =5
+            Y: =3
             ZIndex: =1
 
             DataCardKey2_1 As label:
@@ -186,7 +187,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue25_2.Value
             Width: =640
             X: =0
-            Y: =8
+            Y: =6
             ZIndex: =1
 
             DataCardKey25_2 As label:
@@ -251,7 +252,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue22_5.Selected
             Width: =640
             X: =0
-            Y: =9
+            Y: =7
             ZIndex: =1
 
             DataCardKey22_5 As label:
@@ -322,7 +323,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue20_5.Selected
             Width: =640
             X: =0
-            Y: =10
+            Y: =8
             ZIndex: =1
 
             DataCardKey20_5 As label:
@@ -393,7 +394,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue21_2.Text)
             Width: =640
             X: =0
-            Y: =12
+            Y: =10
             ZIndex: =1
 
             DataCardKey21_2 As label:
@@ -465,7 +466,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue29_2.Text)
             Width: =640
             X: =0
-            Y: =13
+            Y: =11
             ZIndex: =1
 
             DataCardKey29_2 As label:
@@ -537,7 +538,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue26_2.Text)
             Width: =640
             X: =0
-            Y: =14
+            Y: =12
             ZIndex: =1
 
             DataCardKey26_2 As label:
@@ -609,7 +610,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue19_5.Selected
             Width: =640
             X: =0
-            Y: =15
+            Y: =13
             ZIndex: =1
 
             DataCardKey19_5 As label:
@@ -679,7 +680,7 @@ DuplicatesummaryRegistration As screen:
             Required: =false
             Width: =640
             X: =0
-            Y: =16
+            Y: =14
             ZIndex: =1
 
             DataCardKey30_2 As label:
@@ -713,10 +714,10 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Department")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =114
             Required: =false
             Update: =DataCardValue2_4.Selected
-            Width: =640
+            Width: =289
             X: =0
             Y: =1
             ZIndex: =2
@@ -784,12 +785,12 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Region")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =119
             Required: =false
             Update: =DataCardValue4_4.Selected
-            Width: =640
+            Width: =329
             X: =0
-            Y: =2
+            Y: =15
             ZIndex: =2
 
             DataCardKey4_4 As label:
@@ -855,12 +856,12 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"UnitEntity")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =135
             Required: =false
             Update: =DataCardValue16_4.Selected
             Width: =640
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =2
 
             DataCardKey16_4 As label:
@@ -926,12 +927,12 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"StartDate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =121
             Required: =false
             Update: =DataCardValue19_4.SelectedDate
-            Width: =640
+            Width: =475
             X: =0
-            Y: =6
+            Y: =4
             ZIndex: =2
 
             DataCardKey19_4 As label:
@@ -997,12 +998,12 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =118
             Required: =false
             Update: =DataCardValue20_4.SelectedDate
-            Width: =640
+            Width: =480
             X: =0
-            Y: =7
+            Y: =5
             ZIndex: =2
 
             DataCardKey20_4 As label:
@@ -1031,7 +1032,7 @@ DuplicatesummaryRegistration As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey20_4.Y + DataCardKey20_4.Height + 5
+                Y: =60
                 ZIndex: =2
 
             ErrorMessage20_4 As label:
@@ -1073,7 +1074,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue18_4.Text)
             Width: =640
             X: =0
-            Y: =11
+            Y: =9
             ZIndex: =2
 
             DataCardKey18_4 As label:
