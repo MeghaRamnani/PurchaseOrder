@@ -605,10 +605,10 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Author")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =129
+            Height: =126
             Required: =false
             Update: =DataCardValue19_5.Selected
-            Width: =417
+            Width: =410
             X: =0
             Y: =12
             ZIndex: =1
@@ -676,9 +676,9 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"Created")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =113
+            Height: =101
             Required: =false
-            Width: =339
+            Width: =332
             X: =0
             Y: =13
             ZIndex: =1
