@@ -135,6 +135,7 @@
     "duplicateRegistrationlistView",
     "registration",
     "summaryRegistration",
+    "DuplicatesummaryRegistration",
     "approval",
     "registrationConfirmation",
     "vendorListView",
