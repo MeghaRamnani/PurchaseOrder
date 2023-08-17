@@ -990,76 +990,6 @@ summaryRegistration As screen:
                 Y: =DataCardKey19_2.Y
                 ZIndex: =4
 
-        EndDate_DataCard2_2 As typedDataCard.dateEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="EndDate"
-            Default: =ThisItem.EndDate
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =151
-            Required: =false
-            Update: =DataCardValue20_2.SelectedDate
-            Width: =332
-            X: =300
-            Y: =989
-            ZIndex: =2
-
-            DataCardKey20_2 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: ="End Date"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =60
-                ZIndex: =1
-
-            DataCardValue20_2 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Format: =DateTimeFormat.LongDate
-                Height: =70
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                Size: =24
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20_2.Y + DataCardKey20_2.Height + 5
-                ZIndex: =2
-
-            ErrorMessage20_2 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue20_2.Y + DataCardValue20_2.Height
-                ZIndex: =3
-
-            StarVisible20_2 As label:
-                Align: =Align.Center
-                Height: =DataCardKey20_2.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey20_2.Y
-                ZIndex: =4
-
         UnitNeeded_DataCard2_2 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="UnitNeeded"
@@ -1130,6 +1060,76 @@ summaryRegistration As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey18_2.Y
+                ZIndex: =4
+
+        EndDate_DataCard2_2 As typedDataCard.dateEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="EndDate"
+            Default: =ThisItem.EndDate
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =151
+            Required: =false
+            Update: =DataCardValue20_2.SelectedDate
+            Width: =332
+            X: =300
+            Y: =989
+            ZIndex: =2
+
+            DataCardKey20_2 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: ="End Date"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =60
+                ZIndex: =1
+
+            DataCardValue20_2 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultDate: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                Format: =DateTimeFormat.LongDate
+                Height: =70
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                Size: =24
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey20_2.Y + DataCardKey20_2.Height + 5
+                ZIndex: =2
+
+            ErrorMessage20_2 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue20_2.Y + DataCardValue20_2.Height
+                ZIndex: =3
+
+            StarVisible20_2 As label:
+                Align: =Align.Center
+                Height: =DataCardKey20_2.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey20_2.Y
                 ZIndex: =4
 
     Icon1_1 As icon.ChevronLeft:
