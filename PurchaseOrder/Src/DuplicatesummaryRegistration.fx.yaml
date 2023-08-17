@@ -31,9 +31,9 @@ DuplicatesummaryRegistration As screen:
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"ID")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =83
+            Height: =39
             Required: =false
-            Width: =369
+            Width: =362
             WidthFit: =false
             X: =0
             Y: =0
@@ -171,8 +171,8 @@ DuplicatesummaryRegistration As screen:
                 PaddingTop: =0
                 Size: =21
                 Width: =Parent.Width - 60
-                X: =15
-                Y: =60
+                X: =30
+                Y: =58
                 ZIndex: =2
 
         ServiceProvider_DataCard2_2 As typedDataCard.toggleEditCard:
