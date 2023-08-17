@@ -16,7 +16,7 @@ Screen1 As screen:
         NavigationStep: =10
         OnSelect: =Navigate(summaryRegistration,ScreenTransition.None)
         TemplatePadding: =0
-        TemplateSize: =290
+        TemplateSize: =270
         Y: =132
         ZIndex: =2
 

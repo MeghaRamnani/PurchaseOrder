@@ -1390,7 +1390,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CurrencyRate_DataCard2_2",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9724,14 +9724,7 @@
         },
         "HandleFill",
         "TextPosition",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FalseFill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FalseFill",
         "FalseHoverFill",
         "TrueFill",
         "TrueHoverFill",
@@ -22741,7 +22734,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "UnitNeeded_DataCard2_4",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

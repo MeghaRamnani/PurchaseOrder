@@ -926,10 +926,10 @@ summaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"StartDate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =151
             Required: =false
             Update: =DataCardValue19_2.SelectedDate
-            Width: =640
+            Width: =332
             X: =0
             Y: =6
             ZIndex: =2
@@ -997,12 +997,12 @@ summaryRegistration As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registration_1],DataSourceInfo.DisplayName,"EndDate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =151
             Required: =false
             Update: =DataCardValue20_2.SelectedDate
-            Width: =640
-            X: =0
-            Y: =7
+            Width: =332
+            X: =300
+            Y: =989
             ZIndex: =2
 
             DataCardKey20_2 As label:
@@ -1012,8 +1012,7 @@ summaryRegistration As screen:
                 Text: ="End Date"
                 Width: =Parent.Width - 60
                 Wrap: =false
-                X: =30
-                Y: =10
+                X: =60
                 ZIndex: =1
 
             DataCardValue20_2 As datepicker:

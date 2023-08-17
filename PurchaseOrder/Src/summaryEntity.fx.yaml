@@ -589,7 +589,7 @@ summaryEntity As screen:
         ZIndex: =13
 
         Rectangle4 As rectangle:
-            Fill: =RGBA(237, 237, 237, 1)
+            Fill: =RGBA(237, 237, 237, .7)
             Height: =1136
             Visible: =entPopUp
             Width: =640
