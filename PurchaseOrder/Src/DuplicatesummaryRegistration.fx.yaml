@@ -250,7 +250,7 @@ DuplicatesummaryRegistration As screen:
             Height: =128
             Required: =false
             Update: =DataCardValue22_5.Selected
-            Width: =227
+            Width: =640
             X: =0
             Y: =8
             ZIndex: =1
@@ -323,7 +323,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue20_5.Selected
             Width: =640
             X: =0
-            Y: =8
+            Y: =9
             ZIndex: =1
 
             DataCardKey20_5 As label:
@@ -394,7 +394,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue21_2.Text)
             Width: =320
             X: =0
-            Y: =9
+            Y: =10
             ZIndex: =1
 
             DataCardKey21_2 As label:
@@ -466,7 +466,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue29_2.Text)
             Width: =640
             X: =0
-            Y: =10
+            Y: =11
             ZIndex: =1
 
             DataCardKey29_2 As label:
@@ -538,7 +538,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue26_2.Text)
             Width: =640
             X: =0
-            Y: =11
+            Y: =12
             ZIndex: =1
 
             DataCardKey26_2 As label:
@@ -610,7 +610,7 @@ DuplicatesummaryRegistration As screen:
             Update: =DataCardValue19_5.Selected
             Width: =417
             X: =0
-            Y: =12
+            Y: =13
             ZIndex: =1
 
             DataCardKey19_5 As label:
@@ -680,7 +680,7 @@ DuplicatesummaryRegistration As screen:
             Required: =false
             Width: =339
             X: =0
-            Y: =13
+            Y: =14
             ZIndex: =1
 
             DataCardKey30_2 As label:
@@ -1074,7 +1074,7 @@ DuplicatesummaryRegistration As screen:
             Update: =Value(DataCardValue18_4.Text)
             Width: =284
             X: =0
-            Y: =9
+            Y: =10
             ZIndex: =2
 
             DataCardKey18_4 As label:
